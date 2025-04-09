@@ -1,5 +1,5 @@
-import { WelcomeSection } from "../../../pages/landing/homepage/WelcomeSection/welcome.tsx"
-import { CaseWeekOverview } from "../../../pages/landing/homepage/Overwiew/caseweekOverview.tsx"
-import { CaseWeekPros } from "../../../pages/landing/homepage/Benefits/caseweekPros.tsx"
+import { Welcome } from "../../../pages/landing/homepage/Welcome/Welcome.tsx";
+import { Overview } from "../../../pages/landing/homepage/Overview/Overview.tsx";
+import { Benefits } from "../../../pages/landing/homepage/Benefits/Benefits.tsx";
 
-export { WelcomeSection, CaseWeekOverview, CaseWeekPros }
+export { Welcome, Overview, Benefits };
