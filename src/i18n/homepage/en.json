@@ -1,0 +1,46 @@
+{
+  "overview": {
+    "logotypeAlt": "IAESTE CASEWEEK logotype",
+    "introText1": "The largest cycle of engineering workshops in Poland. The goal of the project is to bring the academic and business environment closer together. The practical case-study form allows students to get acquainted with real-world problems encountered in everyday work and to improve both their professional and soft skills.",
+    "introText2": "The project enables students and employers to work together on prepared topics. During a series of workshops, leading Polish and global brands conduct sessions at top technical universities in the country. Students have the opportunity to face real problems that occur daily in professional work. Employers can discover talents and establish cooperation with potential candidates. Thanks to IAESTE CaseWeek, thousands of Polish students have gained their dream jobs.",
+    "workshopsCounterLabel": "Workshops",
+    "universitiesCounterLabel": "Universities",
+    "companiesCounterLabel": "Companies",
+    "citiesCounterLabel": "Cities",
+    "cogwheelAlt": "Cogwheel icon"
+  },
+  "welcome": {
+    "title": "Industry Meets Academia",
+    "subtitle": "The largest cycle of engineering workshops in Poland"
+  },
+  "benefits": {
+    "title": "What do you gain with IAESTE CaseWeek?",
+    "tiles": {
+      "contact": {
+        "title": "Contact with employers",
+        "description": "The best companies from the Polish and global job market in one place."
+      },
+      "knowledge": {
+        "title": "Practical Knowledge",
+        "description": "Applying acquired knowledge to solve problems."
+      },
+      "internships": {
+        "title": "Internships and Practices",
+        "description": "Development opportunities offered by leading brands."
+      },
+      "softSkills": {
+        "title": "Soft Skills",
+        "description": "Personal development under the guidance of top industry specialists."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Modern solutions and the best technologies."
+      },
+      "teamwork": {
+        "title": "Teamwork",
+        "description": "Collaborative problem-solving and developing new solutions."
+      },
+      "registerButton": "Register for a workshop"
+    }
+  }
+}
