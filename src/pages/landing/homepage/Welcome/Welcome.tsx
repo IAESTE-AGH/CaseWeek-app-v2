@@ -1,5 +1,6 @@
-import Background from "../../../../assets/img/welcome_bg.png";
+import { t } from "../../../../i18n/i18n";
 import s from "./Welcome.module.scss";
+
 
 export function Welcome() {
     const navbarHeight = document.getElementById("navbar")?.clientHeight || 0;
@@ -13,9 +14,9 @@ export function Welcome() {
             }}
         >
             <div className={s.overlay}>
-                <h1 className={s.title}>Industry Meets Academic</h1>
+                <h1 className={s.title}>{t("welcome.title")}</h1>
                 <h3 className={s.subtitle}>
-                    Największy cykl warsztatów inżynierskich w Polsce
+                    {t("welcome.subtitle")}
                 </h3>
             </div>
         </section>
