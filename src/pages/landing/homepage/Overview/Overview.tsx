@@ -1,5 +1,4 @@
 import React from "react";
-import { Box, Stack } from "@mui/material";
 import AnimatedNumbers from "react-animated-numbers";
 import icw_logotype from "../../../../assets/img/icw_logotype.svg";
 import overview_1 from "../../../../assets/img/overview_1.png";
@@ -11,10 +10,11 @@ import s from "./Overview.module.scss";
 const AN_STYLE: React.CSSProperties = {
     fontFamily: "Inter, sans-serif",
     fontSize: "4rem",
-    fontWeight: "bold",
+    fontWeight: 700,
     color: "#5A4C32",
-    width: "1.2ch",
+    letterSpacing: "-0.03em", 
 };
+
 
 const STATISTICS = {
     workshops: 160,
@@ -26,65 +26,44 @@ const STATISTICS = {
 export function Overview() {
     return (
         <section className={s.overview}>
-            <Box
-                sx={{
-                    display: "grid",
-                    gridTemplateColumns: "1fr 1fr",
-                    gap: 4,
-                    zIndex: 2,
-                    position: "relative",
-                    color: "#2c2c2c",
-                    lineHeight: 2,
-                }}
-            >
-                <img src={icw_logotype} alt={t("overview.logotypeAlt")} width={"100%"} />
+            <div className={s.statistics}>
+                <img src={icw_logotype} alt={t("overview.logotypeAlt")} className={s.logo} />
 
-                <p style={{ fontSize: "1.25rem" }}>
-                    {t("overview.introText1")} 
-                </p>
+                <p className={s.description}>{t("overview.introText1")}</p>
 
-                <img src={overview_1} width={"100%"} style={{ gridRow: "span 2" }} />
+                <img src={overview_1} className={s.image} alt="overview 1" />
 
-                <Box
-                    sx={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        gap: 3,
-                    }}
-                >
+                <div className={s.stat}>
                     <AnimatedNumbers animateToNumber={STATISTICS.workshops} fontStyle={AN_STYLE} />
-                    <span style={{ fontSize: "1.5rem" }}>{t("overview.workshopsCounterLabel")}</span>
-                </Box>
+                    <span className={s.statLabel}>{t("overview.workshopsCounterLabel")}</span>
+                </div>
 
-                <img src={overview_2} width={"100%"} style={{ gridRow: "span 2" }} />
+                <img src={overview_2} className={s.image} alt="overview 2" />
 
-                <Box gridRow={"span 2"}>
-                    <Box display="flex" justifyContent={"center"} alignItems={"center"} gap={3}>
+                <div style={{ gridRow: "span 2" }}>
+                    <div className={s.stat}>
                         <AnimatedNumbers animateToNumber={STATISTICS.universities} fontStyle={AN_STYLE} />
-                        <span style={{ fontSize: "1.5rem" }}>{t("overview.universitiesCounterLabel")}</span>
-                    </Box>
-                    <p style={{ fontSize: "1.25rem" }}>
-                        {t("overview.introText2")} 
-                    </p>
-                </Box>
+                        <span className={s.statLabel}>{t("overview.universitiesCounterLabel")}</span>
+                    </div>
+                    <p className={s.description}>{t("overview.introText2")}</p>
+                </div>
 
-                <Stack direction={"row"} justifyContent={"center"} gap={6}>
-                    <Box display="flex" justifyContent={"center"} alignItems={"center"} gap={3}>
+                <div className={s.statGroup}>
+                    <div className={s.stat}>
                         <AnimatedNumbers animateToNumber={STATISTICS.companies} fontStyle={AN_STYLE} />
-                        <span style={{ fontSize: "1.5rem" }}>{t("overview.companiesCounterLabel")}</span>
-                    </Box>
-                    <Box display="flex" justifyContent={"center"} alignItems={"center"} gap={3}>
+                        <span className={s.statLabel}>{t("overview.companiesCounterLabel")}</span>
+                    </div>
+                    <div className={s.stat}>
                         <AnimatedNumbers animateToNumber={STATISTICS.cities} fontStyle={AN_STYLE} />
-                        <span style={{ fontSize: "1.5rem" }}>{t("overview.citiesCounterLabel")}</span>
-                    </Box>
-                </Stack>
-            </Box>
+                        <span className={s.statLabel}>{t("overview.citiesCounterLabel")}</span>
+                    </div>
+                </div>
+            </div>
 
             <img
                 src={cogwheel_light_icon}
-                style={{ position: "absolute", bottom: 0, left: 0, transform: "translate(-30%, 50%)", zIndex: 0 }}
-                alt={t("overview.cogwheelAlt")} 
+                className={s.cogwheel}
+                alt={t("overview.cogwheelAlt")}
             />
         </section>
     );

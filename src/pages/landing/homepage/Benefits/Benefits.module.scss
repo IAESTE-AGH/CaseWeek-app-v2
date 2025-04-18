@@ -1,61 +1,101 @@
-.benefits {
-    background: #262626;
-    padding: 4rem;
-    color: #fff;
-    line-height: 1.5;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    font-family: "Inter", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+.benefitsContainer {
+    background-color: #262626;
+    padding: 4rem 10vw;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
-.benefitsTitle {
-    text-align: center;
+.benefitsHeading {
     font-size: 2.5rem;
-    font-weight: bold;
     letter-spacing: 0.27em;
-    grid-column: span 3;
-    margin: 0;
-    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "League Spartan", sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 1.25;
+    margin-bottom: 5rem;
 }
 
-.benefitTile {
+.benefitsCardList {
     display: grid;
-    gap: 1rem;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 0;
+    list-style: none;
+}
+
+.benefitsListItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    color: white;
     text-align: center;
 }
 
-.benefitTileTitle {
-    margin: 0;
+.benefitIcon {
+    height: 5rem;
+}
+
+.benefitsItemHeading {
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.17rem;
+    font-weight: 700;
+    letter-spacing: 0.25em;
     text-transform: uppercase;
-    letter-spacing: 0.27em;
-    font-weight: bold;
+    margin: 0;
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.benefitsItemParagraph {
     font-size: 1rem;
-}
-
-.benefitTileDescription {
-    letter-spacing: 0.15em;
-    margin: 0;
-    font-size: 0.95rem;
-    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+    letter-spacing: 0.24em;
     line-height: 1.7;
+    margin: 0;
+    color: white;
+   
+    text-align: center;
 }
 
-.benefitsButton {
+.buttonsWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.buttonsWrapper button {
     background-color: #dab88b;
-    color: black;
-    padding: 1rem 3rem;
-    border-radius: 50px;
-    font-size: 1.25rem;
-    font-weight: bold;
-    font-family: "Inter", sans-serif;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "League Spartan", sans-serif;
     letter-spacing: 0.2em;
-    text-transform: uppercase;
     border: none;
+    border-radius: 999px;
+    padding: 1rem 2.5rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
-.benefitsButton:hover {
-    background-color: #c9a77a;
+.buttonsWrapper button:hover {
+    background-color: #c7a374;
+}
+
+/* Responsive grid */
+@media (min-width: 768px) {
+    .benefitsCardList {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1280px) {
+    .benefitsCardList {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
