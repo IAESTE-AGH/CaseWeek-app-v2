@@ -1,7 +1,7 @@
 import { WORKSHOPS_MOCKS } from "src/mocks/workshops";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import s from "./workshopsList.module.css";
+import s from "./WorkshopsList.module.css";
 import tempListImg from "src/assets/img/overview_2.png";
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
