@@ -1,40 +1,59 @@
+
 .welcome {
-    background-image: url("../../../../assets/img/welcome_bg.png");
     background-size: cover;
-    background-position: center;
-    padding: 0;
+    background-position: top center;  
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 
+
 .overlay {
-    background: linear-gradient(0deg, rgba(38, 38, 38, 0.9) 5%, rgba(0, 0, 0, 0) 80%);
     height: 100%;
     width: 100%;
+    background: linear-gradient(to top, rgba(38, 38, 38, 0.9) 5%, rgba(0, 0, 0, 0) 80%);
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     padding: 64px;
     box-sizing: border-box;
+
+    @media (max-width: 768px) {
+        padding: 32px;
+    }
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .title {
-    color: #DAB88B;
+    color: rgb(218, 184, 139); 
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 800;
     letter-spacing: 0.27em;
     margin-bottom: 16px;
     font-family: "League Spartan", sans-serif;
-    text-align: center;
+    text-align: left;
+    white-space: pre-wrap;
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+    }
 }
 
 .subtitle {
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 0.27em;
     font-family: "League Spartan", sans-serif;
-    text-align: center;
-    margin-bottom: 32px;
+    text-align: left;
+    margin-bottom: 2rem;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
