@@ -29,7 +29,7 @@ const WorkshopsList = () => {
   const fields = [
     ...new Set(
       WORKSHOPS_MOCKS.flatMap((workshop) =>
-        workshop.preferableFieldsOfStudy.map((field) => field.name)
+        workshop.preferableFieldsOfStudy.map((field : { name: string }) => field.name)
       )
     ),
   ];
@@ -40,7 +40,7 @@ const WorkshopsList = () => {
     const matchesField =
       !selectedField ||
       workshop.preferableFieldsOfStudy.some(
-        (field) => field.name === selectedField
+        (field: { name: string }) => field.name === selectedField
       );
 
     return matchesUniversity && matchesField;
