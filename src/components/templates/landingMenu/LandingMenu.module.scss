@@ -1,0 +1,35 @@
+@use "../../../sass/globals" as *;
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $color-base-black;
+  padding: $space-3;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.desktopOptionsWrapper {
+  display: none;
+}
+
+.menuIcon {
+  cursor: pointer;
+  color: $color-base-white;
+}
+
+.drawer {
+  padding: $space-3;
+}
+
+@media (min-width: $medium-screen) {
+  .menuIconWrapper {
+    display: none;
+  }
+  .desktopOptionsWrapper {
+    display: block;
+  }
+}
