@@ -6,7 +6,7 @@ import atom_icon from "../../../../assets/icons/atom_icon.svg";
 import people_icon from "../../../../assets/icons/people_icon.svg";
 import { t } from "../../../../i18n/i18n";
 
-export const TILES = [
+export const BENEFITS = [
     { icon: tie_icon, title: t("benefits.tiles.contact.title"), description: t("benefits.tiles.contact.description") },
     { icon: hat_icon, title: t("benefits.tiles.knowledge.title"), description: t("benefits.tiles.knowledge.description") },
     { icon: book_icon, title: t("benefits.tiles.internships.title"), description: t("benefits.tiles.internships.description") },
