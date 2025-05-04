@@ -1,13 +1,13 @@
-import { WORKSHOPS_MOCKS } from "src/mocks/workshops";
-import { Link } from "react-router-dom";
+import { WORKSHOPS_MOCKS } from "../../../mocks/workshops";
+import { Link } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
-import s from "./WorkshopsList.module.css";
-import tempListImg from "src/assets/img/overview_2.png";
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
-import timeAttackIcon from "src/assets/img/timeAttackIcon.png";
-import universityIcon from "src/assets/img/universityIcon.png"
-import alarmClockIcon from "src/assets/img/alarmClockIcon.png"
+import s from "./WorkshopsList.module.scss";
+import tempListImg from "../../../assets/img/overview_2.png";
+import Select from "@mui/material/Select";
+import MenuItem from "@mui/material/MenuItem";
+import timeAttackIcon from "../../../assets/img/timeAttackIcon.png";
+import universityIcon from "../../../assets/img/universityIcon.png";
+import alarmClockIcon from "../../../assets/img/alarmClockIcon.png";
 
 const WorkshopsList = () => {
   const [selectedUniversity, setSelectedUniversity] = useState("");
@@ -18,7 +18,6 @@ const WorkshopsList = () => {
   useEffect(() => {
     setCurrentPage(1);
   }, [selectedUniversity, selectedField]);
-  
 
   // Pobieranie unikalnych uczelni
   const universities = [
@@ -29,7 +28,9 @@ const WorkshopsList = () => {
   const fields = [
     ...new Set(
       WORKSHOPS_MOCKS.flatMap((workshop) =>
-        workshop.preferableFieldsOfStudy.map((field : { name: string }) => field.name)
+        workshop.preferableFieldsOfStudy.map(
+          (field: { name: string }) => field.name
+        )
       )
     ),
   ];
@@ -58,9 +59,8 @@ const WorkshopsList = () => {
     });
   };
 
-  //ile jest workshopow total 
+  //ile jest workshopow total
   const totalPages = Math.ceil(filteredWorkshops.length / itemsPerPage);
-
 
   const paginatedWorkshops = filteredWorkshops.slice(
     (currentPage - 1) * itemsPerPage,
@@ -70,20 +70,20 @@ const WorkshopsList = () => {
   const handlePageClick = (page: number) => {
     setCurrentPage(page);
   };
-  
+
   const handlePrevPage = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
     }
   };
-  
+
   const handleNextPage = () => {
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
     }
   };
 
-  //considers number of pages to render 
+  //considers number of pages to render
   const renderPagination = () => {
     const pages = [];
     if (totalPages <= 5) {
@@ -93,18 +93,18 @@ const WorkshopsList = () => {
     } else {
       pages.push(1);
       if (currentPage > 3) pages.push("...");
-  
+
       let start = Math.max(2, currentPage - 1);
       let end = Math.min(totalPages - 1, currentPage + 1);
-  
+
       for (let i = start; i <= end; i++) {
         pages.push(i);
       }
-  
+
       if (currentPage < totalPages - 2) pages.push("...");
       pages.push(totalPages);
     }
-  
+
     return pages.map((page, index) =>
       typeof page === "number" ? (
         <button
@@ -124,17 +124,14 @@ const WorkshopsList = () => {
 
   return (
     <section className={s.all}>
-
       <div className={s.titleAndfiltersContainer}>
-        
         <text className={s.siteTitle}>Warsztaty</text>
 
         <div className={s.aligner}>
-            <div className={s.shadowDiv}></div>
-            <div className={s.filters}>
-              <div className={s.individualFilter1}>
-                <label htmlFor="university">Uczelnia:</label>
-                {/* <select
+          <div className={s.filters}>
+            <div className={s.individualFilter1}>
+              <label htmlFor="university">Uczelnia:</label>
+              {/* <select
                   id="university"
                   value={selectedUniversity}
                   onChange={(e) => setSelectedUniversity(e.target.value)}
@@ -147,27 +144,28 @@ const WorkshopsList = () => {
                     </option>
                   ))}
                 </select> */}
-                <Select
-                  labelId="demo-simple-select-label"
-                  id="university"
-                  value={selectedUniversity}
-                  onChange={(e) => setSelectedUniversity(e.target.value)}
-                  displayEmpty
-                  className={s.filterSelect}
-                >
-                  <MenuItem value="" ><em>wybierz</em></MenuItem>
-                  {universities.map((university) => (
-                    
-                    <MenuItem key={university} value={university}>
-                      {university}
-                    </MenuItem>
-                  ))}
-                  </Select>
-              </div>
+              <Select
+                labelId="demo-simple-select-label"
+                id="university"
+                value={selectedUniversity}
+                onChange={(e) => setSelectedUniversity(e.target.value)}
+                displayEmpty
+                className={s.filterSelect}
+              >
+                <MenuItem value="">
+                  <em>wybierz</em>
+                </MenuItem>
+                {universities.map((university) => (
+                  <MenuItem key={university} value={university}>
+                    {university}
+                  </MenuItem>
+                ))}
+              </Select>
+            </div>
 
-              <div className={s.individualFilter2}>
-                <label htmlFor="field">Kierunek studiów:</label>
-                {/* <select
+            <div className={s.individualFilter2}>
+              <label htmlFor="field">Kierunek studiów:</label>
+              {/* <select
                   id="field"
                   value={selectedField}
                   onChange={(e) => setSelectedField(e.target.value)}
@@ -180,86 +178,91 @@ const WorkshopsList = () => {
                     </option>
                   ))}
                 </select> */}
-                <Select
-                  labelId="demo-simple-select-label"
-                  id="field"
-                  value={selectedField}
-                  onChange={(e) => setSelectedField(e.target.value)}
-                  displayEmpty
-                  className={s.filterSelect}
-                >
-                  <MenuItem value=""><em>wybierz</em></MenuItem>
-                  {fields.map((field) => (
-                    
-                    <MenuItem key={field} value={field}>
-                      {field}
-                    </MenuItem>
-                  ))}
-                  </Select>
-              </div>
+              <Select
+                labelId="demo-simple-select-label"
+                id="field"
+                value={selectedField}
+                onChange={(e) => setSelectedField(e.target.value)}
+                displayEmpty
+                className={s.filterSelect}
+              >
+                <MenuItem value="">
+                  <em>wybierz</em>
+                </MenuItem>
+                {fields.map((field) => (
+                  <MenuItem key={field} value={field}>
+                    {field}
+                  </MenuItem>
+                ))}
+              </Select>
             </div>
           </div>
         </div>
+      </div>
 
-      <div>
-        
-        {paginatedWorkshops.map((workshop,index) => (
+      <div className={s.workshopsWrapper}>
+        {paginatedWorkshops.map((workshop, index) => (
           <div key={workshop.id} className={s.card}>
-                <div className={s.displayCard}>
-                  
-                   
-                    <img 
-                      src={tempListImg}
-                      alt="Workshop"
-                      className={s.image}
-                    />                   
-                      
-                    <text className={s.workshopTitle}>{workshop.title}</text>
-                      
-                    <text className={s.company}>{workshop.company.name}</text>
+            <div className={s.displayCard}>
+              <img src={tempListImg} alt="Workshop" className={s.image} />
 
-                    <text className={s.description}>{workshop.longDescription}</text>
+              <text className={s.workshopTitle}>{workshop.title}</text>
 
-                    <div className={s.details}>
-                      <div className={s.detailsLi}> <img src={universityIcon}/>  Uczelnia: {workshop.university.name}</div>
-                      <div className={s.detailsLi}> <img src={timeAttackIcon}/>  Data i godzina: {formatDate(workshop.startsAt)}</div>
-                      <div className={s.detailsLi}> <img src={alarmClockIcon}/>  Czas trwania: {workshop.durationMinutes}</div>
-                    </div>
-                              
-                    <button className={s.detailsLinkButton}>
-                              <Link to={workshop.id ? `/warsztaty/${workshop.id}` : "/warsztaty"} className={s.workshopLink}>
-                                  Przejdź do szczegółów
-                              </Link> 
-                    </button>
-                          
+              <text className={s.company}>{workshop.company.name}</text>
+
+              <text className={s.description}>{workshop.longDescription}</text>
+
+              <div className={s.details}>
+                <div className={s.detailsLi}>
+                  <img src={universityIcon} /> Uczelnia:{" "}
+                  {workshop.university.name}
                 </div>
+                <div className={s.detailsLi}>
+                  <img src={timeAttackIcon} /> Data i godzina:{" "}
+                  {formatDate(workshop.startsAt)}
+                </div>
+                <div className={s.detailsLi}>
+                  <img src={alarmClockIcon} /> Czas trwania:{" "}
+                  {workshop.durationMinutes}
+                </div>
+              </div>
 
-              {index < paginatedWorkshops.length - 1 && <div className={s.separator}></div>} 
-              
-          </div>    
+              <button className={s.detailsLinkButton}>
+                <Link
+                  to={workshop.id ? `/workshops/${workshop.id}` : "/workshops"}
+                  className={s.workshopLink}
+                >
+                  Przejdź do szczegółów
+                </Link>
+              </button>
+            </div>
+
+            {index < paginatedWorkshops.length - 1 && (
+              <div className={s.separator}></div>
+            )}
+          </div>
         ))}
       </div>
 
       <div className={s.pagingDown}>
-              <button
-                onClick={handlePrevPage}
-                disabled={currentPage === 1}
-                className={s.pageButtonNextAndPrevious2}
-              >
-                ← Poprzednia
-              </button>
-              
-              {renderPagination()}
-              
-              <button
-                onClick={handleNextPage}
-                disabled={currentPage === totalPages}
-                className={s.pageButtonNextAndPrevious2}
-              >
-                Następna →
-              </button>
-          </div>
+        <button
+          onClick={handlePrevPage}
+          disabled={currentPage === 1}
+          className={s.pageButtonNextAndPrevious2}
+        >
+          ← Poprzednia
+        </button>
 
+        {renderPagination()}
+
+        <button
+          onClick={handleNextPage}
+          disabled={currentPage === totalPages}
+          className={s.pageButtonNextAndPrevious2}
+        >
+          Następna →
+        </button>
+      </div>
     </section>
   );
 };
