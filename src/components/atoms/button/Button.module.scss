@@ -1,25 +1,27 @@
 .button {
-    background-color: #dab88b;
-    color: black;
-    padding: 1rem 2rem;
-    border-radius: 50px;
-    font-size: 1.25rem;
-    font-weight: bold;
-    font-family: "League Spartan", sans-serif;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #dab88b;
+  color: black;
+  padding: 0.75rem 2rem;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "League Spartan", sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-    &:hover {
-        background-color: #c9a77a;
-    }
+  &:hover {
+    background-color: #c9a77a;
+  }
 
-    &:disabled {
-        background-color: #999999;
-        color: #000;
-        cursor: not-allowed;
-    }
+  &:disabled {
+    background-color: #999999;
+    color: #000;
+    cursor: not-allowed;
+  }
 }
