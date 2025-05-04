@@ -1,93 +1,65 @@
-import React from "react";
-import AnimatedNumbers from "react-animated-numbers";
-import icw_logotype from "../../../../../assets/img/icw_logotype.svg";
-import overview_1 from "../../../../../assets/img/overview_1.png";
-import overview_2 from "../../../../../assets/img/overview_2.png";
-import cogwheel_light_icon from "../../../../../assets/icons/cogwheel_light_icon.svg";
-import { t } from "../../../../../i18n/i18n";
 import s from "./Overview.module.scss";
+import { t } from "../../../../../i18n/i18n";
+import { NUMBERS } from "./Overview.const";
+import cogwheelLightIcon from "../../../../../assets/icons/cogwheel_light_icon.svg";
+import clsx from "clsx";
 
-const AN_STYLE: React.CSSProperties = {
-  fontFamily: "Inter, sans-serif",
-  fontSize: "4rem",
-  fontWeight: 700,
-  color: "#5A4C32",
-  letterSpacing: "-0.03em",
-};
-
-const STATISTICS = {
-  workshops: 160,
-  universities: 10,
-  companies: 60,
-  cities: 9,
-};
-
-export default function Overview() {
+const Overview = () => {
   return (
-    <section className={s.overview}>
-      <div className={s.statistics}>
-        <img
-          src={icw_logotype}
-          alt={t("overview.logotypeAlt")}
-          className={s.logo}
-        />
-
-        <p className={s.description}>{t("overview.introText1")}</p>
-
-        <img src={overview_1} className={s.image} alt="overview 1" />
-
-        <div className={s.stat}>
-          <AnimatedNumbers
-            animateToNumber={STATISTICS.workshops}
-            fontStyle={AN_STYLE}
-          />
-          <span className={s.statLabel}>
-            {t("overview.workshopsCounterLabel")}
-          </span>
+    <section className={s.overviewContainer}>
+      <h1 className={s.overviewHeading}>
+        <span className={s.headingAccent}>
+          {t("homepage.overview.headingAccent")}
+        </span>{" "}
+        {t("homepage.overview.headingName")}
+      </h1>
+      <p className={clsx(s.overviewParagraph, s.paragraph1)}>
+        {t("homepage.overview.paragraph1")}
+      </p>
+      <div className={s.overviewImage1}></div>
+      <div className={clsx(s.numbersWrapper, s.workshopsNumberWrapper)}>
+        <div className={s.number}>{NUMBERS.workshops}</div>
+        <div className={s.numberLabel}>
+          {t("homepage.overview.workshopsCounterLabel")}
         </div>
-
-        <img src={overview_2} className={s.image} alt="overview 2" />
-
-        <div style={{ gridRow: "span 2" }}>
-          <div className={s.stat}>
-            <AnimatedNumbers
-              animateToNumber={STATISTICS.universities}
-              fontStyle={AN_STYLE}
-            />
-            <span className={s.statLabel}>
-              {t("overview.universitiesCounterLabel")}
-            </span>
-          </div>
-          <p className={s.description}>{t("overview.introText2")}</p>
+      </div>
+      <div className={s.overviewImage2}></div>
+      <div className={clsx(s.numbersWrapper, s.universitiesNumberWrapper)}>
+        <div className={s.number}>{NUMBERS.universities}</div>
+        <div className={s.numberLabel}>
+          {t("homepage.overview.universitiesCounterLabel")}
         </div>
-
-        <div className={s.statGroup}>
-          <div className={s.stat}>
-            <AnimatedNumbers
-              animateToNumber={STATISTICS.companies}
-              fontStyle={AN_STYLE}
-            />
-            <span className={s.statLabel}>
-              {t("overview.companiesCounterLabel")}
-            </span>
+      </div>
+      <p className={clsx(s.overviewParagraph, s.paragrahph2)}>
+        {t("homepage.overview.paragraph2")}
+      </p>
+      <div className={s.numbersContainer}>
+        <div className={s.numbersWrapper}>
+          <div className={s.number}>{NUMBERS.companies}</div>
+          <div className={s.numberLabel}>
+            {t("homepage.overview.companiesCounterLabel")}
           </div>
-          <div className={s.stat}>
-            <AnimatedNumbers
-              animateToNumber={STATISTICS.cities}
-              fontStyle={AN_STYLE}
-            />
-            <span className={s.statLabel}>
-              {t("overview.citiesCounterLabel")}
-            </span>
+        </div>
+        <div className={s.numbersWrapper}>
+          <div className={s.number}>{NUMBERS.cities}</div>
+          <div className={s.numberLabel}>
+            {t("homepage.overview.citiesCounterLabel")}
           </div>
         </div>
       </div>
 
       <img
-        src={cogwheel_light_icon}
-        className={s.cogwheel}
+        src={cogwheelLightIcon}
+        className={clsx(s.wheelImage, s.wheelImage1)}
+        alt={t("overview.cogwheelAlt")}
+      />
+      <img
+        src={cogwheelLightIcon}
+        className={clsx(s.wheelImage, s.wheelImage2)}
         alt={t("overview.cogwheelAlt")}
       />
     </section>
   );
-}
+};
+
+export default Overview;
