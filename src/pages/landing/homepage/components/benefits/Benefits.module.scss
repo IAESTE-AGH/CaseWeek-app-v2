@@ -1,101 +1,84 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+@use "../../../../../sass/globals" as *;
 
 .benefitsContainer {
-    background-color: #262626;
-    padding: 4rem 10vw;
-    min-height: 100vh;
-    box-sizing: border-box;
+  background-color: $color-neutral-dark;
+  padding: $space-3;
 }
 
 .benefitsHeading {
-    font-size: 2.5rem;
-    letter-spacing: 0.27em;
-    font-weight: 700;
-    font-family: "League Spartan", sans-serif;
-    color: white;
-    text-align: center;
-    line-height: 1.25;
-    margin-bottom: 5rem;
+  font-size: $font-heading-xs;
+  letter-spacing: 0.2em;
+  font-weight: $font-weight-bold;
+  font-family: $font-family-spartan;
+  color: $color-base-white;
+  margin-inline: auto;
+  text-transform: none;
+  margin-bottom: $space-4;
+  text-align: center;
+  line-height: 1.25em;
+
+  @media (min-width: $large-screen) {
+    font-size: $font-heading-l-m-s;
+    margin-bottom: $space-5;
+  }
 }
 
 .benefitsCardList {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3rem;
-    padding: 0;
-    list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  row-gap: $space-5;
+  column-gap: $space-2;
 }
 
 .benefitsListItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    color: white;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-3;
+  color: $color-base-white;
 }
 
 .benefitIcon {
-    height: 5rem;
+  height: 5rem;
 }
 
 .benefitsItemHeading {
-    font-family: "League Spartan", sans-serif;
-    font-size: 1.17rem;
-    font-weight: 700;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    margin: 0;
-    margin-top: 1rem;
-    color: white;
-    text-align: center;
+  font-size: $font-paragraph-xl;
+  margin: 0;
+  font-weight: $font-weight-medium-bold;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $font-family-spartan;
 }
 
 .benefitsItemParagraph {
-    font-size: 1rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
-    letter-spacing: 0.24em;
-    line-height: 1.7;
-    margin: 0;
-    color: white;
-   
-    text-align: center;
+  font-size: $font-paragraph-l;
+  text-align: center;
+  font-family: $font-family-spartan;
+  letter-spacing: 0em;
+  line-height: 1.25em;
+  font-weight: 500;
 }
 
 .buttonsWrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: $space-5;
 }
 
-.buttonsWrapper button {
-    background-color: #dab88b;
-    color: #000;
-    font-size: 1rem;
-    font-weight: 600;
-    font-family: "League Spartan", sans-serif;
-    letter-spacing: 0.2em;
-    border: none;
-    border-radius: 999px;
-    padding: 1rem 2.5rem;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.buttonsWrapper button:hover {
-    background-color: #c7a374;
-}
-
-/* Responsive grid */
 @media (min-width: 768px) {
-    .benefitsCardList {
-        grid-template-columns: 1fr 1fr;
-    }
+  .benefitsCardList {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 
 @media (min-width: 1280px) {
-    .benefitsCardList {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+  .benefitsCardList {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
