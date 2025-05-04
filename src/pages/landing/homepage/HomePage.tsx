@@ -4,7 +4,7 @@ export default function HomePage() {
     <>
       <Welcome />
       <Overview />
-      {/* <Benefits /> */}
+      <Benefits />
     </>
   );
 }
