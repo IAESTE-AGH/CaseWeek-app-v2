@@ -1,0 +1,62 @@
+@use "../../../../../sass/globals" as *;
+
+.heroContainer {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  background-color: #ccc;
+  background-image: url("/src/assets/img/welcome_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.headingsWrapper {
+  height: 60vh;
+  width: 100%;
+  padding: $space-3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(
+    0deg,
+    rgba(38, 38, 38, 0.7) 50%,
+    rgba(0, 0, 0, 0) 90%
+  );
+}
+
+.heroHeader {
+  color: $color-primary-medium;
+  font-size: $font-heading-xs;
+  font-weight: 600;
+  letter-spacing: 0.27rem;
+  font-family: $font-family-spartan;
+  line-height: 2rem;
+  margin-bottom: $space-2;
+}
+
+.heroSubheader {
+  color: $color-base-white;
+  font-size: $font-paragraph-xl;
+  letter-spacing: 0.27rem;
+  font-family: $font-family-spartan;
+  margin-bottom: $space-3;
+  line-height: 1em;
+}
+
+.buttonsWrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .headingsWrapper {
+    padding: $space-4;
+  }
+  .heroHeader {
+    font-size: $font-heading-xl;
+  }
+  .heroSubheader {
+    font-size: $font-heading-xs;
+  }
+}

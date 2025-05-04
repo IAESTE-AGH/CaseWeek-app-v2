@@ -1,46 +1,26 @@
 {
-  "overview": {
-    "logotypeAlt": "Logotyp IAESTE CASEWEEK",
-    "introText1": "Największy cykl warsztatów inżynierskich w Polsce. Założeniem projektu jest zbliżenie do siebie środowiska akademickiego i biznesowego. Praktyczna forma case study umożliwia studentom zapoznanie się z realnymi problemami występującymi w codziennej pracy oraz doskonalenie swoich umiejętności zarówno zawodowych, jak i miękkich.",
-    "introText2": "Projekt umożliwia studentom i pracodawcom wspólną pracę nad przygotowanymi zagadnieniami. Podczas cyklu warsztatów wiodące marki z rynku polskiego i światowego przeprowadzają warsztaty na najlepszych uczelniach technicznych w kraju. Studenci stają przed możliwością zmierzenia się z realnymi problemami spotykanymi na co dzień w pracy zawodowej. Pracodawcy mają okazję wyłonić talenty i nawiązać współpracę z potencjalnymi kandydatami. Dzięki udziałowi w projekcie IAESTE CaseWeek tysiące polskich studentów zdobyło wymarzoną pracę.",
-    "workshopsCounterLabel": "Warsztatów",
-    "universitiesCounterLabel": "Uczelni",
-    "companiesCounterLabel": "Firm",
-    "citiesCounterLabel": "Miast",
-    "cogwheelAlt": "Ikona koła zębatego"
-  },
-  "welcome": {
-    "title": "Industry Meets Academic",
-    "subtitle": "Największy cykl warsztatów inżynierskich w Polsce"
-  },
-  "benefits": {
-    "title": "Co zyskujesz dzięki IAESTE CaseWeek?",
-    "tiles": {
-      "contact": {
-        "title": "Kontakt z pracodawcą",
-        "description": "Najlepsze firmy z polskiego i światowego rynku pracy w jednym miejscu."
-      },
-      "knowledge": {
-        "title": "Praktyczna Wiedza",
-        "description": "Zastosowanie zdobytej wiedzy w rozwiązywaniu problemów."
-      },
-      "internships": {
-        "title": "Staże i Praktyki",
-        "description": "Możliwości rozwoju oferowane przez wiodące marki."
-      },
-      "softSkills": {
-        "title": "Umiejętności miękkie",
-        "description": "Rozwój osobisty pod okiem najlepszych specjalistów z branży."
-      },
-      "innovation": {
-        "title": "Innowacje",
-        "description": "Nowoczesne rozwiązania oraz najlepsze technologie."
-      },
-      "teamwork": {
-        "title": "Praca zespołowa",
-        "description": "Wspólne rozwiązywanie casów i wypracowywanie nowych rozwiązań."
-      },
-      "registerButton": "Zarejestruj się na warsztat"
+  "homepage": {
+    "hero": {
+      "h1": "Industry meets Academic",
+      "h3": "Największy cykl warsztatów inżynierskich w polsce"
+    },
+    "overview": {
+      "headingAccent": "IAESTE",
+      "headingName": "CASEWEEK",
+      "headingWhatIs": "Czym jest CaseWeek?",
+      "headingAbout": "O akcji",
+      "paragraph1": "Największy cykl warsztatów inżynierskich w Polsce. Założeniem projektu jest zbliżenie do siebie środowiska akademickiego i biznesowego. Praktyczna forma case study umożliwia studentom zapoznanie się z realnymi problemami występującymi w codziennej pracy oraz doskonalenie swoich umiejętności zarówno zawodowych jak i miękkich.",
+      "paragraph2": "Projekt umożliwia studentom i pracodawcom wspólną pracę nad przygotowanymi zagadnieniami. Podczas cyklu warsztatów wiodące marki z rynku polskiego i światowego przeprowadzają warsztaty na najlepszych uczelniach technicznych w kraju. Studenci stają przed możliwością zmierzenia się z realnymi problemami spotykanymi na co dzień w pracy zawodowej. Pracodawcy mają okazję wyłonić talenty i nawiązać współpracę z potencjalnymi kandydatami. Dzięki udziale w projekcie IAESTE CaseWeek tysiące polskich studentów zdobyło wymarzoną pracę.",
+      "workshopsCounterLabel": "Warsztatów",
+      "universitiesCounterLabel": "Uczelni",
+      "companiesCounterLabel": "Firm",
+      "citiesCounterLabel": "Miast"
+    },
+    "benefits": {
+      "benefitsHeading": "Co zyskujesz dzięki IAESTE CaseWeek?"
+    },
+    "components": {
+      "button": "Zarejestruj się"
     }
   }
 }
