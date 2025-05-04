@@ -1,4 +1,4 @@
-import { WORKSHOPS_MOCKS } from "../../../mocks/workshops";
+import { WORKSHOPS_MOCKS } from "../../../mocks/workshop";
 import { Link } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
 import s from "./WorkshopsList.module.scss";
@@ -229,8 +229,9 @@ const WorkshopsList = () => {
 
               <button className={s.detailsLinkButton}>
                 <Link
-                  to={workshop.id ? `/workshops/${workshop.id}` : "/workshops"}
+                  to="/workshops/$workshopId"
                   className={s.workshopLink}
+                  params={{ workshopId: workshop.id }}
                 >
                   Przejdź do szczegółów
                 </Link>
