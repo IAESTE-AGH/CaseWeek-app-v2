@@ -1,0 +1,84 @@
+@use "../../../../../sass/globals" as *;
+
+.benefitsContainer {
+  background-color: $color-neutral-dark;
+  padding: $space-3;
+}
+
+.benefitsHeading {
+  font-size: $font-heading-xs;
+  letter-spacing: 0.2em;
+  font-weight: $font-weight-bold;
+  font-family: $font-family-spartan;
+  color: $color-base-white;
+  margin-inline: auto;
+  text-transform: none;
+  margin-bottom: $space-4;
+  text-align: center;
+  line-height: 1.25em;
+
+  @media (min-width: $large-screen) {
+    font-size: $font-heading-l-m-s;
+    margin-bottom: $space-5;
+  }
+}
+
+.benefitsCardList {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  row-gap: $space-5;
+  column-gap: $space-2;
+}
+
+.benefitsListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-3;
+  color: $color-base-white;
+}
+
+.benefitIcon {
+  height: 5rem;
+}
+
+.benefitsItemHeading {
+  font-size: $font-paragraph-xl;
+  margin: 0;
+  font-weight: $font-weight-medium-bold;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $font-family-spartan;
+}
+
+.benefitsItemParagraph {
+  font-size: $font-paragraph-l;
+  text-align: center;
+  font-family: $font-family-spartan;
+  letter-spacing: 0em;
+  line-height: 1.25em;
+  font-weight: 500;
+}
+
+.buttonsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: $space-5;
+}
+
+@media (min-width: 768px) {
+  .benefitsCardList {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1280px) {
+  .benefitsCardList {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

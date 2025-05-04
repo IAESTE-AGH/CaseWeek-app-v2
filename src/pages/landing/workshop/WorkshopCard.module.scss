@@ -1,0 +1,314 @@
+@use "../../../sass/globals" as *;
+
+.workshopContainer {
+  background: linear-gradient(to top, #ffffff 10%, #dab88b 90%, #cfa87a);
+  background-size: 100% 30%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.workshopsWrapper {
+  padding: $space-3;
+}
+
+.workshopNameHeader {
+  display: flex;
+  justify-content: center;
+  font-size: $font-heading-l-m-s;
+  padding-block: $space-4;
+  font-weight: 700;
+  text-align: center;
+  font-family: $font-family-spartan;
+  color: #2c2c2c;
+  letter-spacing: 0.27rem;
+  margin: 0;
+  word-wrap: break-word;
+  line-height: 2.5rem;
+}
+
+.workshopSectionWrapper {
+  display: flex;
+  position: relative;
+  padding-bottom: 1rem;
+}
+.workshopWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: $space-4;
+}
+
+.workshopInfo {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  list-style: none;
+}
+.icons {
+  translate: -5px;
+}
+.infoGrey {
+  display: flex;
+  align-items: center;
+  color: $color-neutral-medium-dark;
+  padding-right: 0.5rem;
+}
+.companyPicture {
+  width: 20.25rem;
+  height: 20.25rem;
+  background-color: #ddd;
+  margin-bottom: 1rem;
+}
+.workshopDescribtionWrap {
+  position: relative;
+}
+.companyName {
+  font-weight: $font-weight-medium;
+}
+.description {
+  font-family: $font-family-inter;
+  font-weight: $font-weight-regular;
+  font-size: $font-paragraph-l;
+  color: $color-base-black;
+}
+h4 {
+  font-family: $font-family-spartan;
+  font-size: $font-heading-l-m-s;
+  margin-bottom: 1rem;
+}
+h1 {
+  font-family: $font-family-spartan;
+  font-size: $font-heading-xl;
+  letter-spacing: 3%;
+  margin: 2rem 0;
+}
+h2 {
+  font-family: $font-family-spartan;
+  font-size: $font-heading-l-m-s;
+  letter-spacing: 12%;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.skillHeading {
+  font-family: $font-family-inter;
+  font-size: $font-paragraph-xl;
+  font-weight: $font-weight-medium-bold;
+}
+.skillsWrap {
+  margin: 2rem 0;
+}
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.workshopSkill {
+  border: 3px solid $color-primary-medium;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  padding: 0.9rem 1.5rem;
+  font-weight: $font-weight-medium;
+  font-size: $font-paragraph-s;
+  font-family: $font-family-spartan;
+}
+.workshopSignUp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  width: fit-content;
+}
+.signUpBtn {
+  border: none;
+  border-radius: 1.875rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  background-color: $color-primary-medium;
+  padding: 1.25rem 3rem;
+  font-size: $font-paragraph-xl;
+  font-weight: $font-weight-regular;
+  font-family: $font-family-spartan;
+}
+.registrationDate {
+  text-align: center;
+  margin-top: 0.5rem;
+  color: $color-neutral-medium-dark;
+  font-size: 0.875rem;
+  font-family: $font-family-inter;
+}
+.underline {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  translate: -50% 0;
+  width: 10rem;
+  height: 0.25rem;
+  border-radius: 0.5rem;
+  background-color: $color-primary-medium;
+}
+.otherWorkshopsWrap {
+  margin-top: 2rem;
+}
+.otherWorkshopSection {
+  display: flex;
+  justify-content: space-between;
+}
+.workshopPreview {
+  position: relative;
+  display: flex;
+  width: 25rem;
+  height: 9.375rem;
+  padding-right: 1.25rem;
+  border: 1px solid $color-neutral-light;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.11);
+}
+.companyPicturePreview {
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 1rem 0 0 1rem;
+  background-color: #ddd;
+}
+.workshopInfoPreview {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.infoPreview {
+  font-family: $font-family-spartan;
+  font-size: $font-paragraph-xs;
+}
+.workshopTitlePreview {
+  max-width: 12.75rem;
+  font-family: $font-family-spartan;
+  font-weight: 700;
+  letter-spacing: 8%;
+  font-size: 1rem;
+}
+.companyNamePreview {
+  font-family: $font-family-spartan;
+  font-size: 0.75rem;
+  font-weight: $font-weight-regular;
+}
+.badgesWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 10.625rem;
+}
+.badge {
+  display: inline-block;
+  background-color: $color-primary-light;
+  padding: 4px 6px 3px 6px;
+  border-radius: 1rem;
+  font-family: $font-family-spartan;
+  font-weight: $font-weight-medium;
+  font-size: $font-paragraph-xs;
+  white-space: nowrap;
+}
+.workshopActionBtn {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: $color-primary-medium;
+}
+.arrowIcon {
+  color: $color-primary-dark;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+.mobile {
+  display: none;
+}
+@media (max-width: 86rem) {
+  .workshopPreview {
+    scale: 0.95;
+  }
+}
+@media (max-width: 40rem) {
+  .workshopSectionWrapper {
+    flex-direction: column-reverse;
+  }
+
+  .workshopWrapper {
+    margin-right: 0;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1.375rem;
+  }
+  .workshopDescribtionWrap h4 {
+    font-size: $font-paragraph-l;
+  }
+  .description,
+  .skillHeading {
+    font-size: $font-paragraph-s;
+  }
+  .skillList {
+    flex-wrap: wrap;
+  }
+  .workshopSkill {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+  .mobile {
+    display: flex;
+  }
+  .workshopSignUp .mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    translate: 0;
+    margin-top: 1rem;
+  }
+  .desktop {
+    display: none;
+  }
+  .companyPicture {
+    width: 100%;
+  }
+  .otherWorkshopSection {
+    display: none;
+  }
+  .workshopInfo,
+  .icons,
+  .registrationDate {
+    font-size: 0.75rem;
+  }
+  .workshopSignUp {
+    margin: 1rem 0 0;
+    width: 100%;
+  }
+  .signUpBtn {
+    width: 100%;
+    font-size: $font-paragraph-s;
+  }
+  h2 {
+    font-size: $font-paragraph-xl;
+  }
+}
+
+@media (min-width: $large-screen) {
+  .workshopsWrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .workshopNameHeader {
+    font-size: $font-heading-xl;
+    line-height: 4rem;
+  }
+
+  .workshopWrapper {
+    width: 38rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
