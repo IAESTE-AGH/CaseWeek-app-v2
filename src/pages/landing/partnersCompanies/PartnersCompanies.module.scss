@@ -56,10 +56,8 @@
 .title {
   display: flex;
   justify-content: center;
-  font-size: 6rem;
-  margin-top: 2.75rem;
-  margin-bottom: 2.75rem;
-  padding-top: 2.75rem;
+  font-size: $font-heading-l-m-s;
+  padding-block: $space-4;
   font-weight: 700;
   text-align: center;
   font-family: $font-family-spartan;
@@ -113,7 +111,6 @@
 
 @media (max-width: 1024px) {
   .title {
-    font-size: 5rem;
     letter-spacing: 0.5rem;
   }
 
@@ -151,7 +148,6 @@
 
   .title {
     margin-left: 0;
-    font-size: 4rem;
     word-wrap: break-word;
   }
 
@@ -169,5 +165,11 @@
 
   .partner img:hover {
     transform: scale(1.02);
+  }
+}
+
+@media (min-width: $large-screen) {
+  .title {
+    font-size: $font-heading-xl;
   }
 }

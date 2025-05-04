@@ -1,0 +1,650 @@
+@use "../../../sass/globals" as *;
+
+.all {
+  list-style-type: none;
+  font-family: "League Spartan", sans-serif;
+  background-color: #ffffff;
+}
+
+.titleAndfiltersContainer {
+  background: linear-gradient(to bottom, #dab88b 0%, #dab88b 50%, #ffffff 100%);
+}
+
+.workshopsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $space-4;
+}
+
+.siteTitle {
+  display: flex;
+  justify-content: center;
+  font-size: $font-heading-l-m-s;
+  font-weight: 700;
+  text-align: center;
+  color: #2c2c2c;
+  letter-spacing: 0.625rem;
+  padding: $space-5;
+}
+
+.aligner {
+  display: flex;
+  margin: 0 10% 0.625rem 10%;
+}
+
+.shadowDiv {
+  width: 47.5%;
+}
+
+.filters {
+  width: 50%;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-end;
+}
+
+.individualFilter1,
+.individualFilter2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.filterSelect {
+  height: 3rem;
+  appearance: none !important;
+  background-color: white;
+  border: 0.125rem solid #dab88b;
+  margin-top: 0.5rem;
+  font-size: 1.25rem !important;
+  font-family: "League Spartan", sans-serif !important;
+  cursor: pointer;
+}
+
+.card {
+  width: 80%;
+  height: 23rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 0 10%;
+}
+
+.displayCard {
+  display: grid;
+  grid-template-rows: 0.5rem 2.5rem 1.25rem 0.75rem 2rem 5rem 2rem 4rem;
+  grid-template-columns: 1.5fr 1rem 5fr 1rem 2.5fr;
+  height: 30rem;
+}
+
+.image {
+  grid-row: 1 / 8;
+  grid-column: 1;
+  width: auto;
+  height: 18rem;
+  object-fit: cover;
+}
+
+.workshopTitle {
+  grid-row: 2;
+  grid-column: 3;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+  line-height: 1.25rem;
+}
+
+.company {
+  grid-row: 4;
+  grid-column: 3;
+  font-size: $font-paragraph-xl;
+  font-weight: 600;
+  text-align: left;
+}
+
+.description {
+  grid-row: 6 / 8;
+  grid-column: 3;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+.details {
+  grid-row: 5;
+  grid-column: 5;
+  list-style: none;
+}
+
+.detailsLi {
+  display: flex;
+  gap: $space-2;
+  align-items: center;
+  list-style: none;
+  font-size: $font-paragraph-m;
+  list-style: none;
+  padding: 0.25rem;
+}
+
+.detailsLinkButton {
+  grid-row: 8;
+  grid-column: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.125rem solid #dab88b;
+  border-radius: 10rem;
+  color: #000000;
+  background-color: #dab88b;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-top: 1rem;
+}
+
+.detailsLinkButton:hover {
+  background-color: #ffffff;
+}
+
+.workshopLink {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+}
+
+.separator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 0.5rem;
+  background-color: #dab88b;
+  margin: 0.5rem 37.5%;
+}
+
+.pagingDown {
+  display: flex;
+  justify-content: center;
+  background-color: inherit;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pageButtonNextAndPrevious2 {
+  border: none;
+  background-color: inherit;
+  font-size: 1rem;
+  color: #2c2c2c;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.pageButtonNextAndPrevious2:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pageButton {
+  border: none;
+  border-radius: 0.625rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #2c2c2c;
+  background-color: inherit;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.pageButton:hover {
+  background-color: #dab88b;
+  color: white;
+}
+
+.activePage {
+  border: 0.125rem solid #dab88b;
+  border-radius: 0.625rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #dab88b;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+/* ──────────────────────────────────────── */
+/* 💡 MEDIA QUERIES: responsywność */
+/* ──────────────────────────────────────── */
+
+@media (max-width: 450px) {
+  .all {
+    list-style-type: none;
+    font-family: "League Spartan", sans-serif;
+    background-color: #ffffff;
+  }
+
+  .titleAndfiltersContainer {
+    background: linear-gradient(
+      to bottom,
+      #dab88b 0%,
+      #dab88b 50%,
+      #ffffff 100%
+    );
+  }
+
+  .siteTitle {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    text-align: center;
+    color: #2c2c2c;
+    letter-spacing: 0.25rem;
+    padding: 2rem 0;
+  }
+
+  .aligner {
+    margin: 5%;
+  }
+
+  .shadowDiv {
+    width: 0 !important;
+  }
+
+  .filters {
+    width: 90% !important;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .individualFilter1 {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+  .individualFilter2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+
+  .filterSelect {
+    height: 1.5rem;
+    appearance: none;
+    background-color: white;
+    border: 0.1rem solid #dab88b;
+    margin-top: 0.125rem;
+    padding: 0;
+    font-size: 0.75rem !important;
+
+    font-family: "League Spartan", sans-serif !important;
+    cursor: pointer;
+  }
+
+  .card {
+    width: 90%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 1rem 5% 0 5%;
+  }
+
+  .displayCard {
+    height: 27rem;
+    display: grid;
+    grid-template-rows: 2.5rem 0.5rem 1rem 0.5rem 2fr 0.5rem 2fr;
+    grid-template-columns: 1fr 0.5rem 2fr;
+  }
+
+  .image {
+    grid-row: 5;
+    grid-column: 1;
+    width: auto;
+    height: 9.75rem;
+    object-fit: cover;
+  }
+
+  .workshopTitle {
+    grid-row: 1;
+    grid-column: 1 / 4;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+  }
+
+  .company {
+    grid-row: 2;
+    grid-column: 1 / 4;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .description {
+    grid-row: 7;
+    grid-column: 1 / 4;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+  }
+
+  .details {
+    grid-row: 5;
+    grid-column: 3;
+    list-style: none;
+    margin-top: 1rem;
+  }
+
+  .detailsLinkButton {
+    font-size: 0.75rem;
+    grid-row: 8;
+    grid-column: 1 / 4;
+    border: 0.125rem solid #dab88b;
+    border-radius: 10rem;
+    color: #000000;
+    background-color: #dab88b;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    padding: 0.75rem 2rem !important;
+    margin-top: 1rem;
+  }
+
+  .detailsLinkButton:hover {
+    background-color: #ffffff;
+  }
+
+  .workshopLink {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 0.25rem;
+    background-color: #dab88b;
+    margin: 2rem 30% 0 30%;
+  }
+
+  .pagingDown {
+    display: flex;
+    justify-content: center;
+    background-color: inherit;
+    gap: 1rem;
+    margin-block: 2rem;
+  }
+
+  .pageButtonNextAndPrevious2 {
+    border: none;
+    background-color: inherit;
+    font-size: 1rem;
+    color: #2c2c2c;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+
+  .pageButtonNextAndPrevious2:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .pageButton {
+    border: none;
+    border-radius: 0.625rem;
+    font-size: 1rem;
+    color: #2c2c2c;
+    background-color: inherit;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+
+  .pageButton:hover {
+    background-color: #dab88b;
+    color: white;
+  }
+
+  .activePage {
+    border: 0.125rem solid #dab88b;
+    border-radius: 0.625rem;
+    padding: 0.5rem 0.625rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #dab88b;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 1050px) {
+  .all {
+    list-style-type: none;
+    font-family: "League Spartan", sans-serif;
+    background-color: #ffffff;
+  }
+
+  .titleAndfiltersContainer {
+    background: linear-gradient(
+      to bottom,
+      #dab88b 0%,
+      #dab88b 50%,
+      #ffffff 100%
+    );
+  }
+
+  .siteTitle {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    text-align: center;
+    color: #2c2c2c;
+    letter-spacing: 0.25rem;
+    padding: 2rem 0;
+  }
+
+  .shadowDiv {
+    width: 30%;
+  }
+
+  .filters {
+    width: 55%;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .individualFilter1 {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+  .individualFilter2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+
+  .filterSelect {
+    height: 1.5rem;
+    appearance: none;
+    background-color: white;
+    border: 0.1rem solid #dab88b;
+    margin-top: 0.125rem;
+    padding: 0;
+    font-size: 0.75rem !important;
+
+    font-family: "League Spartan", sans-serif !important;
+    cursor: pointer;
+  }
+
+  .card {
+    width: 90%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 1rem 5% 0 5%;
+  }
+
+  .displayCard {
+    height: 27rem;
+    display: grid;
+    grid-template-rows: 2.5rem 0.5rem 1rem 0.5rem 2fr 0.5rem 2fr;
+    grid-template-columns: 0.5fr 0.5rem 2fr;
+  }
+
+  .image {
+    grid-row: 5;
+    grid-column: 1;
+    width: auto;
+    height: 9.75rem;
+    object-fit: cover;
+  }
+
+  .workshopTitle {
+    grid-row: 1;
+    grid-column: 1 / 4;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+  }
+
+  .company {
+    grid-row: 2;
+    grid-column: 1 / 4;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .description {
+    grid-row: 7;
+    grid-column: 1 / 4;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+  }
+
+  .details {
+    grid-row: 5;
+    grid-column: 3;
+    list-style: none;
+    margin-top: 1rem;
+  }
+
+  .detailsLinkButton {
+    font-size: 0.75rem;
+    grid-row: 8;
+    grid-column: 1 / 4;
+    border: 0.125rem solid #dab88b;
+    border-radius: 10rem;
+    color: #000000;
+    background-color: #dab88b;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+  }
+
+  .detailsLinkButton:hover {
+    background-color: #ffffff;
+  }
+
+  .workshopLink {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 0.25rem;
+    background-color: #dab88b;
+    margin: 2rem 35% 0 35%;
+  }
+
+  .pagingDown {
+    display: flex;
+    justify-content: center;
+    background-color: inherit;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .pageButtonNextAndPrevious2 {
+    border: none;
+    background-color: inherit;
+    font-size: 1rem;
+    color: #2c2c2c;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+
+  .pageButtonNextAndPrevious2:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .pageButton {
+    border: none;
+    border-radius: 0.625rem;
+    font-size: 1rem;
+    color: #2c2c2c;
+    background-color: inherit;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+
+  .pageButton:hover {
+    background-color: #dab88b;
+    color: white;
+  }
+
+  .activePage {
+    border: 0.125rem solid #dab88b;
+    border-radius: 0.625rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #dab88b;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+@media (min-width: $large-screen) {
+  .siteTitle {
+    font-size: $font-heading-xl;
+  }
+  .aligner {
+    justify-content: flex-end;
+  }
+  .workshopTitle {
+    line-height: 2rem;
+  }
+  .detailsLi {
+    font-size: $font-paragraph-s;
+  }
+}
