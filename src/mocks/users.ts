@@ -1,4 +1,26 @@
-import type { User } from "@/@types/API"
+import { FieldOfStudy, University, Workshop } from "@/types/workshop";
+
+type User = {
+    id: string;
+    firstName: string;
+    lastName: string;
+    email: string;
+    phoneNumber: string;
+    sex: "Female" | "Male";
+    university: University;
+    fieldOfStudy: FieldOfStudy;
+    yearOfStudy: number;
+    languageSkills: Array<{
+        id: string;
+        language: {
+            id: string;
+            name: string;
+        };
+        skillLevel: "NATIVE" | "FLUENT" | "BASIC";
+    }>;
+    workshopMembers: Array<Workshop>;
+    role: "STUDENT" | "COMPANY" | "ADMIN";
+}
 
 export const USER_MOCKS: User[] = [
     {
