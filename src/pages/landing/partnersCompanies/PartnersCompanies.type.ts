@@ -1,4 +1,4 @@
-import { Company } from "@/@types/API";
+import { Company } from "@/types/company";
 
 export type PartnersPageProps = {
   companies: Company[];
