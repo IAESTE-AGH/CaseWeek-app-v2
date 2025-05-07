@@ -84,7 +84,7 @@ const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
               <h4>Company Description</h4>
               <p className={s.description}>{workshop.longDescription}</p>
               <div className={`${s.workshopSignUp} ${s.desktop}`}>
-                <Button title="Zapisz się na warsztat" />
+                <Button title="Zapisz się na warsztat" disabled />
                 {/* <p className={s.registrationDate}>
                   Rejestracja trwa do: 'data'
                 </p> */}
@@ -93,7 +93,7 @@ const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
             {/* <div className={`${s.underline} ${s.desktop}`}></div> */}
           </section>
           <div className={`${s.workshopSignUp} ${s.mobile}`}>
-            <Button title="Zapisz się" />
+            <Button title="Zapisz się" disabled />
 
             {/* <p className={s.registrationDate}>Rejestracja trwa do: 'data'</p> */}
             {/* <div className={`${s.underline} ${s.mobile}`}></div> */}

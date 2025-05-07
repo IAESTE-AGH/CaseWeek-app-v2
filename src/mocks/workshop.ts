@@ -40,8 +40,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       { id: "e5c57629-44b4-4f71-b1ee-cdaa0ffadab2", name: "Computer Science" },
       { id: "89399a6d-7156-4226-8b9a-ae39b3a6e2b6", name: "Statistics" },
     ],
-    allFieldsOfStudyAccepted: false,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -68,7 +66,7 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       name: "City College",
     },
     title: "Machine Learning Workshop",
-    status: "UNPUBLISHED",
+    status: "PUBLISHED",
     startsAt: "2024-04-10T10:00:00Z",
     registrationEndsAt: "2024-04-05T23:59:59Z",
     shortDescription:
@@ -91,8 +89,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
         name: "Artificial Intelligence",
       },
     ],
-    allFieldsOfStudyAccepted: true,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -146,8 +142,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
         name: "Information Technology",
       },
     ],
-    allFieldsOfStudyAccepted: false,
-    archived: true,
   },
   {
     id: "cde99e9a-8b72-4c8f-bc29-7e7cf456b890",
@@ -194,8 +188,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
         name: "Computer Engineering",
       },
     ],
-    allFieldsOfStudyAccepted: true,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -246,8 +238,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       },
       { id: "3cb59c69-9009-4e8b-b4f2-468300f3c2ad", name: "Linguistics" },
     ],
-    allFieldsOfStudyAccepted: false,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -295,8 +285,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       { id: "c9ac743f-4025-4e2b-b6f4-0f5b7b3588d6", name: "Computer Science" },
       { id: "ef9b2a95-520b-4a44-97a6-5e8c91b7b866", name: "Finance" },
     ],
-    allFieldsOfStudyAccepted: true,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -324,7 +312,7 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       name: "Tech Institute",
     },
     title: "Python Programming Workshop",
-    status: "UNPUBLISHED",
+    status: "PUBLISHED",
     startsAt: "2024-09-15T10:00:00Z",
     registrationEndsAt: "2024-09-10T23:59:59Z",
     shortDescription: "Learn the fundamentals of Python programming language.",
@@ -346,8 +334,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
         name: "Information Technology",
       },
     ],
-    allFieldsOfStudyAccepted: true,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -395,8 +381,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       { id: "1b2c3d4e-5f6g-7h8i-9j0k-1l2m3n4o5p6", name: "Cybersecurity" },
       { id: "7q8r9s0t1u2v3w4x5y6z", name: "Computer Science" },
     ],
-    allFieldsOfStudyAccepted: false,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -447,8 +431,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       },
       { id: "11121314-1516-1718-1920-212223242526", name: "Computer Science" },
     ],
-    allFieldsOfStudyAccepted: true,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
