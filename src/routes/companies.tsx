@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import PartnersCompanies from "../pages/landing/partnersCompanies/PartnersCompanies";
-import { MOCK_COMPANIES } from "../mocks/companies";
+import { MOCK_COMPANIES } from "../page_data/companies";
 
 export const Route = createFileRoute("/companies")({
   component: Companies,
