@@ -87,7 +87,7 @@
   height: 19.25rem;
   border: 0.125rem solid #000;
   transition: transform 0.3s ease-in-out;
-  object-fit: cover;
+  object-fit: contain;
   z-index: 1;
 }
 
