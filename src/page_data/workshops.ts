@@ -72,6 +72,7 @@ export const WORKSHOPS: Workshop[] = [
     ]
   },
 
+  // TODO: change ID's of the next two wrokshops to be unique
   {
     id: "89089d1a-b4ac-4d45-bb8f-69a8d1d90d4c",
     company: {
@@ -387,6 +388,7 @@ export const WORKSHOPS: Workshop[] = [
     preferableFieldsOfStudy: null,
   },
 
+  // TODO: Change ID's to be unique
   {
     id: "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
     company: {
