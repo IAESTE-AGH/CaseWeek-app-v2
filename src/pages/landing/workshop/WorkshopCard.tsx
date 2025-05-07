@@ -14,7 +14,7 @@ const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
     ?.map((field) => field.name)
     .join(", ") : "Wszystkie kierunki studiów";
 
-  const skillsArray = ["Pierwsza ", "druga ", "trzecia ", "czwarta "];
+  // const skillsArray = ["Pierwsza ", "druga ", "trzecia ", "czwarta "];
 
   const formatDate = (isoString: string): string => {
     const date = new Date(isoString);
