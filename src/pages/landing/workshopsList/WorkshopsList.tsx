@@ -145,7 +145,7 @@ const WorkshopsList = () => {
                 className={s.filterSelect}
               >
                 <MenuItem value="">
-                  <em>wybierz</em>
+                  <em>wszystkie</em>
                 </MenuItem>
                 {universities.map((university) => (
                   <MenuItem key={university} value={university}>
@@ -179,7 +179,7 @@ const WorkshopsList = () => {
                 className={s.filterSelect}
               >
                 <MenuItem value="">
-                  <em>wybierz</em>
+                  <em>wszystkie</em>
                 </MenuItem>
                 {fields.map((field) => (
                   <MenuItem key={field} value={field}>

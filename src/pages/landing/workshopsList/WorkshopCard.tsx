@@ -2,7 +2,6 @@ import { Link } from "@tanstack/react-router";
 import timeAttackIcon from "../../../assets/img/timeAttackIcon.png";
 import universityIcon from "../../../assets/img/universityIcon.png";
 import alarmClockIcon from "../../../assets/img/alarmClockIcon.png";
-import tempListImg from "../../../assets/img/overview_2.png";
 import s from "./WorkshopsList.module.scss";
 import { Workshop } from "@/types/workshop";
 
@@ -25,7 +24,7 @@ export default function WorkshopCard({ workshop, isSeparator = true }: {
 
     return <div key={workshop.id} className={s.card}>
         <div className={s.displayCard}>
-            <img src={tempListImg} alt="Workshop" className={s.image} />
+            <img src={workshop.company.logoUrl} alt="Workshop" className={s.image} />
 
             <text className={s.workshopTitle}>{workshop.title}</text>
 
