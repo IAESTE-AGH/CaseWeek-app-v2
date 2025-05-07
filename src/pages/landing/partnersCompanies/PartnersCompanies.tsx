@@ -1,5 +1,4 @@
 import s from "./PartnersCompanies.module.scss";
-import temporaryCompaniesLogo from "../../../assets/img/PSRP_logo.png";
 import { PartnersPageProps } from "./PartnersCompanies.type";
 
 const PartnersCompanies: React.FC<PartnersPageProps> = ({
