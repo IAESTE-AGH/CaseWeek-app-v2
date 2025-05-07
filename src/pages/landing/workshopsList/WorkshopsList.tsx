@@ -210,20 +210,32 @@ const WorkshopsList = () => {
 
               <text className={s.company}>{workshop.company.name}</text>
 
-              <text className={s.description}>{workshop.shortDescription}</text>
+              <text className={s.description}>{workshop.longDescription}</text>
 
               <div className={s.details}>
                 <div className={s.detailsLi}>
-                  <img src={universityIcon} /> Uczelnia:{" "}
-                  {workshop.university.name}
+                  <div className={s.iconWrapper}>
+                    <img src={universityIcon} />
+                  </div>
+                  <span className={s.iconText}>
+                    {workshop.university.name}
+                  </span>
                 </div>
                 <div className={s.detailsLi}>
-                  <img src={timeAttackIcon} /> Data i godzina:{" "}
-                  {formatDate(workshop.startsAt)}
+                  <div className={s.iconWrapper}>
+                    <img src={alarmClockIcon} />
+                  </div>
+                  <span className={s.iconText}>
+                    {formatDate(workshop.startsAt)}
+                  </span>
                 </div>
                 <div className={s.detailsLi}>
-                  <img src={alarmClockIcon} /> Czas trwania:{" "}
-                  {workshop.durationMinutes} min.
+                  <div className={s.iconWrapper}>
+                    <img src={timeAttackIcon} />
+                  </div>
+                  <span className={s.iconText}>
+                    {workshop.durationMinutes} min.
+                  </span>
                 </div>
               </div>
 
