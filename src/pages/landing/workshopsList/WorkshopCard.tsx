@@ -59,15 +59,13 @@ export default function WorkshopCard({ workshop, isSeparator = true }: {
                 </div>
             </div>
 
-            <button className={s.detailsLinkButton}>
-                <Link
-                    to="/workshops/$workshopId"
-                    className={s.workshopLink}
-                    params={{ workshopId: workshop.id }}
-                >
-                    Przejdź do szczegółów
-                </Link>
-            </button>
+            <Link
+                to="/workshops/$workshopId"
+                className={s.workshopLink}
+                params={{ workshopId: workshop.id }}
+            >
+                Przejdź do szczegółów
+            </Link>
         </div>
 
         {isSeparator && (
