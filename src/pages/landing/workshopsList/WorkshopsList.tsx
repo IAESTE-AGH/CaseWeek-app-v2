@@ -1,4 +1,4 @@
-import { WORKSHOPS_MOCKS } from "../../../mocks/workshop";
+import { WORKSHOPS } from "../../../page_data/workshops";
 import { Link } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
 import s from "./WorkshopsList.module.scss";
@@ -21,26 +21,26 @@ const WorkshopsList = () => {
 
   // Pobieranie unikalnych uczelni
   const universities = [
-    ...new Set(WORKSHOPS_MOCKS.map((workshop) => workshop.university.name)),
-  ];
-
+    ...new Set(WORKSHOPS.flatMap((workshop) => workshop.university.name)),
+  ]
   // Pobieranie unikalnych kierunków studiów
   const fields = [
     ...new Set(
-      WORKSHOPS_MOCKS.flatMap((workshop) =>
-        workshop.preferableFieldsOfStudy.map(
+      WORKSHOPS.flatMap((workshop) =>
+        workshop.preferableFieldsOfStudy && workshop.preferableFieldsOfStudy.map(
           (field: { name: string }) => field.name
         )
-      )
+      ).filter((field) => field !== undefined && field !== null)
     ),
   ];
 
-  const filteredWorkshops = WORKSHOPS_MOCKS.filter((workshop) => {
+  const filteredWorkshops = WORKSHOPS.filter((workshop) => {
     const matchesUniversity =
-      !selectedUniversity || workshop.university.name === selectedUniversity;
+      !selectedUniversity || (Array.isArray(workshop.university) ? workshop.university.flatMap(university => university.name) : workshop.university.name === selectedUniversity);
+
     const matchesField =
       !selectedField ||
-      workshop.preferableFieldsOfStudy.some(
+      workshop.preferableFieldsOfStudy && workshop.preferableFieldsOfStudy.some(
         (field: { name: string }) => field.name === selectedField
       );
 
@@ -210,7 +210,7 @@ const WorkshopsList = () => {
 
               <text className={s.company}>{workshop.company.name}</text>
 
-              <text className={s.description}>{workshop.longDescription}</text>
+              <text className={s.description}>{workshop.shortDescription}</text>
 
               <div className={s.details}>
                 <div className={s.detailsLi}>
@@ -223,7 +223,7 @@ const WorkshopsList = () => {
                 </div>
                 <div className={s.detailsLi}>
                   <img src={alarmClockIcon} /> Czas trwania:{" "}
-                  {workshop.durationMinutes}
+                  {workshop.durationMinutes} min.
                 </div>
               </div>
 
