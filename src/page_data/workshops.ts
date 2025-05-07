@@ -72,7 +72,6 @@ export const WORKSHOPS: Workshop[] = [
     ]
   },
 
-  // TODO: change ID's of the next two wrokshops to be unique
   {
     id: "89089d1a-b4ac-4d45-bb8f-69a8d1d90d4c",
     company: {
@@ -124,7 +123,7 @@ export const WORKSHOPS: Workshop[] = [
     ],
   },
   {
-    id: "89089d1a-b4ac-4d45-bb8f-69a8d1d90d4c",
+    id: "649a0273-d945-414a-8c93-951f16217a98",
     company: {
       id: "56fde7e5-ef45-4a0f-99f1-65cb6b11847b",
       name: "VALEO AUTOSYSTEMY SP. Z O.O.", //"c3"
@@ -388,7 +387,6 @@ export const WORKSHOPS: Workshop[] = [
     preferableFieldsOfStudy: null,
   },
 
-  // TODO: Change ID's to be unique
   {
     id: "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
     company: {
@@ -421,7 +419,7 @@ export const WORKSHOPS: Workshop[] = [
     preferableFieldsOfStudy: null,
   },
   {
-    id: "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+    id: "95edb25b-c487-4337-aa00-0e95fd102ec8",
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
@@ -451,7 +449,7 @@ export const WORKSHOPS: Workshop[] = [
     preferableFieldsOfStudy: null,
   },
   {
-    id: "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+    id: "116be4ba-043f-429d-9ad7-ef0c1eeb8657",
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
@@ -481,7 +479,7 @@ export const WORKSHOPS: Workshop[] = [
     preferableFieldsOfStudy: null,
   },
   {
-    id: "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+    id: "11a745e6-0259-4266-af38-918349348e9c",
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
@@ -511,7 +509,7 @@ export const WORKSHOPS: Workshop[] = [
     preferableFieldsOfStudy: null,
   },
   {
-    id: "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+    id: "09088e92-ec6e-4bf7-8f47-9ec22b2437a9",
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
@@ -541,7 +539,7 @@ export const WORKSHOPS: Workshop[] = [
     preferableFieldsOfStudy: null,
   },
   {
-    id: "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+    id: "3b55f071-b06e-4cf2-95b9-4c09b376a85d",
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
@@ -571,7 +569,7 @@ export const WORKSHOPS: Workshop[] = [
     preferableFieldsOfStudy: null,
   },
   {
-    id: "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+    id: "cfea3e74-4373-4053-938e-621c99a9da39",
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
