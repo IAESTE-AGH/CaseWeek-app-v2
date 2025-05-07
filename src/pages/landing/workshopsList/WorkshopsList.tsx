@@ -1,13 +1,9 @@
 import { WORKSHOPS } from "../../../page_data/workshops";
-import { Link } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
 import s from "./WorkshopsList.module.scss";
-import tempListImg from "../../../assets/img/overview_2.png";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
-import timeAttackIcon from "../../../assets/img/timeAttackIcon.png";
-import universityIcon from "../../../assets/img/universityIcon.png";
-import alarmClockIcon from "../../../assets/img/alarmClockIcon.png";
+import WorkshopCard from "./WorkshopCard";
 
 const WorkshopsList = () => {
   const [selectedUniversity, setSelectedUniversity] = useState("");
@@ -47,18 +43,6 @@ const WorkshopsList = () => {
     return matchesUniversity && matchesField;
   });
 
-  const formatDate = (isoString: string): string => {
-    const date = new Date(isoString);
-    return date.toLocaleString("pl-PL", {
-      year: "numeric",
-      month: "numeric",
-      day: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-      timeZone: "Europe/Warsaw", // jeśli chcesz lokalnie w Polsce
-    });
-  };
-
   //ile jest workshopow total
   const totalPages = Math.ceil(filteredWorkshops.length / itemsPerPage);
 
@@ -68,18 +52,26 @@ const WorkshopsList = () => {
   );
 
   const handlePageClick = (page: number) => {
+    if (page === currentPage) return;
+    window.scrollTo({ top: 0, behavior: "instant" });
     setCurrentPage(page);
   };
 
   const handlePrevPage = () => {
     if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
+      setCurrentPage(prev => {
+        window.scrollTo({ top: 0, behavior: "instant" });
+        return prev - 1;
+      });
     }
   };
 
   const handleNextPage = () => {
     if (currentPage < totalPages) {
-      setCurrentPage(currentPage + 1);
+      setCurrentPage(prev => {
+        window.scrollTo({ top: 0, behavior: "instant" });
+        return prev + 1;
+      });
     }
   };
 
@@ -202,58 +194,7 @@ const WorkshopsList = () => {
 
       <div className={s.workshopsWrapper}>
         {paginatedWorkshops.map((workshop, index) => (
-          <div key={workshop.id} className={s.card}>
-            <div className={s.displayCard}>
-              <img src={tempListImg} alt="Workshop" className={s.image} />
-
-              <text className={s.workshopTitle}>{workshop.title}</text>
-
-              <text className={s.company}>{workshop.company.name}</text>
-
-              <text className={s.description}>{workshop.longDescription}</text>
-
-              <div className={s.details}>
-                <div className={s.detailsLi}>
-                  <div className={s.iconWrapper}>
-                    <img src={universityIcon} />
-                  </div>
-                  <span className={s.iconText}>
-                    {workshop.university.name}
-                  </span>
-                </div>
-                <div className={s.detailsLi}>
-                  <div className={s.iconWrapper}>
-                    <img src={alarmClockIcon} />
-                  </div>
-                  <span className={s.iconText}>
-                    {formatDate(workshop.startsAt)}
-                  </span>
-                </div>
-                <div className={s.detailsLi}>
-                  <div className={s.iconWrapper}>
-                    <img src={timeAttackIcon} />
-                  </div>
-                  <span className={s.iconText}>
-                    {workshop.durationMinutes} min.
-                  </span>
-                </div>
-              </div>
-
-              <button className={s.detailsLinkButton}>
-                <Link
-                  to="/workshops/$workshopId"
-                  className={s.workshopLink}
-                  params={{ workshopId: workshop.id }}
-                >
-                  Przejdź do szczegółów
-                </Link>
-              </button>
-            </div>
-
-            {index < paginatedWorkshops.length - 1 && (
-              <div className={s.separator}></div>
-            )}
-          </div>
+          <WorkshopCard workshop={workshop} isSeparator={index < paginatedWorkshops.length - 1} />
         ))}
       </div>
 
@@ -263,7 +204,7 @@ const WorkshopsList = () => {
           disabled={currentPage === 1}
           className={s.pageButtonNextAndPrevious2}
         >
-          ← Poprzednia
+          &lt; Poprzednia
         </button>
 
         {renderPagination()}
@@ -273,7 +214,7 @@ const WorkshopsList = () => {
           disabled={currentPage === totalPages}
           className={s.pageButtonNextAndPrevious2}
         >
-          Następna →
+          Następna &gt;
         </button>
       </div>
     </section>
