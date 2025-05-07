@@ -1,18 +1,18 @@
 import s from "./WorkshopCard.module.scss";
-import { WORKSHOPS_MOCKS } from "../../../mocks/workshop";
+import { WORKSHOPS } from "../../../page_data/workshops";
 import { WORKSHOP_CARD_DATA } from "./WorkshopCard.const";
 import { Workshop } from "../../../types/workshop";
 // import ArrowFo rwardIcon from "@mui/icons-material/ArrowForward";
 import { Button } from "../../../components/atoms/button/Button";
 
 const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
-  const workshop = WORKSHOPS_MOCKS.find(
+  const workshop = WORKSHOPS.find(
     (item) => item.id === workshopId
   ) as Workshop;
 
-  const fieldsOfStudy = workshop?.preferableFieldsOfStudy
-    .map((field) => field.name)
-    .join(", ");
+  const fieldsOfStudy = workshop.preferableFieldsOfStudy ? workshop?.preferableFieldsOfStudy
+    ?.map((field) => field.name)
+    .join(", ") : "Wszystkie kierunki studiów";
 
   const skillsArray = ["Pierwsza ", "druga ", "trzecia ", "czwarta "];
 
@@ -52,7 +52,7 @@ const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
               <img
                 className={s.companyPicture}
                 src={workshop.company.logoUrl}
-                alt=""
+                alt={`${workshop.company.name} logo`}
               />
 
               <ul className={s.infoColumn}>
@@ -72,14 +72,15 @@ const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
             <article className={s.workshopcDescriptionWrap}>
               <h4>Opis warsztatu</h4>
               <p className={s.description}>{workshop.longDescription}</p>
-              <div className={s.skillsWrap}>
+              {/* <div className={s.skillsWrap}>
                 <h4 className={s.skillHeading}>Czego sie nauczysz</h4>
                 <div className={s.skillList}>
                   {skillsArray.map((skill) => (
                     <div className={s.workshopSkill}>{skill}</div>
                   ))}
                 </div>
-              </div>
+              </div> */}
+              <br />
               <h4>Company Description</h4>
               <p className={s.description}>{workshop.longDescription}</p>
               <div className={`${s.workshopSignUp} ${s.desktop}`}>

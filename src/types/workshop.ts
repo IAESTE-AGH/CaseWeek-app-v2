@@ -21,30 +21,29 @@ export type University = {
 
 export type WorkshopStatus =
   | "PUBLISHED"
-  | "UNPUBLISHED"
+  | "DRAFT"
   | "CANCELLED"
-  | "FINISHED";
+  | "FINISHED"
+  | "ARCHIVED";
 
 export type Workshop = {
   id: string;
   company: Company;
   university: University;
   title: string;
-  status: WorkshopStatus;
+  status?: WorkshopStatus;
   startsAt: string;
-  registrationEndsAt: string;
+  registrationEndsAt?: string;
   shortDescription: string;
   longDescription: string;
   address: string;
-  capacity: number;
-  durationMinutes: number;
-  emailTextCandidate: string;
-  emailTextQualified: string;
-  minYearOfStudy: number;
-  maxYearOfStudy: number;
-  preferableFieldsOfStudy: FieldOfStudy[];
-  allFieldsOfStudyAccepted: boolean;
-  archived: boolean;
+  capacity?: number;
+  durationMinutes: number | null;
+  emailTextCandidate?: string;
+  emailTextQualified?: string;
+  minYearOfStudy: number | null;
+  maxYearOfStudy: number | null;
+  preferableFieldsOfStudy: FieldOfStudy[] | null;
   propositions?: {
     id: string[];
   };
