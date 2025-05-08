@@ -128,7 +128,7 @@ const WorkshopsList = () => {
   return (
     <section className={s.all}>
       <div className={s.titleAndfiltersContainer}>
-        <text className={s.siteTitle}>Warsztaty</text>
+        <span className={s.siteTitle}>Warsztaty</span>
 
         <div className={s.aligner}>
           <div className={s.filters}>
@@ -205,7 +205,7 @@ const WorkshopsList = () => {
 
       <div className={s.workshopsWrapper}>
         {paginatedWorkshops.map((workshop, index) => (
-          <WorkshopCard workshop={workshop} isSeparator={index < paginatedWorkshops.length - 1} />
+          <WorkshopCard workshop={workshop} isSeparator={index < paginatedWorkshops.length - 1} key={index} />
         ))}
       </div>
 

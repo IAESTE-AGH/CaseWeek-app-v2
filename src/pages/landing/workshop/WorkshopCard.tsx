@@ -74,7 +74,7 @@ const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
 
               <ul className={s.infoColumn}>
                 {WORKSHOP_CARD_DATA.map((card, index) => (
-                  <li key={card.detalName} className={s.workshopInfo}>
+                  <li key={index} className={s.workshopInfo}>
                     <div className={s.infoGrey}>
                       {card.icon}
                       <p>
@@ -109,12 +109,12 @@ const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
             </article>
             {/* <div className={`${s.underline} ${s.desktop}`}></div> */}
           </section>
-          <div className={`${s.workshopSignUp} ${s.mobile}`}>
-            <Button title="Zapisz się" disabled />
+          <a className={`${s.workshopSignUp} ${s.mobile}`} href={canSignUp() ? "" : workshop.registrationLink} target="_blank" rel="noopener noreferrer">
+            <Button title="Zapisz się" disabled={canSignUp()} />
 
             {/* <p className={s.registrationDate}>Rejestracja trwa do: 'data'</p> */}
             {/* <div className={`${s.underline} ${s.mobile}`}></div> */}
-          </div>
+          </a>
 
           {/* <section className={s.otherWorkshopsWrap}>
             <h2>Mogą cię też zainteresować: </h2>

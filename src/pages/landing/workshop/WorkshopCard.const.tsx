@@ -13,14 +13,14 @@ export const WORKSHOP_CARD_DATA = [
   { icon: <ListAltIcon className={s.icons} />, detalName: "Wymagania:" },
   {
     icon: <ListAltIcon sx={{ color: "transparent" }} />,
-    detalName: "Minimalny rok studiów",
+    detalName: "Minimalny rok studiów:",
   },
   {
     icon: <ListAltIcon sx={{ color: "transparent" }} />,
-    detalName: "Maksymalny rok studiów",
+    detalName: "Maksymalny rok studiów:",
   },
   {
     icon: <ListAltIcon sx={{ color: "transparent" }} />,
-    detalName: "Kierunek studiów",
+    detalName: "Kierunek studiów:",
   },
 ];
