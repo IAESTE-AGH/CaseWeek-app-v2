@@ -81,8 +81,8 @@ const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
                 </div>
               </div> */}
               <br />
-              <h4>Company Description</h4>
-              <p className={s.description}>{workshop.longDescription}</p>
+              <h4>Opis firmy</h4>
+              <p className={s.description}>{workshop.company.longDescription}</p>
               <div className={`${s.workshopSignUp} ${s.desktop}`}>
                 <Button title="Zapisz się na warsztat" disabled />
                 {/* <p className={s.registrationDate}>
