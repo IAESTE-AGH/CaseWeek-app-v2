@@ -71,6 +71,7 @@ export const WORKSHOPS: Workshop[] = [
       { id: "4c462784-f17c-4a6b-bbff-cae0baf62c21", name: "Wydział Inżynierii Chemicznej i Procesowej" }
     ],
     registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -122,6 +123,7 @@ export const WORKSHOPS: Workshop[] = [
       },
     ],
     registrationLink: "https://forms.office.com/e/jLyMTRKU78",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "649a0273-d945-414a-8c93-951f16217a98",
@@ -172,6 +174,7 @@ export const WORKSHOPS: Workshop[] = [
       },
     ],
     registrationLink: "https://forms.office.com/e/jLyMTRKU78",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -215,6 +218,7 @@ export const WORKSHOPS: Workshop[] = [
       },
     ],
     registrationLink: "https://forms.office.com/e/x2r5iJYjC9",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -262,6 +266,7 @@ export const WORKSHOPS: Workshop[] = [
         name: "Materiałoznastwo" },
     ],
     registrationLink: "https://forms.office.com/e/N63cVba2Kh",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -309,6 +314,7 @@ export const WORKSHOPS: Workshop[] = [
         name: "Materiałoznastwo" },
     ],
     registrationLink: "https://forms.office.com/e/x2r5iJYjC9",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -356,6 +362,7 @@ export const WORKSHOPS: Workshop[] = [
         name: "Materiałoznastwo" },
     ],
     registrationLink: "https://forms.office.com/e/6jYHLmNtzZ",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -386,6 +393,7 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/jLyMTRKU78",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -418,6 +426,7 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/jLyMTRKU78",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "95edb25b-c487-4337-aa00-0e95fd102ec8",
@@ -448,6 +457,7 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/N63cVba2Kh",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "116be4ba-043f-429d-9ad7-ef0c1eeb8657",
@@ -478,6 +488,7 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/x2r5iJYjC9",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "11a745e6-0259-4266-af38-918349348e9c",
@@ -508,6 +519,7 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/bn9VXV9dcA",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "09088e92-ec6e-4bf7-8f47-9ec22b2437a9",
@@ -538,6 +550,7 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/0BvAs4QuAe",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "3b55f071-b06e-4cf2-95b9-4c09b376a85d",
@@ -568,6 +581,7 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "cfea3e74-4373-4053-938e-621c99a9da39",
@@ -599,6 +613,7 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/6jYHLmNtzZ",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -629,6 +644,7 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -665,6 +681,7 @@ export const WORKSHOPS: Workshop[] = [
       { id: "11121314-1516-1718-1920-212223242526", name: "Biotechnologia" }
     ],
     registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 ];
 
