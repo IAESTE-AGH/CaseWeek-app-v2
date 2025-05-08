@@ -14,10 +14,10 @@ export const MENU_OPTIONS: TMenuOptions[] = [
     label: t("menuOptions.workshops"),
     path: "/workshops",
   },
-  {
-    label: t("menuOptions.partners"),
-    path: "/partners",
-  },
+  // {
+  //   label: t("menuOptions.partners"),
+  //   path: "/partners",
+  // },
   {
     label: t("menuOptions.companies"),
     path: "/companies",
