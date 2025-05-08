@@ -33,6 +33,7 @@ export const WORKSHOPS: Workshop[] = [
       { id: "c0a89c59-157a-4622-a443-47c24ef4c697", name: "Inżynieria i Ochrona Środowiska" }
     ],
     registrationLink: "https://forms.office.com/e/jLyMTRKU78",
+    registrationEndsAt: "2025-05-23T23:59:59+02:00",
   },
   
   {
