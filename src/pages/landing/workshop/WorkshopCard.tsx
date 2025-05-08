@@ -4,6 +4,7 @@ import { WORKSHOP_CARD_DATA } from "./WorkshopCard.const";
 import { Workshop } from "../../../types/workshop";
 // import ArrowFo rwardIcon from "@mui/icons-material/ArrowForward";
 import { Button } from "../../../components/atoms/button/Button";
+import { TimeStamp } from "@/types/general";
 
 const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
   const workshop = WORKSHOPS.find(
@@ -16,7 +17,7 @@ const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
 
   // const skillsArray = ["Pierwsza ", "druga ", "trzecia ", "czwarta "];
 
-  const formatDate = (isoString: string): string => {
+  const formatDate = (isoString: TimeStamp): string => {
     const date = new Date(isoString);
     return date.toLocaleString("pl-PL", {
       year: "numeric",
@@ -24,9 +25,25 @@ const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
       day: "numeric",
       hour: "2-digit",
       minute: "2-digit",
-      timeZone: "Europe/Warsaw", // jeśli chcesz lokalnie w Polsce
+      // timeZone: "Europe/Warsaw", // jeśli chcesz lokalnie w Polsce
     });
   };
+
+  function canSignUp(): boolean {
+    if (!workshop.registrationLink) return false;
+    if (workshop.status === "CANCELLED") return false;
+    if (workshop.status === "FINISHED") return false;
+    if (workshop.status === "ARCHIVED") return false;
+
+    const currentDate = new Date();
+    const workshopDate = new Date(workshop.startsAt);
+    if (!workshop.registrationEndsAt) {
+      return currentDate > workshopDate;
+    }
+
+    const registrationEndDate = new Date(workshop.registrationEndsAt);
+    return currentDate > registrationEndDate;
+  }
 
   const resultArray = [
     workshop?.university.name,
@@ -83,12 +100,12 @@ const WorkshopCard = ({ workshopId }: { workshopId: string }) => {
               <br />
               <h4>Opis firmy</h4>
               <p className={s.description}>{workshop.company.longDescription}</p>
-              <div className={`${s.workshopSignUp} ${s.desktop}`}>
-                <Button title="Zapisz się na warsztat" disabled />
+              <a className={`${s.workshopSignUp} ${s.desktop}`} href={canSignUp() ? "" : workshop.registrationLink} target="_blank" rel="noopener noreferrer">
+                <Button title="Zapisz się na warsztat" disabled={canSignUp()} />
                 {/* <p className={s.registrationDate}>
                   Rejestracja trwa do: 'data'
                 </p> */}
-              </div>
+              </a>
             </article>
             {/* <div className={`${s.underline} ${s.desktop}`}></div> */}
           </section>
