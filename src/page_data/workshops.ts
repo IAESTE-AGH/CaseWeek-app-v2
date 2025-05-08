@@ -411,7 +411,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
@@ -441,7 +441,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
@@ -471,7 +471,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
@@ -501,7 +501,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
@@ -531,7 +531,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
@@ -561,7 +561,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
@@ -592,7 +592,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
