@@ -18,7 +18,7 @@ export default function WorkshopCard({ workshop, isSeparator = true }: {
             day: "numeric",
             hour: "2-digit",
             minute: "2-digit",
-            timeZone: "Europe/Warsaw", // jeśli chcesz lokalnie w Polsce
+            // timeZone: "Europe/Warsaw", // jeśli chcesz lokalnie w Polsce
         });
     };
 
@@ -30,7 +30,7 @@ export default function WorkshopCard({ workshop, isSeparator = true }: {
 
             <text className={s.company}>{workshop.company.name}</text>
 
-            <text className={s.description}>{workshop.longDescription}</text>
+            <text className={s.description}>{workshop.shortDescription || workshop.longDescription}</text>
 
             <div className={s.details}>
                 <div className={s.detailsLi}>
