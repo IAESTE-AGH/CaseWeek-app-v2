@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className={s.footerContainer}>
       <ul className={s.iconsList}>
         {FOOTER_ICONS.map((icon, index) => (
-          <a href={icon.link}>
+          <a href={icon.link} key={index} target="_blank" rel="noreferrer">
             <li
               className={clsx(s.iconsListItem, {
                 [s.mediaItem]: index !== 2,

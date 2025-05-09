@@ -18,19 +18,19 @@ export default function WorkshopCard({ workshop, isSeparator = true }: {
             day: "numeric",
             hour: "2-digit",
             minute: "2-digit",
-            timeZone: "Europe/Warsaw", // jeśli chcesz lokalnie w Polsce
+            // timeZone: "Europe/Warsaw", // jeśli chcesz lokalnie w Polsce
         });
     };
 
     return <div key={workshop.id} className={s.card}>
         <div className={s.displayCard}>
-            <img src={workshop.company.logoUrl} alt="Workshop" className={s.image} />
+            <img src={workshop.company.logoUrl} alt={`${workshop.company.name} logo`} className={s.image} />
 
-            <text className={s.workshopTitle}>{workshop.title}</text>
+            <span className={s.workshopTitle}>{workshop.title}</span>
 
-            <text className={s.company}>{workshop.company.name}</text>
+            <span className={s.company}>{workshop.company.name}</span>
 
-            <text className={s.description}>{workshop.longDescription}</text>
+            <span className={s.description}>{workshop.shortDescription || workshop.longDescription}</span>
 
             <div className={s.details}>
                 <div className={s.detailsLi}>

@@ -4,16 +4,27 @@ import s from "./WorkshopsList.module.scss";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import WorkshopCard from "./WorkshopCard";
+import { useNavigate } from "@tanstack/react-router";
 
 const WorkshopsList = () => {
+  const navigate = useNavigate({ from: "/workshops" });
   const [selectedUniversity, setSelectedUniversity] = useState("");
   const [selectedField, setSelectedField] = useState("");
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(Number(new URLSearchParams(window.location.search).get('page')) || 1);
   const itemsPerPage = 5; // Możesz zmienić liczbę warsztatów na stronie
 
   useEffect(() => {
-    setCurrentPage(1);
+    if (selectedField !== "" || selectedUniversity !== "") {
+      setCurrentPage(1);
+    }
   }, [selectedUniversity, selectedField]);
+
+  useEffect(() => {
+    console.log("Current page:", currentPage);
+    navigate({
+      search: () => ({ page: currentPage }),
+    })
+  }, [currentPage]);
 
   // Pobieranie unikalnych uczelni
   const universities = [
@@ -117,7 +128,7 @@ const WorkshopsList = () => {
   return (
     <section className={s.all}>
       <div className={s.titleAndfiltersContainer}>
-        <text className={s.siteTitle}>Warsztaty</text>
+        <span className={s.siteTitle}>Warsztaty</span>
 
         <div className={s.aligner}>
           <div className={s.filters}>
@@ -194,7 +205,7 @@ const WorkshopsList = () => {
 
       <div className={s.workshopsWrapper}>
         {paginatedWorkshops.map((workshop, index) => (
-          <WorkshopCard workshop={workshop} isSeparator={index < paginatedWorkshops.length - 1} />
+          <WorkshopCard workshop={workshop} isSeparator={index < paginatedWorkshops.length - 1} key={index} />
         ))}
       </div>
 

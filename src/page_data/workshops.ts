@@ -13,14 +13,13 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Przedsiębiorstwo Robót Inżynieryjnych INKOP Sp. z o.o., z siedzibą w Krakowie, specjalizuje się w kompleksowym budownictwie inżynieryjnym, ze szczególnym uwzględnieniem technologii bezwykopowych, takich jak mikrotuneling, przewierty sterowane i przeciski pneumatyczne, oferując również wynajem specjalistycznego sprzętu budowlanego.",
       displayPriority: 1,
-      published: true,
     },
     university: {
       id: "f73b51c8-924c-4963-8b3b-68cf7d8b847e",
       name: "Akademia Górniczo-Hutnicza w Krakowie",
     },
     title: "Mikrotuneling i inne technologie bezwykopowe w budownictwie inżynieryjnym",
-    startsAt: "2025-05-29T00:00:00Z",
+    startsAt: "2025-05-29T00:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Warsztat Mikrotuneling i inne technologie bezwykopowe w budownictwie inżynieryjnym ma na celu przybliżenie uczestnikom nowoczesnych metod realizacji inwestycji infrastrukturalnych. Warsztat prowadzony będzie przez specjalistę z branży, a jego część praktyczna umożliwi zapoznanie się z przykładami projektów realizowanych przy użyciu omawianych technologii. \n\nLiczba prelegentów: 1–2\nCzas trwania: 1–2 godziny\nOptymalna liczba uczestników: dowolna\nPreferowani uczestnicy: studenci dwóch ostatnich lat kierunków:\n-Geoinżynieria i Górnictwo Otworowe\n–Geotechnologie Otworowe\n–Inżynieria i Ochrona Środowiska\n\nGodziny warsztatu pojawią się w najbliższych dniach.",
@@ -33,6 +32,8 @@ export const WORKSHOPS: Workshop[] = [
       { id: "89399a6d-7156-4226-8b9a-ae39b3a6e2b6", name: "Geotechnologie Otworowe" },
       { id: "c0a89c59-157a-4622-a443-47c24ef4c697", name: "Inżynieria i Ochrona Środowiska" }
     ],
+    registrationLink: "https://forms.office.com/e/jLyMTRKU78",
+    registrationEndsAt: "2025-05-23T23:59:59+02:00",
   },
   
   {
@@ -46,14 +47,13 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Międzynarodowa grupa kapitałowa z branży paliwowo-energetycznej, od lat uznawana za najcenniejszą polską markę i jedyną z Polski w rankingu „Fortune 500”; lider krajowych zestawień, wyróżniana za etykę i politykę pracowniczą (Top Employers Polska).",
       displayPriority: 2,
-      published: true,
     },
     university: {
       id: "7ae69b1e-dbd5-4ec9-843f-d41ff158456a",
       name: "Politechnika Warszawska",
     },
     title: "Jak w energetyce zarabiają pieniądze? 6 wniosków na temat stanu rynku energii w Polsce",
-    startsAt: "2025-06-06T10:00:00Z",
+    startsAt: "2025-06-06T10:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Warsztat przybliży podstawowe mechanizmy funkcjonowania rynku energii elektrycznej w Polsce – od produkcji po sprzedaż. Uczestnicy dowiedzą się, kto zarabia na energii, jak kształtują się ceny oraz jakie czynniki wpływają na rentowność firm energetycznych. Spotkanie zakończy się kluczowymi wnioskami o stanie polskiego rynku energii.",
@@ -69,7 +69,9 @@ export const WORKSHOPS: Workshop[] = [
       { id: "c283aad0-f249-48d1-9b5d-fb8db91f5981", name: "Wydział Instalacji Budowlanych, Hydrotechniki i Inżynierii Środowiska" },
       { id: "c72b36ed-e826-4537-87b4-e7e1e8f54c0c", name: "Wydział Inżynierii Materiałowej" },
       { id: "4c462784-f17c-4a6b-bbff-cae0baf62c21", name: "Wydział Inżynierii Chemicznej i Procesowej" }
-    ]
+    ],
+    registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -84,14 +86,13 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Valeo jest niezależną grupą spółek o zasięgu globalnym, której działalność koncentruje się na projektowaniu, produkcji i sprzedaży: komponentów, systemów zintegrowanych i modułów dla pojazdów samochodowych ukierunkowanych głównie na redukcję emisji CO2. Valeo zatrudnia obecnie 91 800 pracowników w ponad 32 krajach na całym świecie. Posiadamy 155 zakładów produkcyjnych, 58 centrów badań i rozwoju oraz 15 platform dystrybucyjnych. Firma powstała w 1923 roku pod nazwą SAFF. Kultura korporacyjna Valeo opiera się na dążeniu do doskonałości w produkcji dzięki najwyższemu poziomowi jakości oraz aktywnie stosowanym przez cały personel kluczowym wartościom, takim jak etyka, przejrzystość w działaniu, delegowanie uprawnień, profesjonalizm oraz praca zespołowa. Mając silne poczucie odpowiedzialności społecznej i ekologicznej - Grupa Valeo podpisała deklarację Społecznej Odpowiedzialności Biznesu (CSR). To oznacza, że w swojej działalności wdraża strategię trwałego i zrównoważonego rozwoju dążąc do zachowania spójności celów ekonomicznych, środowiskowych i społecznych. Jako globalna organizacja – Grupa Valeo ma wpisane w swoją filozofię działania także otwarcie na różnorodność, która dotyczy obszarów różnic kulturowych, zdrowotnych, płci oraz pokoleniowych.",
       displayPriority: 3,
-      published: true,
     },
     university: {
       id: "f73b51c8-924c-4963-8b3b-68cf7d8b847e",
       name: "Akademia Górniczo-Hutnicza w Krakowie",
     },
     title: "Step by Step",
-    startsAt: "2025-05-28T00:00:00Z",
+    startsAt: "2025-05-28T00:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Step by Step - Narzędzia lean w praktyce przy zarządzaniu firmą. Uczestnicy wcielają się w różne role w symulacji firmy produkcyjnej (dyrektor, logistyk, planista, operator, itp.) . Celem gry jest wygenerowanie zysku finansowego poprzez wdrażanie usprawnień. W ramach ćwiczenia uczestnicy poznają narzędzia Lean Management i będą je mogli wykorzystać w praktyce.\nTermin warsztatu: 28.05 i 29.05\nLiczba prelegentów: 2\nCzas trwania: 5–6 godzin\nOptymalna liczba uczestników: 10\nPreferowani uczestnicy: studenci ostatnich lat kierunków związanych z:\n– Zarządzaniem i inżynierią produkcji\n– Inżynierią procesową\n– Logistyką\n– Zarządzaniem\n– Automatyką i robotyką\n\nPrzerwa: 1 x 30–45 min (przerwa obiadowa)\n\nGodziny warsztatu pojawią się w najbliższych dniach.",
@@ -121,6 +122,8 @@ export const WORKSHOPS: Workshop[] = [
         name: "Automatyka i robotyka",
       },
     ],
+    registrationLink: "https://forms.office.com/e/jLyMTRKU78",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "649a0273-d945-414a-8c93-951f16217a98",
@@ -134,14 +137,13 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Valeo jest niezależną grupą spółek o zasięgu globalnym, której działalność koncentruje się na projektowaniu, produkcji i sprzedaży: komponentów, systemów zintegrowanych i modułów dla pojazdów samochodowych ukierunkowanych głównie na redukcję emisji CO2. Valeo zatrudnia obecnie 91 800 pracowników w ponad 32 krajach na całym świecie. Posiadamy 155 zakładów produkcyjnych, 58 centrów badań i rozwoju oraz 15 platform dystrybucyjnych. Firma powstała w 1923 roku pod nazwą SAFF. Kultura korporacyjna Valeo opiera się na dążeniu do doskonałości w produkcji dzięki najwyższemu poziomowi jakości oraz aktywnie stosowanym przez cały personel kluczowym wartościom, takim jak etyka, przejrzystość w działaniu, delegowanie uprawnień, profesjonalizm oraz praca zespołowa. Mając silne poczucie odpowiedzialności społecznej i ekologicznej - Grupa Valeo podpisała deklarację Społecznej Odpowiedzialności Biznesu (CSR). To oznacza, że w swojej działalności wdraża strategię trwałego i zrównoważonego rozwoju dążąc do zachowania spójności celów ekonomicznych, środowiskowych i społecznych. Jako globalna organizacja – Grupa Valeo ma wpisane w swoją filozofię działania także otwarcie na różnorodność, która dotyczy obszarów różnic kulturowych, zdrowotnych, płci oraz pokoleniowych.",
       displayPriority: 3,
-      published: true,
     },
     university: {
       id: "f73b51c8-924c-4963-8b3b-68cf7d8b847e",
       name: "Akademia Górniczo-Hutnicza w Krakowie",
     },
     title: "Step by Step",
-    startsAt: "2025-05-29T00:00:00Z",
+    startsAt: "2025-05-29T00:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Step by Step - Narzędzia lean w praktyce przy zarządzaniu firmą. Uczestnicy wcielają się w różne role w symulacji firmy produkcyjnej (dyrektor, logistyk, planista, operator, itp.) . Celem gry jest wygenerowanie zysku finansowego poprzez wdrażanie usprawnień. W ramach ćwiczenia uczestnicy poznają narzędzia Lean Management i będą je mogli wykorzystać w praktyce.\nTermin warsztatu: 28.05 i 29.05\nLiczba prelegentów: 2\nCzas trwania: 5–6 godzin\nOptymalna liczba uczestników: 10\nPreferowani uczestnicy: studenci ostatnich lat kierunków związanych z:\n– Zarządzaniem i inżynierią produkcji\n– Inżynierią procesową\n– Logistyką\n– Zarządzaniem\n– Automatyką i robotyką\n\nPrzerwa: 1 x 30–45 min (przerwa obiadowa)\n\nGodziny warsztatu pojawią się w najbliższych dniach.",
@@ -171,6 +173,8 @@ export const WORKSHOPS: Workshop[] = [
         name: "Automatyka i robotyka",
       },
     ],
+    registrationLink: "https://forms.office.com/e/jLyMTRKU78",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -185,14 +189,13 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Invest Komfort to trójmiejski deweloper działający od 1995 roku, specjalizujący się w realizacji inwestycji mieszkaniowych i usługowych w prestiżowych lokalizacjach Gdańska, Gdyni i Sopotu, zrealizował ponad 50 projektów obejmujących ponad 7 000 lokali o łącznej powierzchni przekraczającej 468 tys. m².",
       displayPriority: 2,
-      published: true,
     },
     university: {
       id: "d9783fc4-0be2-4467-b3f2-8175a3fcb08e",
       name: "Politechnika Gdańska",
     },
     title: "Praca w firmie budowlanej przy realizacji inwestycji mieszkaniowych marki premium",
-    startsAt: "2025-05-30T00:00:00Z",
+    startsAt: "2025-05-30T00:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Warsztat „Praca w firmie budowlanej przy realizacji inwestycji mieszkaniowych marki premium” poświęcony jest specyfice pracy na budowie przy realizacjach wysokiej klasy projektów mieszkaniowych.\n\nTermin warsztatu: 30.05/nLiczba prelegentów: 2\nCzas trwania: 2–3 godziny\nBrak ograniczeń liczby uczestników\nPreferowani uczestnicy: studenci kierunku:\n– Budownictwo\n– Konstrukcje Metalowe\n– Drogi (Wydział Inżynierii Lądowej i Środowiska – WILiŚ)\n\nPrzerwa: 15–30 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nGodziny warsztatu pojawią się w najbliższych dniach.",
@@ -214,6 +217,8 @@ export const WORKSHOPS: Workshop[] = [
         name: "Konstrukcje Drogi",
       },
     ],
+    registrationLink: "https://forms.office.com/e/x2r5iJYjC9",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -228,7 +233,6 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Collins Aerospace specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego. Siedziba firmy znajduje się w Charlotte w Północnej Karolinie, firma zatrudnia 78 000 pracowników w ponad 300 lokalizacjach na całym świecie, a w 2019 r. osiągnęła sprzedaż netto w wysokości 26 mld USD. Collins Aerospace to jedna z czterech firm tworzących Raytheon Technologies Corporation.",
       displayPriority: 3,
-      published: true,
     },
     university:
       {
@@ -236,7 +240,7 @@ export const WORKSHOPS: Workshop[] = [
         name: "Politechnika Wrocławska",
       },
     title: "Metodologia Problem Solving",
-    startsAt: "2025-06-06T09:00:00Z", 
+    startsAt: "2025-06-06T09:00:00+02:00", 
     shortDescription: "",
     longDescription:
       "Warsztat „Metodologia Problem Solving” koncentruje się na przedstawieniu praktycznych metod identyfikacji, analizy i rozwiązywania problemów technicznych i organizacyjnych w środowisku przemysłowym.\n\nTermin warsztatu: 02.06 (9-16)\nLiczba prelegentów: 3\nCzas trwania: 7 godzin\nLiczba uczestników: 20\nPreferowani uczestnicy: studenci IV i V roku kierunków:\n– Lotnictwo\n– Kosmonautyka\n– Mechanika i budowa maszyn\n– Zarządzanie produkcją\n– Materiałoznawstwo\nPrzerwa: 2 przerwy po 30 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych",
@@ -261,6 +265,8 @@ export const WORKSHOPS: Workshop[] = [
       { id: "fce6e7c4-1c02-4e09-bf1d-3289baf7ff70",
         name: "Materiałoznastwo" },
     ],
+    registrationLink: "https://forms.office.com/e/N63cVba2Kh",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -275,7 +281,6 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Collins Aerospace specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego. Siedziba firmy znajduje się w Charlotte w Północnej Karolinie, firma zatrudnia 78 000 pracowników w ponad 300 lokalizacjach na całym świecie, a w 2019 r. osiągnęła sprzedaż netto w wysokości 26 mld USD. Collins Aerospace to jedna z czterech firm tworzących Raytheon Technologies Corporation.",
       displayPriority: 3,
-      published: true,
     },
     university: 
       {
@@ -283,7 +288,7 @@ export const WORKSHOPS: Workshop[] = [
         name: "Politechnika Gdańska",
       },
     title: "Metodologia Problem Solving",
-    startsAt: "2025-06-02T09:00:00Z",
+    startsAt: "2025-06-02T09:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Warsztat „Metodologia Problem Solving” koncentruje się na przedstawieniu praktycznych metod identyfikacji, analizy i rozwiązywania problemów technicznych i organizacyjnych w środowisku przemysłowym.\n\nTermin warsztatu: 02.06 (9-16)\nLiczba prelegentów: 3\nCzas trwania: 7 godzin\nLiczba uczestników: 20\nPreferowani uczestnicy: studenci IV i V roku kierunków:\n– Lotnictwo\n– Kosmonautyka\n– Mechanika i budowa maszyn\n– Zarządzanie produkcją\n– Materiałoznawstwo\nPrzerwa: 2 przerwy po 30 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych",
@@ -308,6 +313,8 @@ export const WORKSHOPS: Workshop[] = [
       { id: "fce6e7c4-1c02-4e09-bf1d-3289baf7ff70",
         name: "Materiałoznastwo" },
     ],
+    registrationLink: "https://forms.office.com/e/x2r5iJYjC9",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -322,7 +329,6 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Collins Aerospace specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego. Siedziba firmy znajduje się w Charlotte w Północnej Karolinie, firma zatrudnia 78 000 pracowników w ponad 300 lokalizacjach na całym świecie, a w 2019 r. osiągnęła sprzedaż netto w wysokości 26 mld USD. Collins Aerospace to jedna z czterech firm tworzących Raytheon Technologies Corporation.",
       displayPriority: 3,
-      published: true,
     },
     university: 
       {
@@ -330,7 +336,7 @@ export const WORKSHOPS: Workshop[] = [
         name: "Politechnika Łódzka",
       },
     title: "Metodologia Problem Solving",
-    startsAt: "2025-06-03T09:00:00Z", 
+    startsAt: "2025-06-03T09:00:00+02:00", 
     shortDescription: "",
     longDescription:
       "Warsztat „Metodologia Problem Solving” koncentruje się na przedstawieniu praktycznych metod identyfikacji, analizy i rozwiązywania problemów technicznych i organizacyjnych w środowisku przemysłowym.\n\nTermin warsztatu: 02.06 (9-16)\nLiczba prelegentów: 3\nCzas trwania: 7 godzin\nLiczba uczestników: 20\nPreferowani uczestnicy: studenci IV i V roku kierunków:\n– Lotnictwo\n– Kosmonautyka\n– Mechanika i budowa maszyn\n– Zarządzanie produkcją\n– Materiałoznawstwo\nPrzerwa: 2 przerwy po 30 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych",
@@ -355,6 +361,8 @@ export const WORKSHOPS: Workshop[] = [
       { id: "fce6e7c4-1c02-4e09-bf1d-3289baf7ff70",
         name: "Materiałoznastwo" },
     ],
+    registrationLink: "https://forms.office.com/e/6jYHLmNtzZ",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -369,14 +377,13 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Dostarczamy kompleksowe rozwiązania telekomunikacyjne, budujemy infrastrukturę sieciową oraz realizujemy usługi bazujące na nowoczesnych systemach łączności bezprzewodowej. Świadczymy także usługi najmu powierzchni na kilkuset obiektach wysokościowych - wieżach i masztach.\nNasze usługi to: Broadcasting i media, Usługi i infrastruktura telekomunikacyjna, Bezpieczeństwo oraz Gospodarka Innowacyjna 4.0.\nNasza siłą jest pełen pasji i zaangażowania Zespół, który tworzą wysokiej klasy specjaliści z obszarów technicznych: radiodyfuzji, teletransmisji, GSM, teleinformatyki, projektowania, utrzymania i nadzoru sieci, zarządzania projektami inwestycyjnymi, jak również specjaliści z obszarów wspierających.\nEmitel jako pracodawca był wielokrotnie wyróżniany w ogólnopolskich konkursach. Zostaliśmy uhonorowani między innymi tytułami Solidnego Pracodawcy, Pracodawcy Przyjaznego Pracownikom, Pracodawcy Godnego Zaufania, Odpowiedzialnego i Przyjaznego Pracodawcy. Jesteśmy dwukrotnym laureatem programu Inwestor w Kapitał Ludzki. Po raz czwarty z rzędu z dumą odebraliśmy certyfikat TOP EMPLOYER POLSKA.\nEmitel z dumą wspiera również szereg inicjatyw społecznych oraz prowadzi projekty w obszarze środowiska naturalnego.",
       displayPriority: 4,
-      published: true,
     },
     university: {
       id: "f73b51c8-924c-4963-8b3b-68cf7d8b847e",
       name: "Akademia Górniczo-Hutnicza w Krakowie",
     },
     title: "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej. (Stacjonarnie)",
-    startsAt: "2025-06-03T09:00:00Z",
+    startsAt: "2025-06-03T10:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin warsztatu: 03.06.2025, godz. 10:00–13:00 (forma stacjonarna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPrzerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych",
@@ -385,6 +392,8 @@ export const WORKSHOPS: Workshop[] = [
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
+    registrationLink: "https://forms.office.com/e/jLyMTRKU78",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -399,7 +408,6 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Dostarczamy kompleksowe rozwiązania telekomunikacyjne, budujemy infrastrukturę sieciową oraz realizujemy usługi bazujące na nowoczesnych systemach łączności bezprzewodowej. Świadczymy także usługi najmu powierzchni na kilkuset obiektach wysokościowych - wieżach i masztach.\nNasze usługi to: Broadcasting i media, Usługi i infrastruktura telekomunikacyjna, Bezpieczeństwo oraz Gospodarka Innowacyjna 4.0.\nNasza siłą jest pełen pasji i zaangażowania Zespół, który tworzą wysokiej klasy specjaliści z obszarów technicznych: radiodyfuzji, teletransmisji, GSM, teleinformatyki, projektowania, utrzymania i nadzoru sieci, zarządzania projektami inwestycyjnymi, jak również specjaliści z obszarów wspierających.\nEmitel jako pracodawca był wielokrotnie wyróżniany w ogólnopolskich konkursach. Zostaliśmy uhonorowani między innymi tytułami Solidnego Pracodawcy, Pracodawcy Przyjaznego Pracownikom, Pracodawcy Godnego Zaufania, Odpowiedzialnego i Przyjaznego Pracodawcy. Jesteśmy dwukrotnym laureatem programu Inwestor w Kapitał Ludzki. Po raz czwarty z rzędu z dumą odebraliśmy certyfikat TOP EMPLOYER POLSKA.\nEmitel z dumą wspiera również szereg inicjatyw społecznych oraz prowadzi projekty w obszarze środowiska naturalnego.",
       displayPriority: 4,
-      published: true,
     },
     university:
       {
@@ -408,15 +416,17 @@ export const WORKSHOPS: Workshop[] = [
       },
       
     title: "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej. (Zdalnie)",
-    startsAt: "2024-09-15T10:00:00Z",
+    startsAt: "2025-05-28T10:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
+    registrationLink: "https://forms.office.com/e/jLyMTRKU78",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "95edb25b-c487-4337-aa00-0e95fd102ec8",
@@ -430,7 +440,6 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Dostarczamy kompleksowe rozwiązania telekomunikacyjne, budujemy infrastrukturę sieciową oraz realizujemy usługi bazujące na nowoczesnych systemach łączności bezprzewodowej. Świadczymy także usługi najmu powierzchni na kilkuset obiektach wysokościowych - wieżach i masztach.\nNasze usługi to: Broadcasting i media, Usługi i infrastruktura telekomunikacyjna, Bezpieczeństwo oraz Gospodarka Innowacyjna 4.0.\nNasza siłą jest pełen pasji i zaangażowania Zespół, który tworzą wysokiej klasy specjaliści z obszarów technicznych: radiodyfuzji, teletransmisji, GSM, teleinformatyki, projektowania, utrzymania i nadzoru sieci, zarządzania projektami inwestycyjnymi, jak również specjaliści z obszarów wspierających.\nEmitel jako pracodawca był wielokrotnie wyróżniany w ogólnopolskich konkursach. Zostaliśmy uhonorowani między innymi tytułami Solidnego Pracodawcy, Pracodawcy Przyjaznego Pracownikom, Pracodawcy Godnego Zaufania, Odpowiedzialnego i Przyjaznego Pracodawcy. Jesteśmy dwukrotnym laureatem programu Inwestor w Kapitał Ludzki. Po raz czwarty z rzędu z dumą odebraliśmy certyfikat TOP EMPLOYER POLSKA.\nEmitel z dumą wspiera również szereg inicjatyw społecznych oraz prowadzi projekty w obszarze środowiska naturalnego.",
       displayPriority: 4,
-      published: true,
     },
     university: 
       {
@@ -438,15 +447,17 @@ export const WORKSHOPS: Workshop[] = [
         name: "Politechnika Wrocławska",
       },
     title: "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej. (Zdalnie)",
-    startsAt: "2024-09-15T10:00:00Z",
+    startsAt: "2025-05-28T10:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
+    registrationLink: "https://forms.office.com/e/N63cVba2Kh",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "116be4ba-043f-429d-9ad7-ef0c1eeb8657",
@@ -460,7 +471,6 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Dostarczamy kompleksowe rozwiązania telekomunikacyjne, budujemy infrastrukturę sieciową oraz realizujemy usługi bazujące na nowoczesnych systemach łączności bezprzewodowej. Świadczymy także usługi najmu powierzchni na kilkuset obiektach wysokościowych - wieżach i masztach.\nNasze usługi to: Broadcasting i media, Usługi i infrastruktura telekomunikacyjna, Bezpieczeństwo oraz Gospodarka Innowacyjna 4.0.\nNasza siłą jest pełen pasji i zaangażowania Zespół, który tworzą wysokiej klasy specjaliści z obszarów technicznych: radiodyfuzji, teletransmisji, GSM, teleinformatyki, projektowania, utrzymania i nadzoru sieci, zarządzania projektami inwestycyjnymi, jak również specjaliści z obszarów wspierających.\nEmitel jako pracodawca był wielokrotnie wyróżniany w ogólnopolskich konkursach. Zostaliśmy uhonorowani między innymi tytułami Solidnego Pracodawcy, Pracodawcy Przyjaznego Pracownikom, Pracodawcy Godnego Zaufania, Odpowiedzialnego i Przyjaznego Pracodawcy. Jesteśmy dwukrotnym laureatem programu Inwestor w Kapitał Ludzki. Po raz czwarty z rzędu z dumą odebraliśmy certyfikat TOP EMPLOYER POLSKA.\nEmitel z dumą wspiera również szereg inicjatyw społecznych oraz prowadzi projekty w obszarze środowiska naturalnego.",
       displayPriority: 4,
-      published: true,
     },
     university:
       {
@@ -468,15 +478,17 @@ export const WORKSHOPS: Workshop[] = [
         name: "Politechnika Gdańska",
       },
     title: "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej. (Zdalnie)",
-    startsAt: "2024-09-15T10:00:00Z",
+    startsAt: "2025-05-28T10:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
+    registrationLink: "https://forms.office.com/e/x2r5iJYjC9",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "11a745e6-0259-4266-af38-918349348e9c",
@@ -490,7 +502,6 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Dostarczamy kompleksowe rozwiązania telekomunikacyjne, budujemy infrastrukturę sieciową oraz realizujemy usługi bazujące na nowoczesnych systemach łączności bezprzewodowej. Świadczymy także usługi najmu powierzchni na kilkuset obiektach wysokościowych - wieżach i masztach.\nNasze usługi to: Broadcasting i media, Usługi i infrastruktura telekomunikacyjna, Bezpieczeństwo oraz Gospodarka Innowacyjna 4.0.\nNasza siłą jest pełen pasji i zaangażowania Zespół, który tworzą wysokiej klasy specjaliści z obszarów technicznych: radiodyfuzji, teletransmisji, GSM, teleinformatyki, projektowania, utrzymania i nadzoru sieci, zarządzania projektami inwestycyjnymi, jak również specjaliści z obszarów wspierających.\nEmitel jako pracodawca był wielokrotnie wyróżniany w ogólnopolskich konkursach. Zostaliśmy uhonorowani między innymi tytułami Solidnego Pracodawcy, Pracodawcy Przyjaznego Pracownikom, Pracodawcy Godnego Zaufania, Odpowiedzialnego i Przyjaznego Pracodawcy. Jesteśmy dwukrotnym laureatem programu Inwestor w Kapitał Ludzki. Po raz czwarty z rzędu z dumą odebraliśmy certyfikat TOP EMPLOYER POLSKA.\nEmitel z dumą wspiera również szereg inicjatyw społecznych oraz prowadzi projekty w obszarze środowiska naturalnego.",
       displayPriority: 4,
-      published: true,
     },
     university:
       {
@@ -498,15 +509,17 @@ export const WORKSHOPS: Workshop[] = [
         name: "Politechnika Rzeszowska",
       },
     title: "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej. (Zdalnie)",
-    startsAt: "2024-09-15T10:00:00Z",
+    startsAt: "2025-05-28T10:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
+    registrationLink: "https://forms.office.com/e/bn9VXV9dcA",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "09088e92-ec6e-4bf7-8f47-9ec22b2437a9",
@@ -520,7 +533,6 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Dostarczamy kompleksowe rozwiązania telekomunikacyjne, budujemy infrastrukturę sieciową oraz realizujemy usługi bazujące na nowoczesnych systemach łączności bezprzewodowej. Świadczymy także usługi najmu powierzchni na kilkuset obiektach wysokościowych - wieżach i masztach.\nNasze usługi to: Broadcasting i media, Usługi i infrastruktura telekomunikacyjna, Bezpieczeństwo oraz Gospodarka Innowacyjna 4.0.\nNasza siłą jest pełen pasji i zaangażowania Zespół, który tworzą wysokiej klasy specjaliści z obszarów technicznych: radiodyfuzji, teletransmisji, GSM, teleinformatyki, projektowania, utrzymania i nadzoru sieci, zarządzania projektami inwestycyjnymi, jak również specjaliści z obszarów wspierających.\nEmitel jako pracodawca był wielokrotnie wyróżniany w ogólnopolskich konkursach. Zostaliśmy uhonorowani między innymi tytułami Solidnego Pracodawcy, Pracodawcy Przyjaznego Pracownikom, Pracodawcy Godnego Zaufania, Odpowiedzialnego i Przyjaznego Pracodawcy. Jesteśmy dwukrotnym laureatem programu Inwestor w Kapitał Ludzki. Po raz czwarty z rzędu z dumą odebraliśmy certyfikat TOP EMPLOYER POLSKA.\nEmitel z dumą wspiera również szereg inicjatyw społecznych oraz prowadzi projekty w obszarze środowiska naturalnego.",
       displayPriority: 4,
-      published: true,
     },
     university:
       {
@@ -528,15 +540,17 @@ export const WORKSHOPS: Workshop[] = [
         name: "Politechnika Śląska", 
       },
     title: "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej. (Zdalnie)",
-    startsAt: "2024-09-15T10:00:00Z",
+    startsAt: "2025-05-28T10:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
+    registrationLink: "https://forms.office.com/e/0BvAs4QuAe",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "3b55f071-b06e-4cf2-95b9-4c09b376a85d",
@@ -550,7 +564,6 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Dostarczamy kompleksowe rozwiązania telekomunikacyjne, budujemy infrastrukturę sieciową oraz realizujemy usługi bazujące na nowoczesnych systemach łączności bezprzewodowej. Świadczymy także usługi najmu powierzchni na kilkuset obiektach wysokościowych - wieżach i masztach.\nNasze usługi to: Broadcasting i media, Usługi i infrastruktura telekomunikacyjna, Bezpieczeństwo oraz Gospodarka Innowacyjna 4.0.\nNasza siłą jest pełen pasji i zaangażowania Zespół, który tworzą wysokiej klasy specjaliści z obszarów technicznych: radiodyfuzji, teletransmisji, GSM, teleinformatyki, projektowania, utrzymania i nadzoru sieci, zarządzania projektami inwestycyjnymi, jak również specjaliści z obszarów wspierających.\nEmitel jako pracodawca był wielokrotnie wyróżniany w ogólnopolskich konkursach. Zostaliśmy uhonorowani między innymi tytułami Solidnego Pracodawcy, Pracodawcy Przyjaznego Pracownikom, Pracodawcy Godnego Zaufania, Odpowiedzialnego i Przyjaznego Pracodawcy. Jesteśmy dwukrotnym laureatem programu Inwestor w Kapitał Ludzki. Po raz czwarty z rzędu z dumą odebraliśmy certyfikat TOP EMPLOYER POLSKA.\nEmitel z dumą wspiera również szereg inicjatyw społecznych oraz prowadzi projekty w obszarze środowiska naturalnego.",
       displayPriority: 4,
-      published: true,
     },
     university: 
       {
@@ -558,15 +571,17 @@ export const WORKSHOPS: Workshop[] = [
         name: "Politechnika Warszawska", 
       },
     title: "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej. (Zdalnie)",
-    startsAt: "2024-09-15T10:00:00Z",
+    startsAt: "2025-05-28T10:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
+    registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "cfea3e74-4373-4053-938e-621c99a9da39",
@@ -580,7 +595,6 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Dostarczamy kompleksowe rozwiązania telekomunikacyjne, budujemy infrastrukturę sieciową oraz realizujemy usługi bazujące na nowoczesnych systemach łączności bezprzewodowej. Świadczymy także usługi najmu powierzchni na kilkuset obiektach wysokościowych - wieżach i masztach.\nNasze usługi to: Broadcasting i media, Usługi i infrastruktura telekomunikacyjna, Bezpieczeństwo oraz Gospodarka Innowacyjna 4.0.\nNasza siłą jest pełen pasji i zaangażowania Zespół, który tworzą wysokiej klasy specjaliści z obszarów technicznych: radiodyfuzji, teletransmisji, GSM, teleinformatyki, projektowania, utrzymania i nadzoru sieci, zarządzania projektami inwestycyjnymi, jak również specjaliści z obszarów wspierających.\nEmitel jako pracodawca był wielokrotnie wyróżniany w ogólnopolskich konkursach. Zostaliśmy uhonorowani między innymi tytułami Solidnego Pracodawcy, Pracodawcy Przyjaznego Pracownikom, Pracodawcy Godnego Zaufania, Odpowiedzialnego i Przyjaznego Pracodawcy. Jesteśmy dwukrotnym laureatem programu Inwestor w Kapitał Ludzki. Po raz czwarty z rzędu z dumą odebraliśmy certyfikat TOP EMPLOYER POLSKA.\nEmitel z dumą wspiera również szereg inicjatyw społecznych oraz prowadzi projekty w obszarze środowiska naturalnego.",
       displayPriority: 4,
-      published: true,
     },
     university: 
       {
@@ -589,15 +603,17 @@ export const WORKSHOPS: Workshop[] = [
       },
     
     title: "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej. (Zdalnie)",
-    startsAt: "2024-09-15T10:00:00Z",
+    startsAt: "2025-05-28T10:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
-    address: "789 Elm Street, Technocity, USA",
+    address: "Zdalnie",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
+    registrationLink: "https://forms.office.com/e/6jYHLmNtzZ",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -612,14 +628,13 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         " Allegro powstało w 1999 roku w Poznaniu. Dziś mamy biura także w Warszawie, Toruniu, Krakowie i Wrocławiu. Niedługo także w Katowicach, Łodzi, Lublinie i Gdańsku. Początkowo firma tworzona przez kilka osób znajdowała się w piwnicy hurtowni komputerowej, a pierwsza wersja serwisu mieściła się na jednej dyskietce. To były czasy, kiedy rynek e-commerce w Polsce dopiero raczkował, a Allegro odegrało jedną z głównych ról w jego rozwoju. Od tamtej pory przeszliśmy ogromną metamorfozę: z serwisu aukcyjnego dla hobbystów do najpopularniejszego miejsca internetowych zakupów. Obecnie  jesteśmy jedną z największych firm handlowych w Polsce i Europie oraz znajdujemy się na liście TOP 10 największych firm e-commerce na świecie!\nAktualnie zatrudniamy blisko 4000 osób, z czego niemal połowa to najwyższej klasy specjaliści w obszarze technologii!",
       displayPriority: 2,
-      published: true,
     },
     university: {
       id: "7ae69b1e-dbd5-4ec9-843f-d41ff158456a",
       name: "Politechnika Warszawska",
     },
     title: "JetBrains IDE - beyond the shift-shift",
-    startsAt: "2025-06-05T17:00:00Z",
+    startsAt: "2025-06-05T17:00:00+02:00",
     shortDescription: "",
     longDescription:
       "JetBrains IDE – beyond the shift-shift\nWarsztat dla osób, które chcą w pełni wykorzystać możliwości środowiska JetBrains. Uczestnicy poznają zaawansowane funkcje, skróty i pluginy, które znacząco przyspieszają pracę z kodem – wszystko poza standardowym „shift-shift”. Spotkanie skierowane jest do studentów programowania, którzy chcą pracować szybciej, efektywniej i bardziej profesjonalnie.\nWymagania: własny laptop z zainstalowanym środowiskiem JetBrains w wersji Community lub Ultimate oraz dobrze by było posiadać umiejętność napisania pętli lub prostej funkcji. (będziemy kodować).",
@@ -628,6 +643,8 @@ export const WORKSHOPS: Workshop[] = [
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
+    registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -642,14 +659,13 @@ export const WORKSHOPS: Workshop[] = [
       longDescription:
         "Philips to holenderska firma, globalny lider w dziedzinie technologii dla sektora ochrony zdrowia i producent elektroniki użytkowej. Obecnie Philips jest znany z innowacyjnych rozwiązań w dziedzinie zdrowia, oświetlenia, a także elektroniki użytkowej, w tym urządzeń RTV, AGD i sprzętu do pielęgnacji ciała",
       displayPriority: 3,
-      published: true,
     },
     university: {
       id: "7ae69b1e-dbd5-4ec9-843f-d41ff158456a",
       name: "Politechnika Warszawska",
     },
     title: "Digitalizacja w służbie zdrowia",
-    startsAt: "2025-06-02T09:30:00Z",
+    startsAt: "2025-06-02T09:30:00+02:00",
     shortDescription: "",
     longDescription:
       "Digitalizacja w służbie zdrowia\nWarsztat poświęcony roli nowoczesnych technologii w systemie ochrony zdrowia. Uczestnicy poznają przykłady cyfrowych rozwiązań wspierających lekarzy, pacjentów i administrację – od e-recept po systemy do analizy danych medycznych. Porozmawiamy o korzyściach, wyzwaniach i przyszłości digitalizacji w sektorze medycznym.",
@@ -664,6 +680,8 @@ export const WORKSHOPS: Workshop[] = [
       { id: "e2b79d3d-b93e-4b5f-9e57-96cdb006bb5e", name: "Automatyka i robotyka" },
       { id: "11121314-1516-1718-1920-212223242526", name: "Biotechnologia" }
     ],
+    registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 ];
 
