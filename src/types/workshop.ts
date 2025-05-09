@@ -41,5 +41,5 @@ export type Workshop = {
   propositions?: {
     id: string[];
   };
-  registrationLink: RegistrationLink;
+  registrationLink?: RegistrationLink;
 };

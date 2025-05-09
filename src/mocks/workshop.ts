@@ -13,7 +13,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "Tech Solutions Inc. specializes in developing innovative software products for various industries.",
       displayPriority: 1,
-      published: true,
     },
     university: {
       id: "f73b51c8-924c-4963-8b3b-68cf7d8b847e",
@@ -59,7 +58,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "Innovate Labs focuses on cutting-edge technologies and innovative solutions to solve complex problems.",
       displayPriority: 2,
-      published: true,
     },
     university: {
       id: "7ae69b1e-dbd5-4ec9-843f-d41ff158456a",
@@ -109,7 +107,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "Tech Academy provides hands-on training in various programming languages, frameworks, and technologies.",
       displayPriority: 3,
-      published: true,
     },
     university: {
       id: "4f83a6d6-5087-4da3-9c72-fd7bbaf5b7c5",
@@ -155,7 +152,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "Data Solutions Ltd. offers a range of services including data warehousing, business intelligence, and data visualization.",
       displayPriority: 2,
-      published: true,
     },
     university: {
       id: "d9783fc4-0be2-4467-b3f2-8175a3fcb08e",
@@ -208,7 +204,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "AI Innovations Inc. is dedicated to pushing the boundaries of AI technology and applying it to solve real-world problems.",
       displayPriority: 3,
-      published: true,
     },
     university: {
       id: "a22fcf40-9f6e-4e7e-b92e-85b9d4ac6524",
@@ -258,7 +253,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "TechHub offers co-working spaces, networking events, and resources to support tech startups and professionals.",
       displayPriority: 4,
-      published: true,
     },
     university: {
       id: "8ef06ecb-d91b-4b11-93af-255879f46bc8",
@@ -305,7 +299,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "CodeCrafters Ltd. offers coding bootcamps, workshops, and online courses for aspiring developers.",
       displayPriority: 1,
-      published: true,
     },
     university: {
       id: "09876543-21ba-4321-a987-654321098765",
@@ -354,7 +347,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "TechGenius Solutions helps businesses leverage technology to drive growth and innovation.",
       displayPriority: 2,
-      published: true,
     },
     university: {
       id: "321cba98-7654-3210-ba98-76543210cba9",
@@ -401,7 +393,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "InnovateTech Labs conducts research and development in emerging technologies to create solutions for the future.",
       displayPriority: 3,
-      published: true,
     },
     university: {
       id: "4321dcba-9876-4321-dcba-9876543210dc",
