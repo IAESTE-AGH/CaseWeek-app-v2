@@ -683,6 +683,114 @@ export const WORKSHOPS: Workshop[] = [
     registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
     registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
+  
+  {
+    id: "a7f9c3b2-d1e4-f6g7-h8i9-j0k1l2m3n4o",
+    company: {
+      id: "56fde7e5-ef45-4a0f-99f1-65cb6b11847b",
+      name: "VALEO AUTOSYSTEMY SP. Z O.O.",
+      logoUrl: "https://www.valeo.com/wp-content/uploads/2022/12/valeo-logo-rvb_600x327_acf_cropped.png",
+      websiteUrl: "https://www.valeo.com/pl/polska/",
+      shortDescription:
+      "Valeo jest niezależną grupą spółek o zasięgu globalnym, której działalność koncentruje się na projektowaniu, produkcji i sprzedaży: komponentów, systemów zintegrowanych i modułów dla pojazdów samochodowych ukierunkowanych głównie na redukcję emisji CO2.",
+      longDescription:
+      "Valeo jest niezależną grupą spółek o zasięgu globalnym, której działalność koncentruje się na projektowaniu, produkcji i sprzedaży: komponentów, systemów zintegrowanych i modułów dla pojazdów samochodowych ukierunkowanych głównie na redukcję emisji CO2. Valeo zatrudnia obecnie 91 800 pracowników w ponad 32 krajach na całym świecie. Posiadamy 155 zakładów produkcyjnych, 58 centrów badań i rozwoju oraz 15 platform dystrybucyjnych. Firma powstała w 1923 roku pod nazwą SAFF. Kultura korporacyjna Valeo opiera się na dążeniu do doskonałości w produkcji dzięki najwyższemu poziomowi jakości oraz aktywnie stosowanym przez cały personel kluczowym wartościom, takim jak etyka, przejrzystość w działaniu, delegowanie uprawnień, profesjonalizm oraz praca zespołowa. Mając silne poczucie odpowiedzialności społecznej i ekologicznej - Grupa Valeo podpisała deklarację Społecznej Odpowiedzialności Biznesu (CSR). To oznacza, że w swojej działalności wdraża strategię trwałego i zrównoważonego rozwoju dążąc do zachowania spójności celów ekonomicznych, środowiskowych i społecznych. Jako globalna organizacja – Grupa Valeo ma wpisane w swoją filozofię działania także otwarcie na różnorodność, która dotyczy obszarów różnic kulturowych, zdrowotnych, płci oraz pokoleniowych.",
+      displayPriority: 3,
+    },
+    university: {
+      id: "f73b51c8-924c-4963-8b3b-68cf7d8b847e",
+      name: "Akademia Górniczo-Hutnicza w Krakowie",
+    },
+    title: "Jak skomplikowanym produktem są wycieraczki?",
+    status: "PUBLISHED",
+    startsAt: "2025-05-28T09:00:00+02:00",
+    registrationEndsAt: "2025-05-28T08:00:00+02:00",
+    shortDescription: "Cel:\nUczestnicy zrozumieją wymagania stawiane projektantom w branży automotive i poznają wyzwania dla inżynierów.",
+    longDescription:
+      "Jak skomplikowanym produktem są wycieraczki?\nCel:\nUczestnicy zrozumieją wymagania stawiane projektantom w branży automotive i poznają wyzwania dla inżynierów.\n\nCzas trwania: Od 9 do 13\n\nPrezentacja i warsztaty w podgrupach.\nI. Prezentacja - Valeo na świecie, w Polsce i w Skawinie\nII. Produkt - część warsztatowa\nII 1. Z czego się składa system wycieraczek? (od prostego po bardzo skomplikowany).\nModele wycieraczek. Materiały i technologie używane w automotive.\nII 2. Jak produkt wpływa na kontrybutorów rozwoju produktu, ważne zależności.\nCo nam determinuje projekt systemu wycieraczek? (warunki brzegowe).\nIII. Złożoność produktu, a kompetencje pracowników. Jaki to ma wpływ na strukturę Działu R&D?\nIV. Kompetencje przyszłości i wyzwania branży. Automotive \nregulacje prawne i środowiskowe.\n\nForma: prezentacja, burza mózgów i quizy.\n\nWynik:\nPo warsztacie na AGH każdy z uczestników powinien posiadać zakres wiedzy - co wchodzi w skład systemu wycieraczek, jak skomplikowanie produktu ma wpływ na kompetencje i role potrzebne w organizacji, jakie są tendencje i trendy na rynku.",
+    address: "Warsztat odbędzie się na uczelni",
+    capacity: 30,
+    durationMinutes: 240,
+    emailTextCandidate:
+      "Dziękujemy za rejestracje na warsztat. Po zakwalifikowaniu otrzymasz oddzielnego maila.",
+    emailTextQualified:
+      "Gratulację! \n\nZakwalifikowano cię na warsztat. \n\nDo zobaczenia ",
+      minYearOfStudy: null,
+      maxYearOfStudy: null,
+      preferableFieldsOfStudy: null,
+      registrationLink: "https://forms.office.com/e/jLyMTRKU78",
+  },
+
+  {
+    id: "e139f8c4-1d1e-47af-81e7-9dd9ce7040cb",
+    company: {
+      id: "94a4d02a-59d2-45a3-9830-d3d928a3d89d",
+      name: "ORLEN Termika S.A.",
+      logoUrl: "https://biznesalert.pl/wp-content/uploads/2025/01/Zdjecie-WhatsApp-2025-01-15-o-12.22.26_5dd7fb99.jpg",
+      websiteUrl: "https://termika.orlen.pl/",
+      shortDescription: "Międzynarodowa grupa kapitałowa z branży paliwowo-energetycznej, od dziewięciu lat nieprzerwanie uznawana za najcenniejszą polską markę.",
+      longDescription:
+        "Międzynarodowa grupa kapitałowa z branży paliwowo-energetycznej, od lat uznawana za najcenniejszą polską markę i jedyną z Polski w rankingu „Fortune 500”; lider krajowych zestawień, wyróżniana za etykę i politykę pracowniczą (Top Employers Polska).",
+      displayPriority: 2,
+    },
+    university: {
+      id: "7ae69b1e-dbd5-4ec9-843f-d41ff158456a",
+      name: "Politechnika Warszawska",
+    },
+    title: "Optymalizacja pracy EC Siekierki w czasach transformacji – elastyczność i efektywność",
+    status: "PUBLISHED",
+    startsAt: "2025-05-28T10:00:00+02:00",
+    registrationEndsAt: "2025-05-28T09:00:00+02:00",
+    shortDescription: "Warsztat stacjonarny",
+    longDescription: "W obliczu zmiennych warunków rynkowych, rosnących kosztów emisji CO2 oraz integracji OZE, kluczowe staje się zwiększenie elastyczności pracy zakładu. Jakie strategie i technologie pozwalają zoptymalizować produkcję w warunkach zmniejszonego udziału węgla i rosnącego udziału gazu oraz ciepła odpadowego? ",
+    address: "Rektorska 4",
+    capacity: 30,
+    durationMinutes: 90,
+    emailTextCandidate:
+      "Dziękujemy za rejestracje na warsztat. Po zakwalifikowaniu otrzymasz oddzielnego maila.",
+    emailTextQualified:
+      "Gratulację! \n\nZakwalifikowano cię na warsztat. \n\nDo zobaczenia ",
+    minYearOfStudy: null,
+    maxYearOfStudy: null,
+    preferableFieldsOfStudy: null,
+    registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+  },
+
+  {
+    id: "2b7a5b3d-ae91-4f65-8cd6-2172a6e31ef8",
+    company: {
+      id: "94a4d02a-59d2-45a3-9830-d3d928a3d89d",
+      name: "ORLEN Termika S.A.",
+      logoUrl: "https://biznesalert.pl/wp-content/uploads/2025/01/Zdjecie-WhatsApp-2025-01-15-o-12.22.26_5dd7fb99.jpg",
+      websiteUrl: "https://termika.orlen.pl/",
+      shortDescription: "Międzynarodowa grupa kapitałowa z branży paliwowo-energetycznej, od dziewięciu lat nieprzerwanie uznawana za najcenniejszą polską markę.",
+      longDescription:
+        "Międzynarodowa grupa kapitałowa z branży paliwowo-energetycznej, od lat uznawana za najcenniejszą polską markę i jedyną z Polski w rankingu „Fortune 500”; lider krajowych zestawień, wyróżniana za etykę i politykę pracowniczą (Top Employers Polska).",
+      displayPriority: 2,
+    },
+    university: {
+      id: "7ae69b1e-dbd5-4ec9-843f-d41ff158456a",
+      name: "Politechnika Warszawska",
+    },
+    title: "Energetyczna Ekspedycja: Odkrywaj ORLEN Termika",
+    status: "PUBLISHED",
+    startsAt: "2025-06-06T11:00:00+02:00",
+    registrationEndsAt: "2025-06-06T09:00:00+02:00",
+    shortDescription: "Warsztat stacjonarny",
+    longDescription:
+      "",
+    address: "Rektorska 4",
+    capacity: 30,
+    durationMinutes: 180,
+    emailTextCandidate:
+      "Dziękujemy za rejestracje na warsztat. Po zakwalifikowaniu otrzymasz oddzielnego maila.",
+    emailTextQualified:
+      "Gratulację! \n\nZakwalifikowano cię na warsztat. \n\nDo zobaczenia ",
+    minYearOfStudy: null,
+    maxYearOfStudy: null,
+    preferableFieldsOfStudy: null,
+    registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+  },
 ];
 
 export function getWorkshopById(workshopId: string): Workshop {
