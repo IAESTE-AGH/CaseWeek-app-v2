@@ -19,12 +19,12 @@ export const WORKSHOPS: Workshop[] = [
       name: "Akademia Górniczo-Hutnicza w Krakowie",
     },
     title: "Mikrotuneling i inne technologie bezwykopowe w budownictwie inżynieryjnym",
-    startsAt: "2025-05-29T00:00:00+02:00",
+    startsAt: "2025-05-29T09:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Warsztat Mikrotuneling i inne technologie bezwykopowe w budownictwie inżynieryjnym ma na celu przybliżenie uczestnikom nowoczesnych metod realizacji inwestycji infrastrukturalnych. Warsztat prowadzony będzie przez specjalistę z branży, a jego część praktyczna umożliwi zapoznanie się z przykładami projektów realizowanych przy użyciu omawianych technologii. \n\nLiczba prelegentów: 1–2\nCzas trwania: 1–2 godziny\nOptymalna liczba uczestników: dowolna\nPreferowani uczestnicy: studenci dwóch ostatnich lat kierunków:\n-Geoinżynieria i Górnictwo Otworowe\n–Geotechnologie Otworowe\n–Inżynieria i Ochrona Środowiska\n\nGodziny warsztatu pojawią się w najbliższych dniach.",
     address: "30-389 Kraków, ul. Komuny Paryskiej 5",
-    durationMinutes: 120,
+    durationMinutes: 240,
     minYearOfStudy: 2,
     maxYearOfStudy: 3,
     preferableFieldsOfStudy: [
@@ -53,11 +53,11 @@ export const WORKSHOPS: Workshop[] = [
       name: "Politechnika Warszawska",
     },
     title: "Jak w energetyce zarabiają pieniądze? 6 wniosków na temat stanu rynku energii w Polsce",
-    startsAt: "2025-06-06T10:00:00+02:00",
+    startsAt: "2025-05-27T11:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Warsztat przybliży podstawowe mechanizmy funkcjonowania rynku energii elektrycznej w Polsce – od produkcji po sprzedaż. Uczestnicy dowiedzą się, kto zarabia na energii, jak kształtują się ceny oraz jakie czynniki wpływają na rentowność firm energetycznych. Spotkanie zakończy się kluczowymi wnioskami o stanie polskiego rynku energii.",
-    address: "Warsztat odbędzie się na uczelni",
+    address: "Rektorska 4, 00-614 Warszawa",
     durationMinutes: 90,
     minYearOfStudy: null,
     maxYearOfStudy: null,
@@ -92,63 +92,12 @@ export const WORKSHOPS: Workshop[] = [
       name: "Akademia Górniczo-Hutnicza w Krakowie",
     },
     title: "Step by Step",
-    startsAt: "2025-05-28T00:00:00+02:00",
+    startsAt: "2025-05-28T09:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Step by Step - Narzędzia lean w praktyce przy zarządzaniu firmą. Uczestnicy wcielają się w różne role w symulacji firmy produkcyjnej (dyrektor, logistyk, planista, operator, itp.) . Celem gry jest wygenerowanie zysku finansowego poprzez wdrażanie usprawnień. W ramach ćwiczenia uczestnicy poznają narzędzia Lean Management i będą je mogli wykorzystać w praktyce.\nTermin warsztatu: 28.05 i 29.05\nLiczba prelegentów: 2\nCzas trwania: 5–6 godzin\nOptymalna liczba uczestników: 10\nPreferowani uczestnicy: studenci ostatnich lat kierunków związanych z:\n– Zarządzaniem i inżynierią produkcji\n– Inżynierią procesową\n– Logistyką\n– Zarządzaniem\n– Automatyką i robotyką\n\nPrzerwa: 1 x 30–45 min (przerwa obiadowa)\n\nGodziny warsztatu pojawią się w najbliższych dniach.",
-    address: "Warsztat odbędzie się na uczelni",
-    durationMinutes: 300,
-    minYearOfStudy: null,
-    maxYearOfStudy: null,
-    preferableFieldsOfStudy: [
-      {
-        id: "b4cb87fc-b9eb-4d2d-9f5f-9b432c8875e2",
-        name: "Zarządzanie i inżynieria produkcji",
-      },
-      {
-        id: "22bb6c39-5ec7-489a-871f-b73a15b5c8ee",
-        name: "Inżynieria procesów",
-      },
-      {
-        id: "b4f7cda6-9402-4fa0-b5e2-0cb6dc057645",
-        name: "Logistyka",
-      },
-      {
-        id: "8d18b9b7-9f3d-4e63-a1fc-4e5d3c4e2c3a",
-        name: "Zarządzanie",
-      },
-      {
-        id: "36a7580a-dabe-4f04-9d1c-7b360dc3731f",
-        name: "Automatyka i robotyka",
-      },
-    ],
-    registrationLink: "https://forms.office.com/e/jLyMTRKU78",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
-  },
-  {
-    id: "649a0273-d945-414a-8c93-951f16217a98",
-    company: {
-      id: "56fde7e5-ef45-4a0f-99f1-65cb6b11847b",
-      name: "VALEO AUTOSYSTEMY SP. Z O.O.", //"c3"
-      logoUrl: "https://www.valeo.com/wp-content/uploads/2022/12/valeo-logo-rvb_600x327_acf_cropped.png",
-      websiteUrl: "https://www.valeo.com/pl/polska/",
-      shortDescription:
-        "Valeo jest niezależną grupą spółek o zasięgu globalnym, której działalność koncentruje się na projektowaniu, produkcji i sprzedaży: komponentów, systemów zintegrowanych i modułów dla pojazdów samochodowych ukierunkowanych głównie na redukcję emisji CO2.",
-      longDescription:
-        "Valeo jest niezależną grupą spółek o zasięgu globalnym, której działalność koncentruje się na projektowaniu, produkcji i sprzedaży: komponentów, systemów zintegrowanych i modułów dla pojazdów samochodowych ukierunkowanych głównie na redukcję emisji CO2. Valeo zatrudnia obecnie 91 800 pracowników w ponad 32 krajach na całym świecie. Posiadamy 155 zakładów produkcyjnych, 58 centrów badań i rozwoju oraz 15 platform dystrybucyjnych. Firma powstała w 1923 roku pod nazwą SAFF. Kultura korporacyjna Valeo opiera się na dążeniu do doskonałości w produkcji dzięki najwyższemu poziomowi jakości oraz aktywnie stosowanym przez cały personel kluczowym wartościom, takim jak etyka, przejrzystość w działaniu, delegowanie uprawnień, profesjonalizm oraz praca zespołowa. Mając silne poczucie odpowiedzialności społecznej i ekologicznej - Grupa Valeo podpisała deklarację Społecznej Odpowiedzialności Biznesu (CSR). To oznacza, że w swojej działalności wdraża strategię trwałego i zrównoważonego rozwoju dążąc do zachowania spójności celów ekonomicznych, środowiskowych i społecznych. Jako globalna organizacja – Grupa Valeo ma wpisane w swoją filozofię działania także otwarcie na różnorodność, która dotyczy obszarów różnic kulturowych, zdrowotnych, płci oraz pokoleniowych.",
-      displayPriority: 3,
-    },
-    university: {
-      id: "f73b51c8-924c-4963-8b3b-68cf7d8b847e",
-      name: "Akademia Górniczo-Hutnicza w Krakowie",
-    },
-    title: "Step by Step",
-    startsAt: "2025-05-29T00:00:00+02:00",
-    shortDescription: "",
-    longDescription:
-      "Step by Step - Narzędzia lean w praktyce przy zarządzaniu firmą. Uczestnicy wcielają się w różne role w symulacji firmy produkcyjnej (dyrektor, logistyk, planista, operator, itp.) . Celem gry jest wygenerowanie zysku finansowego poprzez wdrażanie usprawnień. W ramach ćwiczenia uczestnicy poznają narzędzia Lean Management i będą je mogli wykorzystać w praktyce.\nTermin warsztatu: 28.05 i 29.05\nLiczba prelegentów: 2\nCzas trwania: 5–6 godzin\nOptymalna liczba uczestników: 10\nPreferowani uczestnicy: studenci ostatnich lat kierunków związanych z:\n– Zarządzaniem i inżynierią produkcji\n– Inżynierią procesową\n– Logistyką\n– Zarządzaniem\n– Automatyką i robotyką\n\nPrzerwa: 1 x 30–45 min (przerwa obiadowa)\n\nGodziny warsztatu pojawią się w najbliższych dniach.",
-    address: "Warsztat odbędzie się na uczelni",
-    durationMinutes: 300,
+    address: "Biblioteka Główna AGH, sala 5a",
+    durationMinutes: 240,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: [
@@ -195,12 +144,12 @@ export const WORKSHOPS: Workshop[] = [
       name: "Politechnika Gdańska",
     },
     title: "Praca w firmie budowlanej przy realizacji inwestycji mieszkaniowych marki premium",
-    startsAt: "2025-05-30T00:00:00+02:00",
+    startsAt: "2025-05-30T10:00:00+02:00",
     shortDescription: "",
     longDescription:
       "Warsztat „Praca w firmie budowlanej przy realizacji inwestycji mieszkaniowych marki premium” poświęcony jest specyfice pracy na budowie przy realizacjach wysokiej klasy projektów mieszkaniowych.\n\nTermin warsztatu: 30.05/nLiczba prelegentów: 2\nCzas trwania: 2–3 godziny\nBrak ograniczeń liczby uczestników\nPreferowani uczestnicy: studenci kierunku:\n– Budownictwo\n– Konstrukcje Metalowe\n– Drogi (Wydział Inżynierii Lądowej i Środowiska – WILiŚ)\n\nPrzerwa: 15–30 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nGodziny warsztatu pojawią się w najbliższych dniach.",
     address: "Warsztat odbędzie się na uczelni ",
-    durationMinutes: 180,
+    durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: [
@@ -382,16 +331,21 @@ export const WORKSHOPS: Workshop[] = [
       id: "f73b51c8-924c-4963-8b3b-68cf7d8b847e",
       name: "Akademia Górniczo-Hutnicza w Krakowie",
     },
-    title: "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej. (Stacjonarnie)",
-    startsAt: "2025-06-03T10:00:00+02:00",
-    shortDescription: "",
+    title: "5G Broadcast",
+    startsAt: "2025-06-05T10:00:00+02:00",
+    shortDescription: "5G Broadcast – przyszłość naziemnej telewizji cyfrowej i radia cyfrowego, czyli synergia multimedialnych cyfrowych systemów OTT / broadcastowych, z sieciami telefonii komórkowej 5G/LTE.",
     longDescription:
-      "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin warsztatu: 03.06.2025, godz. 10:00–13:00 (forma stacjonarna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPrzerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych",
-    address: "Warsztat odbędzie się na uczelni",
+      "Warsztat przybliży technologię 5G Broadcast jako nowoczesne rozwiązanie umożliwiające nadawanie treści telewizyjnych i radiowych bez konieczności wykorzystania internetu mobilnego. Uczestnicy poznają, jak łączy ona tradycyjne systemy broadcastowe z infrastrukturą 5G/LTE, tworząc nową jakość w dystrybucji multimediów.",
+    address: "AGH C7, sala 4.12",
     durationMinutes: 180,
     minYearOfStudy: null,
     maxYearOfStudy: null,
-    preferableFieldsOfStudy: null,
+    preferableFieldsOfStudy: [
+      { id: "b4cb87fc-b9eb-4d2d-9f5f-9b432c8875e2", name: "Telekomunikacja" },
+      { id: "22bb6c39-5ec7-489a-871f-b73a15b5c8ee", name: "Elektronika" },
+      { id: "b4f7cda6-9402-4fa0-b5e2-0cb6dc057645", name: "Elektrotechnika" },
+      { id: "8d18b9b7-9f3d-4e63-a1fc-4e5d3c4e2c3a", name: "Informatyka" },
+    ],
     registrationLink: "https://forms.office.com/e/jLyMTRKU78",
     registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
@@ -421,7 +375,7 @@ export const WORKSHOPS: Workshop[] = [
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
     address: "Zdalnie",
-    durationMinutes: 120,
+    durationMinutes: 180,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
@@ -452,7 +406,7 @@ export const WORKSHOPS: Workshop[] = [
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
     address: "Zdalnie",
-    durationMinutes: 120,
+    durationMinutes: 180,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
@@ -483,7 +437,7 @@ export const WORKSHOPS: Workshop[] = [
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
     address: "Zdalnie",
-    durationMinutes: 120,
+    durationMinutes: 180,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
@@ -514,7 +468,7 @@ export const WORKSHOPS: Workshop[] = [
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
     address: "Zdalnie",
-    durationMinutes: 120,
+    durationMinutes: 180,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
@@ -545,7 +499,7 @@ export const WORKSHOPS: Workshop[] = [
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
     address: "Zdalnie",
-    durationMinutes: 120,
+    durationMinutes: 180,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
@@ -576,7 +530,7 @@ export const WORKSHOPS: Workshop[] = [
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
     address: "Zdalnie",
-    durationMinutes: 120,
+    durationMinutes: 180,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
@@ -608,7 +562,7 @@ export const WORKSHOPS: Workshop[] = [
     longDescription:
       "Zjawisko intermodulacji jako źródła zakłóceń we współczesnych systemach radiokomunikacyjnych w kontekście sieci telefonii komórkowej.\n1. Pojęcie intermodulacji – wprowadzenie, zagadnienia ogólne.\n2. Intermodulacje w nieliniowych elementach aktywnych.\n3. Intermodulacje pasywne PIM – gdzie i dlaczego powstają, dlaczego są narastającym problemem dla operatorów telefonii komórkowej, jak je niwelować.\n\nTermin webinaru: 28.05.2025, godz. 10:00–13:00 (forma zdalna)\nLiczba prelegentów: 1\nCzas trwania: 3 godziny\nLiczba uczestników: bez ograniczeń\nPreferowani uczestnicy: studenci kierunków związanych z telekomunikacją, elektroniką, elektrotechniką i informatyką\nPreferowana przerwa: 2 przerwy po 10 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nPlatforma edukacyjna: Microsoft Teams (wymagana jest znajomość platformy)\nWymagany sprzęt od uczestników: Mikrofon",
     address: "Zdalnie",
-    durationMinutes: 120,
+    durationMinutes: 180,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
@@ -634,11 +588,11 @@ export const WORKSHOPS: Workshop[] = [
       name: "Politechnika Warszawska",
     },
     title: "JetBrains IDE - beyond the shift-shift",
-    startsAt: "2025-06-05T17:00:00+02:00",
+    startsAt: "2025-06-05T11:00:00+02:00",
     shortDescription: "",
     longDescription:
       "JetBrains IDE – beyond the shift-shift\nWarsztat dla osób, które chcą w pełni wykorzystać możliwości środowiska JetBrains. Uczestnicy poznają zaawansowane funkcje, skróty i pluginy, które znacząco przyspieszają pracę z kodem – wszystko poza standardowym „shift-shift”. Spotkanie skierowane jest do studentów programowania, którzy chcą pracować szybciej, efektywniej i bardziej profesjonalnie.\nWymagania: własny laptop z zainstalowanym środowiskiem JetBrains w wersji Community lub Ultimate oraz dobrze by było posiadać umiejętność napisania pętli lub prostej funkcji. (będziemy kodować).",
-    address: "Warsztat odbędzie się na uczelni",
+    address: "Rektorska 4, 00-614 Warszawa",
     durationMinutes: 90,
     minYearOfStudy: null,
     maxYearOfStudy: null,
@@ -665,14 +619,14 @@ export const WORKSHOPS: Workshop[] = [
       name: "Politechnika Warszawska",
     },
     title: "Digitalizacja w służbie zdrowia",
-    startsAt: "2025-06-02T09:30:00+02:00",
+    startsAt: "2025-06-02T10:30:00+02:00",
     shortDescription: "",
     longDescription:
-      "Digitalizacja w służbie zdrowia\nWarsztat poświęcony roli nowoczesnych technologii w systemie ochrony zdrowia. Uczestnicy poznają przykłady cyfrowych rozwiązań wspierających lekarzy, pacjentów i administrację – od e-recept po systemy do analizy danych medycznych. Porozmawiamy o korzyściach, wyzwaniach i przyszłości digitalizacji w sektorze medycznym.",
-    address: "789 Pine Street, Innovatetown, USA",
-    durationMinutes: 120,
+      "Digitalizacja w służbie zdrowia\nWarsztat poświęcony roli nowoczesnych technologii w systemie ochrony zdrowia. Uczestnicy poznają przykłady cyfrowych rozwiązań wspierających lekarzy, pacjentów i administrację – od e-recept po systemy do analizy danych medycznych. Porozmawiamy o korzyściach, wyzwaniach i przyszłości digitalizacji w sektorze medycznym. \nDyskusja poświęcona aktualnym wyzwaniom i przyszłości digitalizacji w ochronie zdrowia, ze szczególnym uwzględnieniem diagnostyki obrazowej. Rola i wpływ rewolucji AI na diagnostykę medyczną i ochronę zdrowia.",
+    address: "Rektorska 4, 00-614 Warszawa",
+    durationMinutes: 90,
     minYearOfStudy: 3,
-    maxYearOfStudy: 7,
+    maxYearOfStudy: null,
     preferableFieldsOfStudy: [
       { id: "98765432-1010-9876-5432-109876543210", name: "Inżynieria biomedyczna" },
       { id: "f1c48a84-9cc0-4f75-a14a-2e7f3f740560", name: "Elektronika i telekomunikacja" },
@@ -708,8 +662,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "Cel:\nUczestnicy zrozumieją wymagania stawiane projektantom w branży automotive i poznają wyzwania dla inżynierów.",
     longDescription:
       "Jak skomplikowanym produktem są wycieraczki?\nCel:\nUczestnicy zrozumieją wymagania stawiane projektantom w branży automotive i poznają wyzwania dla inżynierów.\n\nCzas trwania: Od 9 do 13\n\nPrezentacja i warsztaty w podgrupach.\nI. Prezentacja - Valeo na świecie, w Polsce i w Skawinie\nII. Produkt - część warsztatowa\nII 1. Z czego się składa system wycieraczek? (od prostego po bardzo skomplikowany).\nModele wycieraczek. Materiały i technologie używane w automotive.\nII 2. Jak produkt wpływa na kontrybutorów rozwoju produktu, ważne zależności.\nCo nam determinuje projekt systemu wycieraczek? (warunki brzegowe).\nIII. Złożoność produktu, a kompetencje pracowników. Jaki to ma wpływ na strukturę Działu R&D?\nIV. Kompetencje przyszłości i wyzwania branży. Automotive \nregulacje prawne i środowiskowe.\n\nForma: prezentacja, burza mózgów i quizy.\n\nWynik:\nPo warsztacie na AGH każdy z uczestników powinien posiadać zakres wiedzy - co wchodzi w skład systemu wycieraczek, jak skomplikowanie produktu ma wpływ na kompetencje i role potrzebne w organizacji, jakie są tendencje i trendy na rynku.",
-    address: "Warsztat odbędzie się na uczelni",
-    capacity: 30,
+    address: "Biblioteka Główna AGH, sala 5a",
     durationMinutes: 240,
     emailTextCandidate:
       "Dziękujemy za rejestracje na warsztat. Po zakwalifikowaniu otrzymasz oddzielnego maila.",
