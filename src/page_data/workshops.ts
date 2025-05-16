@@ -370,7 +370,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
-      logoUrl: "./company_logos/emitel.png",
+      logoUrl: "/company_logos/emitel.png",
       websiteUrl: "https://emitel.pl/",
       shortDescription:
         "Emitel S.A. jest głównym operatorem naziemnej sieci radiowo-telewizyjnej w Polsce. Świadczy usługi w zakresie analogowej i cyfrowej emisji naziemnej oraz transmisji sygnałów telewizyjnych i radiowych.",
@@ -401,7 +401,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
-      logoUrl: "./company_logos/emitel.png",
+      logoUrl: "/company_logos/emitel.png",
       websiteUrl: "https://emitel.pl/",
       shortDescription:
         "Emitel S.A. jest głównym operatorem naziemnej sieci radiowo-telewizyjnej w Polsce. Świadczy usługi w zakresie analogowej i cyfrowej emisji naziemnej oraz transmisji sygnałów telewizyjnych i radiowych.",
@@ -433,7 +433,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
-      logoUrl: "./company_logos/emitel.png",
+      logoUrl: "/company_logos/emitel.png",
       websiteUrl: "https://emitel.pl/",
       shortDescription:
         "Emitel S.A. jest głównym operatorem naziemnej sieci radiowo-telewizyjnej w Polsce. Świadczy usługi w zakresie analogowej i cyfrowej emisji naziemnej oraz transmisji sygnałów telewizyjnych i radiowych.",
@@ -464,7 +464,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
-      logoUrl: "./company_logos/emitel.png",
+      logoUrl: "/company_logos/emitel.png",
       websiteUrl: "https://emitel.pl/",
       shortDescription:
         "Emitel S.A. jest głównym operatorem naziemnej sieci radiowo-telewizyjnej w Polsce. Świadczy usługi w zakresie analogowej i cyfrowej emisji naziemnej oraz transmisji sygnałów telewizyjnych i radiowych.",
@@ -495,7 +495,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
-      logoUrl: "./company_logos/emitel.png",
+      logoUrl: "/company_logos/emitel.png",
       websiteUrl: "https://emitel.pl/",
       shortDescription:
         "Emitel S.A. jest głównym operatorem naziemnej sieci radiowo-telewizyjnej w Polsce. Świadczy usługi w zakresie analogowej i cyfrowej emisji naziemnej oraz transmisji sygnałów telewizyjnych i radiowych.",
@@ -526,7 +526,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
-      logoUrl: "./company_logos/emitel.png",
+      logoUrl: "/company_logos/emitel.png",
       websiteUrl: "https://emitel.pl/",
       shortDescription:
         "Emitel S.A. jest głównym operatorem naziemnej sieci radiowo-telewizyjnej w Polsce. Świadczy usługi w zakresie analogowej i cyfrowej emisji naziemnej oraz transmisji sygnałów telewizyjnych i radiowych.",
@@ -557,7 +557,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
-      logoUrl: "./company_logos/emitel.png",
+      logoUrl: "/company_logos/emitel.png",
       websiteUrl: "https://emitel.pl/",
       shortDescription:
         "Emitel S.A. jest głównym operatorem naziemnej sieci radiowo-telewizyjnej w Polsce. Świadczy usługi w zakresie analogowej i cyfrowej emisji naziemnej oraz transmisji sygnałów telewizyjnych i radiowych.",
@@ -588,7 +588,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "6f5b21f7-ba9d-42ff-bf0b-27d18c91d7f5", //"c7"
       name: "Emitel S.A.",
-      logoUrl: "./company_logos/emitel.png",
+      logoUrl: "/company_logos/emitel.png",
       websiteUrl: "https://emitel.pl/",
       shortDescription:
         "Emitel S.A. jest głównym operatorem naziemnej sieci radiowo-telewizyjnej w Polsce. Świadczy usługi w zakresie analogowej i cyfrowej emisji naziemnej oraz transmisji sygnałów telewizyjnych i radiowych.",
