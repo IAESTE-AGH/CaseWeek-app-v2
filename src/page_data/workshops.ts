@@ -98,6 +98,7 @@ export const WORKSHOPS: Workshop[] = [
       "Step by Step - Narzędzia lean w praktyce przy zarządzaniu firmą. Uczestnicy wcielają się w różne role w symulacji firmy produkcyjnej (dyrektor, logistyk, planista, operator, itp.) . Celem gry jest wygenerowanie zysku finansowego poprzez wdrażanie usprawnień. W ramach ćwiczenia uczestnicy poznają narzędzia Lean Management i będą je mogli wykorzystać w praktyce.\nTermin warsztatu: 28.05 i 29.05\nLiczba prelegentów: 2\nCzas trwania: 5–6 godzin\nOptymalna liczba uczestników: 10\nPreferowani uczestnicy: studenci ostatnich lat kierunków związanych z:\n– Zarządzaniem i inżynierią produkcji\n– Inżynierią procesową\n– Logistyką\n– Zarządzaniem\n– Automatyką i robotyką\n\nPrzerwa: 1 x 30–45 min (przerwa obiadowa)\n\nGodziny warsztatu pojawią się w najbliższych dniach.",
     address: "Biblioteka Główna AGH, sala 5a",
     durationMinutes: 240,
+    capacity: 10,
     minYearOfStudy: null,
     maxYearOfStudy: null,
     preferableFieldsOfStudy: [
