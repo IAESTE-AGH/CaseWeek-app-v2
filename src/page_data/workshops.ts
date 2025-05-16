@@ -697,7 +697,7 @@ export const WORKSHOPS: Workshop[] = [
     registrationEndsAt: "2025-05-28T09:00:00+02:00",
     shortDescription: "Warsztat stacjonarny",
     longDescription: "W obliczu zmiennych warunków rynkowych, rosnących kosztów emisji CO2 oraz integracji OZE, kluczowe staje się zwiększenie elastyczności pracy zakładu. Jakie strategie i technologie pozwalają zoptymalizować produkcję w warunkach zmniejszonego udziału węgla i rosnącego udziału gazu oraz ciepła odpadowego? ",
-    address: "Rektorska 4",
+    address: "Rektorska 4, 00-614 Warszawa",
     capacity: 30,
     durationMinutes: 90,
     emailTextCandidate:
@@ -733,7 +733,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "Warsztat stacjonarny",
     longDescription:
       "",
-    address: "Rektorska 4",
+    address: "Rektorska 4, 00-614 Warszawa",
     capacity: 30,
     durationMinutes: 180,
     emailTextCandidate:
