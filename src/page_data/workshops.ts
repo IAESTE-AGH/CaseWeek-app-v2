@@ -78,7 +78,7 @@ export const WORKSHOPS: Workshop[] = [
     id: "89089d1a-b4ac-4d45-bb8f-69a8d1d90d4c",
     company: {
       id: "56fde7e5-ef45-4a0f-99f1-65cb6b11847b",
-      name: "VALEO AUTOSYSTEMY SP. Z O.O.", //"c3"
+      name: "VALEO Autosystemy Sp. z o. o.", //"c3"
       logoUrl: "https://www.valeo.com/wp-content/uploads/2022/12/valeo-logo-rvb_600x327_acf_cropped.png",
       websiteUrl: "https://www.valeo.com/pl/polska/",
       shortDescription:
@@ -175,7 +175,7 @@ export const WORKSHOPS: Workshop[] = [
     id: "e1fcde55-1f64-4722-9ae0-08b6bce0e372",
     company: {
       id: "d097c7cd-ba26-4cb0-b4db-dc91cd46578f", //"c6"
-      name: "UTC AEROSPACE SYSTEMS WROCŁAW SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      name: "UTC Aerospace Systems Wrocław Sp. z o. o.",
       logoUrl: "https://dlapilota.pl/sites/default/files/styles/article_popup/public/dlapilota/images/utc.jpg?itok=GBLBCWRL",
       websiteUrl: "https://www.collinsaerospace.com/who-we-are/about-us/global/europe/poland",
       shortDescription:
@@ -223,7 +223,7 @@ export const WORKSHOPS: Workshop[] = [
     id: "1c227e98-d6cf-4a64-b5e9-83356ff3ac5b",
     company: {
       id: "d097c7cd-ba26-4cb0-b4db-dc91cd46578f", //"c6"
-      name: "UTC AEROSPACE SYSTEMS WROCŁAW SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      name: "UTC Aerospace Systems Wrocław Sp. z o. o.",
       logoUrl: "https://dlapilota.pl/sites/default/files/styles/article_popup/public/dlapilota/images/utc.jpg?itok=GBLBCWRL",
       websiteUrl: "https://www.collinsaerospace.com/who-we-are/about-us/global/europe/poland",
       shortDescription:
@@ -271,7 +271,7 @@ export const WORKSHOPS: Workshop[] = [
     id: "a27a0c3c-9c28-4f0a-bef5-3d008ae393e6",
     company: {
       id: "d097c7cd-ba26-4cb0-b4db-dc91cd46578f", //"c6"
-      name: "UTC AEROSPACE SYSTEMS WROCŁAW SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+      name: "UTC Aerospace Systems Wrocław Sp. z o. o.",
       logoUrl: "https://dlapilota.pl/sites/default/files/styles/article_popup/public/dlapilota/images/utc.jpg?itok=GBLBCWRL",
       websiteUrl: "https://www.collinsaerospace.com/who-we-are/about-us/global/europe/poland",
       shortDescription:
@@ -575,7 +575,7 @@ export const WORKSHOPS: Workshop[] = [
     id: "q1w2e3r4-t5y6-u7i8-o9p0-a1s2d3f4g5h6",
     company: {
       id: "56789012-3456-7890-1234-567890123456", //"c8"
-      name: "Allegro",
+      name: "Allegro Sp. z o.o.",
       logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Allegro.pl_sklep.svg/2560px-Allegro.pl_sklep.svg.png",
       websiteUrl: "https://about.allegro.eu/pl",
       shortDescription:
@@ -606,7 +606,7 @@ export const WORKSHOPS: Workshop[] = [
     id: "b1c2d3e4-f5g6-h7i8-j9k0-l1m2n3o4p5q",
     company: {
       id: "67890123-4567-8901-2345-678901234567",
-      name: "Philips",
+      name: "Philips Sp. z o.o.",
       logoUrl: "https://www.philips.com/c-dam/corporate/en_AA/about/about-us/homepage/global-homepage-thumbnail.jpg",
       websiteUrl: "https://www.philips.pl/",
       shortDescription:
@@ -643,7 +643,7 @@ export const WORKSHOPS: Workshop[] = [
     id: "a7f9c3b2-d1e4-f6g7-h8i9-j0k1l2m3n4o",
     company: {
       id: "56fde7e5-ef45-4a0f-99f1-65cb6b11847b",
-      name: "VALEO AUTOSYSTEMY SP. Z O.O.",
+      name: "VALEO Autosystemy Sp. z o. o.",
       logoUrl: "https://www.valeo.com/wp-content/uploads/2022/12/valeo-logo-rvb_600x327_acf_cropped.png",
       websiteUrl: "https://www.valeo.com/pl/polska/",
       shortDescription:
