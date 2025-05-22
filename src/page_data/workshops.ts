@@ -658,7 +658,7 @@ export const WORKSHOPS: Workshop[] = [
     },
     title: "Jak skomplikowanym produktem są wycieraczki?",
     status: "PUBLISHED",
-    startsAt: "2025-05-28T09:00:00+02:00",
+    startsAt: "2025-06-04T09:00:00+02:00",
     registrationEndsAt: "2025-05-28T08:00:00+02:00",
     shortDescription: "Cel:\nUczestnicy zrozumieją wymagania stawiane projektantom w branży automotive i poznają wyzwania dla inżynierów.",
     longDescription:
