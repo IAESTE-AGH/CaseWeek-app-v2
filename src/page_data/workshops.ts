@@ -175,13 +175,13 @@ export const WORKSHOPS: Workshop[] = [
     id: "e1fcde55-1f64-4722-9ae0-08b6bce0e372",
     company: {
       id: "d097c7cd-ba26-4cb0-b4db-dc91cd46578f", //"c6"
-      name: "UTC Aerospace Systems Wrocław Sp. z o. o.",
-      logoUrl: "https://dlapilota.pl/sites/default/files/styles/article_popup/public/dlapilota/images/utc.jpg?itok=GBLBCWRL",
+      name: "Firma związana z branżą kosmiczną",
+      logoUrl: "/company_logos/empty.png",
       websiteUrl: "https://www.collinsaerospace.com/who-we-are/about-us/global/europe/poland",
       shortDescription:
-        "Collins Aerospace specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego.",
+        "Firma specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego.",
       longDescription:
-        "Collins Aerospace specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego. Siedziba firmy znajduje się w Charlotte w Północnej Karolinie, firma zatrudnia 78 000 pracowników w ponad 300 lokalizacjach na całym świecie, a w 2019 r. osiągnęła sprzedaż netto w wysokości 26 mld USD. Collins Aerospace to jedna z czterech firm tworzących Raytheon Technologies Corporation.",
+        "Firma specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego. Siedziba firmy znajduje się w Charlotte w Północnej Karolinie, firma zatrudnia 78 000 pracowników w ponad 300 lokalizacjach na całym świecie, a w 2019 r. osiągnęła sprzedaż netto w wysokości 26 mld USD. Jest to jedna z czterech firm tworzących Raytheon Technologies Corporation.",
       displayPriority: 3,
     },
     university:
@@ -223,13 +223,13 @@ export const WORKSHOPS: Workshop[] = [
     id: "1c227e98-d6cf-4a64-b5e9-83356ff3ac5b",
     company: {
       id: "d097c7cd-ba26-4cb0-b4db-dc91cd46578f", //"c6"
-      name: "UTC Aerospace Systems Wrocław Sp. z o. o.",
-      logoUrl: "https://dlapilota.pl/sites/default/files/styles/article_popup/public/dlapilota/images/utc.jpg?itok=GBLBCWRL",
+      name: "Firma związana z branżą kosmiczną",
+      logoUrl: "/company_logos/empty.png",
       websiteUrl: "https://www.collinsaerospace.com/who-we-are/about-us/global/europe/poland",
       shortDescription:
-        "Collins Aerospace specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego.",
+        "Firma specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego.",
       longDescription:
-        "Collins Aerospace specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego. Siedziba firmy znajduje się w Charlotte w Północnej Karolinie, firma zatrudnia 78 000 pracowników w ponad 300 lokalizacjach na całym świecie, a w 2019 r. osiągnęła sprzedaż netto w wysokości 26 mld USD. Collins Aerospace to jedna z czterech firm tworzących Raytheon Technologies Corporation.",
+        "Firma specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego. Siedziba firmy znajduje się w Charlotte w Północnej Karolinie, firma zatrudnia 78 000 pracowników w ponad 300 lokalizacjach na całym świecie, a w 2019 r. osiągnęła sprzedaż netto w wysokości 26 mld USD. Jest to jedna z czterech firm tworzących Raytheon Technologies Corporation.",
       displayPriority: 3,
     },
     university: 
@@ -271,13 +271,13 @@ export const WORKSHOPS: Workshop[] = [
     id: "a27a0c3c-9c28-4f0a-bef5-3d008ae393e6",
     company: {
       id: "d097c7cd-ba26-4cb0-b4db-dc91cd46578f", //"c6"
-      name: "UTC Aerospace Systems Wrocław Sp. z o. o.",
-      logoUrl: "https://dlapilota.pl/sites/default/files/styles/article_popup/public/dlapilota/images/utc.jpg?itok=GBLBCWRL",
+      name: "Firma związana z branżą kosmiczną",
+      logoUrl: "/company_logos/empty.png",
       websiteUrl: "https://www.collinsaerospace.com/who-we-are/about-us/global/europe/poland",
       shortDescription:
-        "Collins Aerospace specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego.",
+        "Firma specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego.",
       longDescription:
-        "Collins Aerospace specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego. Siedziba firmy znajduje się w Charlotte w Północnej Karolinie, firma zatrudnia 78 000 pracowników w ponad 300 lokalizacjach na całym świecie, a w 2019 r. osiągnęła sprzedaż netto w wysokości 26 mld USD. Collins Aerospace to jedna z czterech firm tworzących Raytheon Technologies Corporation.",
+        "Firma specjalizuje się w konstrukcjach lotniczych, awionice, wnętrzach, systemach mechanicznych, systemach misji oraz systemach zasilania i sterowania, które obsługują klientów z sektorów komercyjnego, regionalnego, biznesowego i wojskowego. Siedziba firmy znajduje się w Charlotte w Północnej Karolinie, firma zatrudnia 78 000 pracowników w ponad 300 lokalizacjach na całym świecie, a w 2019 r. osiągnęła sprzedaż netto w wysokości 26 mld USD. Jest to jedna z czterech firm tworzących Raytheon Technologies Corporation.",
       displayPriority: 3,
     },
     university: 

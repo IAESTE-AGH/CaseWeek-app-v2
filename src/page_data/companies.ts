@@ -35,7 +35,6 @@ export const MOCK_COMPANIES: Company[] = [
     logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAm2pMk037gymtnIQ44JUcoZvaL1i_I6x7zg&s",
     websiteUrl: "https://investkomfort.pl/pl",
   },
-
   {
     id: "c6",
     name: "UTC AEROSPACE SYSTEMS WROCŁAW SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
