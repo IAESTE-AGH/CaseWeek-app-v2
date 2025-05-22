@@ -13,7 +13,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "Tech Solutions Inc. specializes in developing innovative software products for various industries.",
       displayPriority: 1,
-      published: true,
     },
     university: {
       id: "f73b51c8-924c-4963-8b3b-68cf7d8b847e",
@@ -40,8 +39,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       { id: "e5c57629-44b4-4f71-b1ee-cdaa0ffadab2", name: "Computer Science" },
       { id: "89399a6d-7156-4226-8b9a-ae39b3a6e2b6", name: "Statistics" },
     ],
-    allFieldsOfStudyAccepted: false,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -61,14 +58,13 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "Innovate Labs focuses on cutting-edge technologies and innovative solutions to solve complex problems.",
       displayPriority: 2,
-      published: true,
     },
     university: {
       id: "7ae69b1e-dbd5-4ec9-843f-d41ff158456a",
       name: "City College",
     },
     title: "Machine Learning Workshop",
-    status: "UNPUBLISHED",
+    status: "PUBLISHED",
     startsAt: "2024-04-10T10:00:00Z",
     registrationEndsAt: "2024-04-05T23:59:59Z",
     shortDescription:
@@ -91,8 +87,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
         name: "Artificial Intelligence",
       },
     ],
-    allFieldsOfStudyAccepted: true,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -113,7 +107,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "Tech Academy provides hands-on training in various programming languages, frameworks, and technologies.",
       displayPriority: 3,
-      published: true,
     },
     university: {
       id: "4f83a6d6-5087-4da3-9c72-fd7bbaf5b7c5",
@@ -146,8 +139,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
         name: "Information Technology",
       },
     ],
-    allFieldsOfStudyAccepted: false,
-    archived: true,
   },
   {
     id: "cde99e9a-8b72-4c8f-bc29-7e7cf456b890",
@@ -161,7 +152,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "Data Solutions Ltd. offers a range of services including data warehousing, business intelligence, and data visualization.",
       displayPriority: 2,
-      published: true,
     },
     university: {
       id: "d9783fc4-0be2-4467-b3f2-8175a3fcb08e",
@@ -194,8 +184,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
         name: "Computer Engineering",
       },
     ],
-    allFieldsOfStudyAccepted: true,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -216,7 +204,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "AI Innovations Inc. is dedicated to pushing the boundaries of AI technology and applying it to solve real-world problems.",
       displayPriority: 3,
-      published: true,
     },
     university: {
       id: "a22fcf40-9f6e-4e7e-b92e-85b9d4ac6524",
@@ -246,8 +233,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       },
       { id: "3cb59c69-9009-4e8b-b4f2-468300f3c2ad", name: "Linguistics" },
     ],
-    allFieldsOfStudyAccepted: false,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -268,7 +253,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "TechHub offers co-working spaces, networking events, and resources to support tech startups and professionals.",
       displayPriority: 4,
-      published: true,
     },
     university: {
       id: "8ef06ecb-d91b-4b11-93af-255879f46bc8",
@@ -295,8 +279,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       { id: "c9ac743f-4025-4e2b-b6f4-0f5b7b3588d6", name: "Computer Science" },
       { id: "ef9b2a95-520b-4a44-97a6-5e8c91b7b866", name: "Finance" },
     ],
-    allFieldsOfStudyAccepted: true,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -317,14 +299,13 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "CodeCrafters Ltd. offers coding bootcamps, workshops, and online courses for aspiring developers.",
       displayPriority: 1,
-      published: true,
     },
     university: {
       id: "09876543-21ba-4321-a987-654321098765",
       name: "Tech Institute",
     },
     title: "Python Programming Workshop",
-    status: "UNPUBLISHED",
+    status: "PUBLISHED",
     startsAt: "2024-09-15T10:00:00Z",
     registrationEndsAt: "2024-09-10T23:59:59Z",
     shortDescription: "Learn the fundamentals of Python programming language.",
@@ -346,8 +327,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
         name: "Information Technology",
       },
     ],
-    allFieldsOfStudyAccepted: true,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -368,7 +347,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "TechGenius Solutions helps businesses leverage technology to drive growth and innovation.",
       displayPriority: 2,
-      published: true,
     },
     university: {
       id: "321cba98-7654-3210-ba98-76543210cba9",
@@ -395,8 +373,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       { id: "1b2c3d4e-5f6g-7h8i-9j0k-1l2m3n4o5p6", name: "Cybersecurity" },
       { id: "7q8r9s0t1u2v3w4x5y6z", name: "Computer Science" },
     ],
-    allFieldsOfStudyAccepted: false,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",
@@ -417,7 +393,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       longDescription:
         "InnovateTech Labs conducts research and development in emerging technologies to create solutions for the future.",
       displayPriority: 3,
-      published: true,
     },
     university: {
       id: "4321dcba-9876-4321-dcba-9876543210dc",
@@ -447,8 +422,6 @@ export const WORKSHOPS_MOCKS: Workshop[] = [
       },
       { id: "11121314-1516-1718-1920-212223242526", name: "Computer Science" },
     ],
-    allFieldsOfStudyAccepted: true,
-    archived: false,
     propositions: {
       id: [
         "d49b65b4-28c5-4310-8d5a-2f7fbd5c0a5e",

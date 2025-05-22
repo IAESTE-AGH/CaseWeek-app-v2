@@ -1,17 +1,9 @@
+import { Company } from "./company";
+import { TimeStamp, UUID } from "./general";
+
 export type FieldOfStudy = {
   id: string;
   name: string;
-};
-
-export type Company = {
-  id: string;
-  name: string;
-  logoUrl: string;
-  websiteUrl: string;
-  shortDescription: string;
-  longDescription: string;
-  displayPriority: number;
-  published: boolean;
 };
 
 export type University = {
@@ -21,31 +13,33 @@ export type University = {
 
 export type WorkshopStatus =
   | "PUBLISHED"
-  | "UNPUBLISHED"
+  | "DRAFT"
   | "CANCELLED"
-  | "FINISHED";
+  | "FINISHED"
+  | "ARCHIVED";
+  
+export type RegistrationLink = `https://forms.office.com/${string}`;
 
 export type Workshop = {
-  id: string;
+  id: UUID;
   company: Company;
   university: University;
   title: string;
-  status: WorkshopStatus;
-  startsAt: string;
-  registrationEndsAt: string;
+  status?: WorkshopStatus;
+  startsAt: TimeStamp;
+  registrationEndsAt?: TimeStamp;
   shortDescription: string;
   longDescription: string;
   address: string;
-  capacity: number;
-  durationMinutes: number;
-  emailTextCandidate: string;
-  emailTextQualified: string;
-  minYearOfStudy: number;
-  maxYearOfStudy: number;
-  preferableFieldsOfStudy: FieldOfStudy[];
-  allFieldsOfStudyAccepted: boolean;
-  archived: boolean;
+  capacity?: number;
+  durationMinutes: number | null;
+  emailTextCandidate?: string;
+  emailTextQualified?: string;
+  minYearOfStudy: number | null;
+  maxYearOfStudy: number | null;
+  preferableFieldsOfStudy: FieldOfStudy[] | null;
   propositions?: {
     id: string[];
   };
+  registrationLink?: RegistrationLink;
 };

@@ -1,63 +1,58 @@
-import { WORKSHOPS_MOCKS } from "../../../mocks/workshop";
-import { Link } from "@tanstack/react-router";
+import { WORKSHOPS } from "../../../page_data/workshops";
 import { useState, useEffect } from "react";
 import s from "./WorkshopsList.module.scss";
-import tempListImg from "../../../assets/img/overview_2.png";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
-import timeAttackIcon from "../../../assets/img/timeAttackIcon.png";
-import universityIcon from "../../../assets/img/universityIcon.png";
-import alarmClockIcon from "../../../assets/img/alarmClockIcon.png";
+import WorkshopCard from "./WorkshopCard";
+import { useNavigate } from "@tanstack/react-router";
 
 const WorkshopsList = () => {
+  const navigate = useNavigate({ from: "/workshops" });
   const [selectedUniversity, setSelectedUniversity] = useState("");
   const [selectedField, setSelectedField] = useState("");
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(Number(new URLSearchParams(window.location.search).get('page')) || 1);
   const itemsPerPage = 5; // Możesz zmienić liczbę warsztatów na stronie
 
   useEffect(() => {
-    setCurrentPage(1);
+    if (selectedField !== "" || selectedUniversity !== "") {
+      setCurrentPage(1);
+    }
   }, [selectedUniversity, selectedField]);
+
+  useEffect(() => {
+    console.log("Current page:", currentPage);
+    navigate({
+      search: () => ({ page: currentPage }),
+    })
+  }, [currentPage]);
 
   // Pobieranie unikalnych uczelni
   const universities = [
-    ...new Set(WORKSHOPS_MOCKS.map((workshop) => workshop.university.name)),
-  ];
-
+    ...new Set(WORKSHOPS.flatMap((workshop) => workshop.university.name)),
+  ]
   // Pobieranie unikalnych kierunków studiów
   const fields = [
     ...new Set(
-      WORKSHOPS_MOCKS.flatMap((workshop) =>
-        workshop.preferableFieldsOfStudy.map(
+      WORKSHOPS.flatMap((workshop) =>
+        workshop.preferableFieldsOfStudy && workshop.preferableFieldsOfStudy.map(
           (field: { name: string }) => field.name
         )
-      )
+      ).filter((field) => field !== undefined && field !== null)
     ),
   ];
 
-  const filteredWorkshops = WORKSHOPS_MOCKS.filter((workshop) => {
+  const filteredWorkshops = WORKSHOPS.filter((workshop) => {
     const matchesUniversity =
-      !selectedUniversity || workshop.university.name === selectedUniversity;
+      !selectedUniversity || (Array.isArray(workshop.university) ? workshop.university.flatMap(university => university.name) : workshop.university.name === selectedUniversity);
+
     const matchesField =
       !selectedField ||
-      workshop.preferableFieldsOfStudy.some(
+      workshop.preferableFieldsOfStudy && workshop.preferableFieldsOfStudy.some(
         (field: { name: string }) => field.name === selectedField
       );
 
     return matchesUniversity && matchesField;
   });
-
-  const formatDate = (isoString: string): string => {
-    const date = new Date(isoString);
-    return date.toLocaleString("pl-PL", {
-      year: "numeric",
-      month: "numeric",
-      day: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-      timeZone: "Europe/Warsaw", // jeśli chcesz lokalnie w Polsce
-    });
-  };
 
   //ile jest workshopow total
   const totalPages = Math.ceil(filteredWorkshops.length / itemsPerPage);
@@ -68,18 +63,26 @@ const WorkshopsList = () => {
   );
 
   const handlePageClick = (page: number) => {
+    if (page === currentPage) return;
+    window.scrollTo({ top: 0, behavior: "instant" });
     setCurrentPage(page);
   };
 
   const handlePrevPage = () => {
     if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
+      setCurrentPage(prev => {
+        window.scrollTo({ top: 0, behavior: "instant" });
+        return prev - 1;
+      });
     }
   };
 
   const handleNextPage = () => {
     if (currentPage < totalPages) {
-      setCurrentPage(currentPage + 1);
+      setCurrentPage(prev => {
+        window.scrollTo({ top: 0, behavior: "instant" });
+        return prev + 1;
+      });
     }
   };
 
@@ -125,7 +128,7 @@ const WorkshopsList = () => {
   return (
     <section className={s.all}>
       <div className={s.titleAndfiltersContainer}>
-        <text className={s.siteTitle}>Warsztaty</text>
+        <span className={s.siteTitle}>Warsztaty</span>
 
         <div className={s.aligner}>
           <div className={s.filters}>
@@ -153,7 +156,7 @@ const WorkshopsList = () => {
                 className={s.filterSelect}
               >
                 <MenuItem value="">
-                  <em>wybierz</em>
+                  <em>wszystkie</em>
                 </MenuItem>
                 {universities.map((university) => (
                   <MenuItem key={university} value={university}>
@@ -187,7 +190,7 @@ const WorkshopsList = () => {
                 className={s.filterSelect}
               >
                 <MenuItem value="">
-                  <em>wybierz</em>
+                  <em>wszystkie</em>
                 </MenuItem>
                 {fields.map((field) => (
                   <MenuItem key={field} value={field}>
@@ -202,46 +205,7 @@ const WorkshopsList = () => {
 
       <div className={s.workshopsWrapper}>
         {paginatedWorkshops.map((workshop, index) => (
-          <div key={workshop.id} className={s.card}>
-            <div className={s.displayCard}>
-              <img src={tempListImg} alt="Workshop" className={s.image} />
-
-              <text className={s.workshopTitle}>{workshop.title}</text>
-
-              <text className={s.company}>{workshop.company.name}</text>
-
-              <text className={s.description}>{workshop.longDescription}</text>
-
-              <div className={s.details}>
-                <div className={s.detailsLi}>
-                  <img src={universityIcon} /> Uczelnia:{" "}
-                  {workshop.university.name}
-                </div>
-                <div className={s.detailsLi}>
-                  <img src={timeAttackIcon} /> Data i godzina:{" "}
-                  {formatDate(workshop.startsAt)}
-                </div>
-                <div className={s.detailsLi}>
-                  <img src={alarmClockIcon} /> Czas trwania:{" "}
-                  {workshop.durationMinutes}
-                </div>
-              </div>
-
-              <button className={s.detailsLinkButton}>
-                <Link
-                  to="/workshops/$workshopId"
-                  className={s.workshopLink}
-                  params={{ workshopId: workshop.id }}
-                >
-                  Przejdź do szczegółów
-                </Link>
-              </button>
-            </div>
-
-            {index < paginatedWorkshops.length - 1 && (
-              <div className={s.separator}></div>
-            )}
-          </div>
+          <WorkshopCard workshop={workshop} isSeparator={index < paginatedWorkshops.length - 1} key={index} />
         ))}
       </div>
 
@@ -251,7 +215,7 @@ const WorkshopsList = () => {
           disabled={currentPage === 1}
           className={s.pageButtonNextAndPrevious2}
         >
-          ← Poprzednia
+          &lt; Poprzednia
         </button>
 
         {renderPagination()}
@@ -261,7 +225,7 @@ const WorkshopsList = () => {
           disabled={currentPage === totalPages}
           className={s.pageButtonNextAndPrevious2}
         >
-          Następna →
+          Następna &gt;
         </button>
       </div>
     </section>

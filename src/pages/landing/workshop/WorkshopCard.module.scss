@@ -11,12 +11,12 @@
 }
 
 .workshopNameHeader {
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
   font-size: $font-heading-l-m-s;
   padding-block: $space-4;
   font-weight: 700;
-  text-align: center;
+  // text-align: center;
   font-family: $font-family-spartan;
   color: #2c2c2c;
   letter-spacing: 0.27rem;
@@ -55,7 +55,7 @@
 .companyPicture {
   width: 20.25rem;
   height: 20.25rem;
-  background-color: #ddd;
+  // background-color: #ddd;
   margin-bottom: 1rem;
 }
 .workshopDescribtionWrap {

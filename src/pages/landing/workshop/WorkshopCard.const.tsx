@@ -6,21 +6,21 @@ import ListAltIcon from "@mui/icons-material/ListAlt";
 import s from "./WorkshopCard.module.scss";
 
 export const WORKSHOP_CARD_DATA = [
-  { icon: <SchoolIcon className={s.icons} />, detalName: "Uczelnia" },
-  { icon: <AlarmIcon className={s.icons} />, detalName: "Data i godzina" },
-  { icon: <TimelapseIcon className={s.icons} />, detalName: "Czas trwania" },
-  { icon: <PlaceIcon className={s.icons} />, detalName: "Miejsce warsztatu" },
+  { icon: <SchoolIcon className={s.icons} />, detalName: "" },
+  { icon: <AlarmIcon className={s.icons} />, detalName: "" },
+  { icon: <TimelapseIcon className={s.icons} />, detalName: "" },
+  { icon: <PlaceIcon className={s.icons} />, detalName: "" },
   { icon: <ListAltIcon className={s.icons} />, detalName: "Wymagania:" },
   {
     icon: <ListAltIcon sx={{ color: "transparent" }} />,
-    detalName: "Minimalny rok studiów",
+    detalName: "Minimalny rok studiów:",
   },
   {
     icon: <ListAltIcon sx={{ color: "transparent" }} />,
-    detalName: "Maksymalny rok studiów",
+    detalName: "Maksymalny rok studiów:",
   },
   {
     icon: <ListAltIcon sx={{ color: "transparent" }} />,
-    detalName: "Kierunek studiów",
+    detalName: "Kierunek studiów:",
   },
 ];
