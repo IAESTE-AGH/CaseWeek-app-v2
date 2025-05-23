@@ -149,7 +149,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "",
     longDescription:
       "Warsztat „Praca w firmie budowlanej przy realizacji inwestycji mieszkaniowych marki premium” poświęcony jest specyfice pracy na budowie przy realizacjach wysokiej klasy projektów mieszkaniowych.\n\nTermin warsztatu: 30.05/nLiczba prelegentów: 2\nCzas trwania: 2–3 godziny\nBrak ograniczeń liczby uczestników\nPreferowani uczestnicy: studenci kierunku:\n– Budownictwo\n– Konstrukcje Metalowe\n– Drogi (Wydział Inżynierii Lądowej i Środowiska – WILiŚ)\n\nPrzerwa: 15–30 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nGodziny warsztatu pojawią się w najbliższych dniach.",
-    address: "Warsztat odbędzie się na uczelni ",
+    address: "sala 308/309 budynek WETI B warsztat",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
@@ -242,7 +242,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "",
     longDescription:
       "Warsztat „Metodologia Problem Solving” koncentruje się na przedstawieniu praktycznych metod identyfikacji, analizy i rozwiązywania problemów technicznych i organizacyjnych w środowisku przemysłowym.\n\nTermin warsztatu: 02.06 (9-16)\nLiczba prelegentów: 3\nCzas trwania: 7 godzin\nLiczba uczestników: 20\nPreferowani uczestnicy: studenci IV i V roku kierunków:\n– Lotnictwo\n– Kosmonautyka\n– Mechanika i budowa maszyn\n– Zarządzanie produkcją\n– Materiałoznawstwo\nPrzerwa: 2 przerwy po 30 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych",
-    address: "Warsztat odbędzie się na uczelni",
+    address: "sala 402 bratniak 10-15",
     durationMinutes: 420,
     minYearOfStudy: 4,
     maxYearOfStudy: 5,
@@ -744,6 +744,45 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+  },
+
+  {
+    id: "2b7a5b3d-ae91-4f65-8cd6-2172a7b31ef8",
+    company: {
+      id: "94a4d02a-59d2-45a3-9830-d3d146a3d89d",
+      name: "Grinea sp. z o.o.",
+      logoUrl: "https://grinea.eu/wp-content/uploads/2023/01/logo_GRINEA_zloto_granat.png",
+      websiteUrl: "https://grinea.eu/pl/",
+      shortDescription: "Grinea sp. z o.o. jest polską firmą inżynieryjno-budowlaną, która specjalizuje się w budownictwie elektroenergetycznym.",
+      longDescription:
+        "W zgodzie z najlepszymi standardami jakości, bezpieczeństwa i odpowiedzialności środowiskowej działamy w obszarze budownictwa elektroenergetycznego niskich, średnich i wysokich napięć. Wykonujemy projekty dla sektora drogowego i kolejowego. Prowadzimy inwestycje wykorzystujące odnawialne źródła energii. Posiadając doświadczony zespół inżynierów we własnej pracowni projektowej projektujemy, budujemy i modernizujemy infrastrukturę przesyłową i dystrybucyjną. Realizujemy projekty budownictwa użyteczności publicznej.",
+      displayPriority: 2,
+    },
+    university: {
+      id: "7ae69b1e-dbd5-4ec9-843f-d41ff158456a",
+      name: "Politechnika Rzeszowska",
+    },
+    title: "Od projektu do realizacji – wybrane zagadnienia związane z budową linii 400 kV na przykładzie inwestycji liniowej relacji Mikułowa-Świebodzice",
+    status: "PUBLISHED",
+    startsAt: "2025-06-05T09:00:00+02:00",
+    registrationEndsAt: "2025-06-03T09:00:00+02:00",
+    shortDescription: "Od projektu do realizacji – wybrane zagadnienia związane z budową linii 400 kV na przykładzie inwestycji liniowej relacji Mikułowa-Świebodzice",
+    longDescription:
+      "Warsztat pt. „Od projektu do realizacji – wybrane zagadnienia związane z budową linii 400 kV na przykładzie inwestycji liniowej relacji Mikułowa–Świebodzice” ma na celu przybliżenie uczestnikom kluczowych etapów realizacji dużych projektów energetycznych. \nUczestnicy powinni mieć: laptop z dostępem do internetu, linijkę, kątomierz, kolorowe pisaki, długopis.",
+    address: "Uczelnia",
+    capacity: 20,
+    durationMinutes: 270,
+    emailTextCandidate:
+      "Dziękujemy za rejestracje na warsztat. Po zakwalifikowaniu otrzymasz oddzielnego maila.",
+    emailTextQualified:
+      "Gratulację! \n\nZakwalifikowano cię na warsztat. \n\nDo zobaczenia ",
+    minYearOfStudy: null,
+    maxYearOfStudy: null,
+    preferableFieldsOfStudy: [
+      { id: "98765432-1010-9876-5432-109876543210", name: "Wydział elektrotechniki" },
+      { id: "98765432-1010-9876-5432-109876543210", name: "Wydział budownictwa" },
+    ],
+    registrationLink: "https://forms.office.com/e/bn9VXV9dcA",
   },
 ];
 
