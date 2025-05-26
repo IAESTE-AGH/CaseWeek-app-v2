@@ -41,7 +41,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "94a4d02a-59d2-45a3-9830-d3d928a3d89d",
       name: "ORLEN Termika S.A.", //"c2"
-      logoUrl: "https://biznesalert.pl/wp-content/uploads/2025/01/Zdjecie-WhatsApp-2025-01-15-o-12.22.26_5dd7fb99.jpg",
+      logoUrl: "/company_logos/orlen.png",
       websiteUrl: "https://termika.orlen.pl/",
       shortDescription: "Międzynarodowa grupa kapitałowa z branży paliwowo-energetycznej, od dziewięciu lat nieprzerwanie uznawana za najcenniejszą polską markę.",
       longDescription:
@@ -680,7 +680,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "94a4d02a-59d2-45a3-9830-d3d928a3d89d",
       name: "ORLEN Termika S.A.",
-      logoUrl: "https://biznesalert.pl/wp-content/uploads/2025/01/Zdjecie-WhatsApp-2025-01-15-o-12.22.26_5dd7fb99.jpg",
+      logoUrl: "/company_logos/orlen.png",
       websiteUrl: "https://termika.orlen.pl/",
       shortDescription: "Międzynarodowa grupa kapitałowa z branży paliwowo-energetycznej, od dziewięciu lat nieprzerwanie uznawana za najcenniejszą polską markę.",
       longDescription:
@@ -715,7 +715,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "94a4d02a-59d2-45a3-9830-d3d928a3d89d",
       name: "ORLEN Termika S.A.",
-      logoUrl: "https://biznesalert.pl/wp-content/uploads/2025/01/Zdjecie-WhatsApp-2025-01-15-o-12.22.26_5dd7fb99.jpg",
+      logoUrl: "/company_logos/orlen.png",
       websiteUrl: "https://termika.orlen.pl/",
       shortDescription: "Międzynarodowa grupa kapitałowa z branży paliwowo-energetycznej, od dziewięciu lat nieprzerwanie uznawana za najcenniejszą polską markę.",
       longDescription:
