@@ -576,7 +576,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "56789012-3456-7890-1234-567890123456", //"c8"
       name: "Allegro Sp. z o.o.",
-      logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Allegro.pl_sklep.svg/2560px-Allegro.pl_sklep.svg.png",
+      logoUrl: "/company_logos/allegro.png",
       websiteUrl: "https://about.allegro.eu/pl",
       shortDescription:
         "Allegro to jedna z największych firm handlowych w Polsce i Europie oraz jedna z 10 największych firm e-commerce na świecie! ",
