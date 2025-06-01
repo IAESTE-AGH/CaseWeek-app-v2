@@ -675,7 +675,7 @@ export const WORKSHOPS: Workshop[] = [
     },
     title: "Optymalizacja pracy EC Siekierki w czasach transformacji – elastyczność i efektywność",
     status: "PUBLISHED",
-    startsAt: "2025-05-28T10:00:00+02:00",
+    startsAt: "2025-06-04T11:00:00+02:00",
     shortDescription: "Warsztat stacjonarny",
     longDescription: "W obliczu zmiennych warunków rynkowych, rosnących kosztów emisji CO2 oraz integracji OZE, kluczowe staje się zwiększenie elastyczności pracy zakładu. Jakie strategie i technologie pozwalają zoptymalizować produkcję w warunkach zmniejszonego udziału węgla i rosnącego udziału gazu oraz ciepła odpadowego? ",
     address: "Rektorska 4, 00-614 Warszawa",
