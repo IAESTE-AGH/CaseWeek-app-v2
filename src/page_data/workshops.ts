@@ -33,7 +33,6 @@ export const WORKSHOPS: Workshop[] = [
       { id: "c0a89c59-157a-4622-a443-47c24ef4c697", name: "Inżynieria i Ochrona Środowiska" }
     ],
     registrationLink: "https://forms.office.com/e/jLyMTRKU78",
-    registrationEndsAt: "2025-05-23T23:59:59+02:00",
   },
   
   {
@@ -41,7 +40,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "94a4d02a-59d2-45a3-9830-d3d928a3d89d",
       name: "ORLEN Termika S.A.", //"c2"
-      logoUrl: "https://biznesalert.pl/wp-content/uploads/2025/01/Zdjecie-WhatsApp-2025-01-15-o-12.22.26_5dd7fb99.jpg",
+      logoUrl: "/company_logos/orlen.png",
       websiteUrl: "https://termika.orlen.pl/",
       shortDescription: "Międzynarodowa grupa kapitałowa z branży paliwowo-energetycznej, od dziewięciu lat nieprzerwanie uznawana za najcenniejszą polską markę.",
       longDescription:
@@ -71,7 +70,6 @@ export const WORKSHOPS: Workshop[] = [
       { id: "4c462784-f17c-4a6b-bbff-cae0baf62c21", name: "Wydział Inżynierii Chemicznej i Procesowej" }
     ],
     registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -124,7 +122,6 @@ export const WORKSHOPS: Workshop[] = [
       },
     ],
     registrationLink: "https://forms.office.com/e/jLyMTRKU78",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -149,7 +146,7 @@ export const WORKSHOPS: Workshop[] = [
     shortDescription: "",
     longDescription:
       "Warsztat „Praca w firmie budowlanej przy realizacji inwestycji mieszkaniowych marki premium” poświęcony jest specyfice pracy na budowie przy realizacjach wysokiej klasy projektów mieszkaniowych.\n\nTermin warsztatu: 30.05/nLiczba prelegentów: 2\nCzas trwania: 2–3 godziny\nBrak ograniczeń liczby uczestników\nPreferowani uczestnicy: studenci kierunku:\n– Budownictwo\n– Konstrukcje Metalowe\n– Drogi (Wydział Inżynierii Lądowej i Środowiska – WILiŚ)\n\nPrzerwa: 15–30 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych\n\nGodziny warsztatu pojawią się w najbliższych dniach.",
-    address: "Warsztat odbędzie się na uczelni ",
+    address: "sala 308/309 budynek WETI B warsztat",
     durationMinutes: 120,
     minYearOfStudy: null,
     maxYearOfStudy: null,
@@ -168,7 +165,6 @@ export const WORKSHOPS: Workshop[] = [
       },
     ],
     registrationLink: "https://forms.office.com/e/x2r5iJYjC9",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -193,7 +189,7 @@ export const WORKSHOPS: Workshop[] = [
     startsAt: "2025-06-06T09:00:00+02:00", 
     shortDescription: "",
     longDescription:
-      "Warsztat „Metodologia Problem Solving” koncentruje się na przedstawieniu praktycznych metod identyfikacji, analizy i rozwiązywania problemów technicznych i organizacyjnych w środowisku przemysłowym.\n\nTermin warsztatu: 02.06 (9-16)\nLiczba prelegentów: 3\nCzas trwania: 7 godzin\nLiczba uczestników: 20\nPreferowani uczestnicy: studenci IV i V roku kierunków:\n– Lotnictwo\n– Kosmonautyka\n– Mechanika i budowa maszyn\n– Zarządzanie produkcją\n– Materiałoznawstwo\nPrzerwa: 2 przerwy po 30 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych",
+      "EFEKTYWNE METODY DEFINIOWANIA I ROZWIĄZYWANIA PROBLEMÓW\n\nWarsztat dla studentów uczelni technicznych – praktyczne narzędzia inżynierskiego podejścia do problemów\nOpis warsztatu:\nŚwiat inżynierii i technologii opiera się na ciągłym rozwiązywaniu problemów – zarówno tych technicznych, jak i organizacyjnych. Ten praktyczny warsztat został zaprojektowany specjalnie z myślą o studentach kierunków technicznych, którzy chcą doskonalić swoje kompetencje analityczne, rozwijać inżynierskie podejście do problemów oraz poznać narzędzia, które są wykorzystywane w nowoczesnych projektach i procesach technologicznych.\nWarsztat łączy myślenie systemowe z podejściem projektowym i kreatywnym. Uczestnicy poznają narzędzia wspierające analizę przyczyn źródłowych, ocenę ryzyka, projektowanie rozwiązań i podejmowanie decyzji opartych na danych. \nKorzyści dla uczestników:\nNauka systemowego i metodycznego podejścia do problemów inżynierskich\nPoznanie narzędzi takich jak: 5 Whys, diagram Ishikawy, macierz decyzyjna, FMEA, PDCA\nZastosowanie technik analizy danych i identyfikacji przyczyn źródłowych\nRozwijanie kompetencji pracy zespołowej i prezentowania rozwiązań technicznych\nPrzygotowanie do pracy w środowiskach projektowych i procesowych (Lean, Six Sigma, Agile)\n\nPrzerwy:\n11:00-11:15\n12:30-13:00\n14:00-14:15",
     address: "Warsztat odbędzie się na uczelni",
     durationMinutes: 420,
     minYearOfStudy: 4,
@@ -216,7 +212,6 @@ export const WORKSHOPS: Workshop[] = [
         name: "Materiałoznastwo" },
     ],
     registrationLink: "https://forms.office.com/e/N63cVba2Kh",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -241,8 +236,8 @@ export const WORKSHOPS: Workshop[] = [
     startsAt: "2025-06-02T09:00:00+02:00",
     shortDescription: "",
     longDescription:
-      "Warsztat „Metodologia Problem Solving” koncentruje się na przedstawieniu praktycznych metod identyfikacji, analizy i rozwiązywania problemów technicznych i organizacyjnych w środowisku przemysłowym.\n\nTermin warsztatu: 02.06 (9-16)\nLiczba prelegentów: 3\nCzas trwania: 7 godzin\nLiczba uczestników: 20\nPreferowani uczestnicy: studenci IV i V roku kierunków:\n– Lotnictwo\n– Kosmonautyka\n– Mechanika i budowa maszyn\n– Zarządzanie produkcją\n– Materiałoznawstwo\nPrzerwa: 2 przerwy po 30 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych",
-    address: "Warsztat odbędzie się na uczelni",
+      "EFEKTYWNE METODY DEFINIOWANIA I ROZWIĄZYWANIA PROBLEMÓW\nWarsztat dla studentów uczelni technicznych – praktyczne narzędzia inżynierskiego podejścia do problemów\nOpis warsztatu:\nŚwiat inżynierii i technologii opiera się na ciągłym rozwiązywaniu problemów – zarówno tych technicznych, jak i organizacyjnych. Ten praktyczny warsztat został zaprojektowany specjalnie z myślą o studentach kierunków technicznych, którzy chcą doskonalić swoje kompetencje analityczne, rozwijać inżynierskie podejście do problemów oraz poznać narzędzia, które są wykorzystywane w nowoczesnych projektach i procesach technologicznych.\nWarsztat łączy myślenie systemowe z podejściem projektowym i kreatywnym. Uczestnicy poznają narzędzia wspierające analizę przyczyn źródłowych, ocenę ryzyka, projektowanie rozwiązań i podejmowanie decyzji opartych na danych. \nKorzyści dla uczestników:\nNauka systemowego i metodycznego podejścia do problemów inżynierskich\nPoznanie narzędzi takich jak: 5 Whys, diagram Ishikawy, macierz decyzyjna, FMEA, PDCA\nZastosowanie technik analizy danych i identyfikacji przyczyn źródłowych\nRozwijanie kompetencji pracy zespołowej i prezentowania rozwiązań technicznych\nPrzygotowanie do pracy w środowiskach projektowych i procesowych (Lean, Six Sigma, Agile)\n\nPrzerwy:\n11:00-11:15\n12:30-13:00\n14:00-14:15",
+    address: "sala 402 bratniak",
     durationMinutes: 420,
     minYearOfStudy: 4,
     maxYearOfStudy: 5,
@@ -264,7 +259,6 @@ export const WORKSHOPS: Workshop[] = [
         name: "Materiałoznastwo" },
     ],
     registrationLink: "https://forms.office.com/e/x2r5iJYjC9",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -289,7 +283,7 @@ export const WORKSHOPS: Workshop[] = [
     startsAt: "2025-06-03T09:00:00+02:00", 
     shortDescription: "",
     longDescription:
-      "Warsztat „Metodologia Problem Solving” koncentruje się na przedstawieniu praktycznych metod identyfikacji, analizy i rozwiązywania problemów technicznych i organizacyjnych w środowisku przemysłowym.\n\nTermin warsztatu: 02.06 (9-16)\nLiczba prelegentów: 3\nCzas trwania: 7 godzin\nLiczba uczestników: 20\nPreferowani uczestnicy: studenci IV i V roku kierunków:\n– Lotnictwo\n– Kosmonautyka\n– Mechanika i budowa maszyn\n– Zarządzanie produkcją\n– Materiałoznawstwo\nPrzerwa: 2 przerwy po 30 minut\nWymagane umiejętności: brak dodatkowych umiejętności wymaganych",
+      "EFEKTYWNE METODY DEFINIOWANIA I ROZWIĄZYWANIA PROBLEMÓW\nWarsztat dla studentów uczelni technicznych – praktyczne narzędzia inżynierskiego podejścia do problemów\nOpis warsztatu:\nŚwiat inżynierii i technologii opiera się na ciągłym rozwiązywaniu problemów – zarówno tych technicznych, jak i organizacyjnych. Ten praktyczny warsztat został zaprojektowany specjalnie z myślą o studentach kierunków technicznych, którzy chcą doskonalić swoje kompetencje analityczne, rozwijać inżynierskie podejście do problemów oraz poznać narzędzia, które są wykorzystywane w nowoczesnych projektach i procesach technologicznych.\nWarsztat łączy myślenie systemowe z podejściem projektowym i kreatywnym. Uczestnicy poznają narzędzia wspierające analizę przyczyn źródłowych, ocenę ryzyka, projektowanie rozwiązań i podejmowanie decyzji opartych na danych. \nKorzyści dla uczestników:\nNauka systemowego i metodycznego podejścia do problemów inżynierskich\nPoznanie narzędzi takich jak: 5 Whys, diagram Ishikawy, macierz decyzyjna, FMEA, PDCA\nZastosowanie technik analizy danych i identyfikacji przyczyn źródłowych\nRozwijanie kompetencji pracy zespołowej i prezentowania rozwiązań technicznych\nPrzygotowanie do pracy w środowiskach projektowych i procesowych (Lean, Six Sigma, Agile)\n\nPrzerwy:\n11:00-11:15\n12:30-13:00\n14:00-14:15",
     address: "Warsztat odbędzie się na uczelni",
     durationMinutes: 420,
     minYearOfStudy: 4,
@@ -312,7 +306,6 @@ export const WORKSHOPS: Workshop[] = [
         name: "Materiałoznastwo" },
     ],
     registrationLink: "https://forms.office.com/e/6jYHLmNtzZ",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -348,7 +341,6 @@ export const WORKSHOPS: Workshop[] = [
       { id: "8d18b9b7-9f3d-4e63-a1fc-4e5d3c4e2c3a", name: "Informatyka" },
     ],
     registrationLink: "https://forms.office.com/e/jLyMTRKU78",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -381,7 +373,6 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/jLyMTRKU78",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "95edb25b-c487-4337-aa00-0e95fd102ec8",
@@ -412,7 +403,6 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/N63cVba2Kh",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "116be4ba-043f-429d-9ad7-ef0c1eeb8657",
@@ -443,7 +433,6 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/x2r5iJYjC9",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "11a745e6-0259-4266-af38-918349348e9c",
@@ -474,7 +463,6 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/bn9VXV9dcA",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "09088e92-ec6e-4bf7-8f47-9ec22b2437a9",
@@ -505,7 +493,6 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/0BvAs4QuAe",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "3b55f071-b06e-4cf2-95b9-4c09b376a85d",
@@ -536,7 +523,6 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   {
     id: "cfea3e74-4373-4053-938e-621c99a9da39",
@@ -568,7 +554,6 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/6jYHLmNtzZ",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -576,7 +561,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "56789012-3456-7890-1234-567890123456", //"c8"
       name: "Allegro Sp. z o.o.",
-      logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Allegro.pl_sklep.svg/2560px-Allegro.pl_sklep.svg.png",
+      logoUrl: "/company_logos/allegro.png",
       websiteUrl: "https://about.allegro.eu/pl",
       shortDescription:
         "Allegro to jedna z największych firm handlowych w Polsce i Europie oraz jedna z 10 największych firm e-commerce na świecie! ",
@@ -599,7 +584,6 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
 
   {
@@ -636,7 +620,6 @@ export const WORKSHOPS: Workshop[] = [
       { id: "11121314-1516-1718-1920-212223242526", name: "Biotechnologia" }
     ],
     registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
-    registrationEndsAt: "2025-05-26T23:59:59+02:00",
   },
   
   {
@@ -659,7 +642,6 @@ export const WORKSHOPS: Workshop[] = [
     title: "Jak skomplikowanym produktem są wycieraczki?",
     status: "PUBLISHED",
     startsAt: "2025-06-04T09:00:00+02:00",
-    registrationEndsAt: "2025-05-28T08:00:00+02:00",
     shortDescription: "Cel:\nUczestnicy zrozumieją wymagania stawiane projektantom w branży automotive i poznają wyzwania dla inżynierów.",
     longDescription:
       "Jak skomplikowanym produktem są wycieraczki?\nCel:\nUczestnicy zrozumieją wymagania stawiane projektantom w branży automotive i poznają wyzwania dla inżynierów.\n\nCzas trwania: Od 9 do 13\n\nPrezentacja i warsztaty w podgrupach.\nI. Prezentacja - Valeo na świecie, w Polsce i w Skawinie\nII. Produkt - część warsztatowa\nII 1. Z czego się składa system wycieraczek? (od prostego po bardzo skomplikowany).\nModele wycieraczek. Materiały i technologie używane w automotive.\nII 2. Jak produkt wpływa na kontrybutorów rozwoju produktu, ważne zależności.\nCo nam determinuje projekt systemu wycieraczek? (warunki brzegowe).\nIII. Złożoność produktu, a kompetencje pracowników. Jaki to ma wpływ na strukturę Działu R&D?\nIV. Kompetencje przyszłości i wyzwania branży. Automotive \nregulacje prawne i środowiskowe.\n\nForma: prezentacja, burza mózgów i quizy.\n\nWynik:\nPo warsztacie na AGH każdy z uczestników powinien posiadać zakres wiedzy - co wchodzi w skład systemu wycieraczek, jak skomplikowanie produktu ma wpływ na kompetencje i role potrzebne w organizacji, jakie są tendencje i trendy na rynku.",
@@ -680,7 +662,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "94a4d02a-59d2-45a3-9830-d3d928a3d89d",
       name: "ORLEN Termika S.A.",
-      logoUrl: "https://biznesalert.pl/wp-content/uploads/2025/01/Zdjecie-WhatsApp-2025-01-15-o-12.22.26_5dd7fb99.jpg",
+      logoUrl: "/company_logos/orlen.png",
       websiteUrl: "https://termika.orlen.pl/",
       shortDescription: "Międzynarodowa grupa kapitałowa z branży paliwowo-energetycznej, od dziewięciu lat nieprzerwanie uznawana za najcenniejszą polską markę.",
       longDescription:
@@ -693,8 +675,7 @@ export const WORKSHOPS: Workshop[] = [
     },
     title: "Optymalizacja pracy EC Siekierki w czasach transformacji – elastyczność i efektywność",
     status: "PUBLISHED",
-    startsAt: "2025-05-28T10:00:00+02:00",
-    registrationEndsAt: "2025-05-28T09:00:00+02:00",
+    startsAt: "2025-06-04T11:00:00+02:00",
     shortDescription: "Warsztat stacjonarny",
     longDescription: "W obliczu zmiennych warunków rynkowych, rosnących kosztów emisji CO2 oraz integracji OZE, kluczowe staje się zwiększenie elastyczności pracy zakładu. Jakie strategie i technologie pozwalają zoptymalizować produkcję w warunkach zmniejszonego udziału węgla i rosnącego udziału gazu oraz ciepła odpadowego? ",
     address: "Rektorska 4, 00-614 Warszawa",
@@ -715,7 +696,7 @@ export const WORKSHOPS: Workshop[] = [
     company: {
       id: "94a4d02a-59d2-45a3-9830-d3d928a3d89d",
       name: "ORLEN Termika S.A.",
-      logoUrl: "https://biznesalert.pl/wp-content/uploads/2025/01/Zdjecie-WhatsApp-2025-01-15-o-12.22.26_5dd7fb99.jpg",
+      logoUrl: "/company_logos/orlen.png",
       websiteUrl: "https://termika.orlen.pl/",
       shortDescription: "Międzynarodowa grupa kapitałowa z branży paliwowo-energetycznej, od dziewięciu lat nieprzerwanie uznawana za najcenniejszą polską markę.",
       longDescription:
@@ -729,7 +710,6 @@ export const WORKSHOPS: Workshop[] = [
     title: "Energetyczna Ekspedycja: Odkrywaj ORLEN Termika",
     status: "PUBLISHED",
     startsAt: "2025-06-06T11:00:00+02:00",
-    registrationEndsAt: "2025-06-06T09:00:00+02:00",
     shortDescription: "Warsztat stacjonarny",
     longDescription:
       "",
@@ -744,6 +724,44 @@ export const WORKSHOPS: Workshop[] = [
     maxYearOfStudy: null,
     preferableFieldsOfStudy: null,
     registrationLink: "https://forms.office.com/e/LgVGCb9jxT",
+  },
+
+  {
+    id: "2b7a5b3d-ae91-4f65-8cd6-2172a7b31ef8",
+    company: {
+      id: "94a4d02a-59d2-45a3-9830-d3d146a3d89d",
+      name: "Grinea sp. z o.o.",
+      logoUrl: "https://grinea.eu/wp-content/uploads/2023/01/logo_GRINEA_zloto_granat.png",
+      websiteUrl: "https://grinea.eu/pl/",
+      shortDescription: "Grinea sp. z o.o. jest polską firmą inżynieryjno-budowlaną, która specjalizuje się w budownictwie elektroenergetycznym.",
+      longDescription:
+        "W zgodzie z najlepszymi standardami jakości, bezpieczeństwa i odpowiedzialności środowiskowej działamy w obszarze budownictwa elektroenergetycznego niskich, średnich i wysokich napięć. Wykonujemy projekty dla sektora drogowego i kolejowego. Prowadzimy inwestycje wykorzystujące odnawialne źródła energii. Posiadając doświadczony zespół inżynierów we własnej pracowni projektowej projektujemy, budujemy i modernizujemy infrastrukturę przesyłową i dystrybucyjną. Realizujemy projekty budownictwa użyteczności publicznej.",
+      displayPriority: 2,
+    },
+    university: {
+      id: "7ae69b1e-dbd5-4ec9-843f-d41ff158456a",
+      name: "Politechnika Rzeszowska",
+    },
+    title: "Od projektu do realizacji – wybrane zagadnienia związane z budową linii 400 kV na przykładzie inwestycji liniowej relacji Mikułowa-Świebodzice",
+    status: "PUBLISHED",
+    startsAt: "2025-06-05T09:00:00+02:00",
+    shortDescription: "Od projektu do realizacji – wybrane zagadnienia związane z budową linii 400 kV na przykładzie inwestycji liniowej relacji Mikułowa-Świebodzice",
+    longDescription:
+      "Warsztat pt. „Od projektu do realizacji – wybrane zagadnienia związane z budową linii 400 kV na przykładzie inwestycji liniowej relacji Mikułowa–Świebodzice” ma na celu przybliżenie uczestnikom kluczowych etapów realizacji dużych projektów energetycznych. \nUczestnicy powinni mieć: laptop z dostępem do internetu, linijkę, kątomierz, kolorowe pisaki, długopis.",
+    address: "Uczelnia",
+    capacity: 20,
+    durationMinutes: 270,
+    emailTextCandidate:
+      "Dziękujemy za rejestracje na warsztat. Po zakwalifikowaniu otrzymasz oddzielnego maila.",
+    emailTextQualified:
+      "Gratulację! \n\nZakwalifikowano cię na warsztat. \n\nDo zobaczenia ",
+    minYearOfStudy: null,
+    maxYearOfStudy: null,
+    preferableFieldsOfStudy: [
+      { id: "98765432-1010-9876-5432-109876543210", name: "Wydział elektrotechniki" },
+      { id: "98765432-1010-9876-5432-109876543210", name: "Wydział budownictwa" },
+    ],
+    registrationLink: "https://forms.office.com/e/bn9VXV9dcA",
   },
 ];
 
