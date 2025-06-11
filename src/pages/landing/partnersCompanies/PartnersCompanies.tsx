@@ -17,7 +17,7 @@ const PartnersCompanies: React.FC<PartnersPageProps> = ({
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={company.logoUrl} alt={company.name} />
+                <img src={company.logoUrl} alt={company.name} style={{ boxShadow: company.id === "c1" ? "0 0 0 5px #dab88b, 0 0 0 calc(0.1rem + 5px) #171717" : "none" }} />
               </a>
               {/*  <p className={s.partnerStatus}>{t("partners.honoraryStatus")}</p> */}
             </div>
