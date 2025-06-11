@@ -44,7 +44,7 @@ export const MOCK_COMPANIES: Company[] = [
   {
     id: "c7",
     name: "Emitel S.A.",
-    logoUrl: "https://logotypy.net/wp-content/uploads/2023/09/logo-emitel-300x300.jpg",
+    logoUrl: "/company_logos/emitel.png",
     websiteUrl: "https://emitel.pl/",
   },
 
